@@ -1,0 +1,79 @@
+﻿<Type Name="IBatchJobStatusCollection" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection">
+  <TypeSignature Language="C#" Value="public interface IBatchJobStatusCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBatchJobStatusCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBatchJobStatusCollection&#xA;Implements IEntitySelector(Of IBatchJobStatus), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's batch upload status collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus ById (string trackingId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus ById(string trackingId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (trackingId As String) As IBatchJobStatus" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trackingId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="trackingId">The tracking id.</param>
+        <summary>
+            Retrieves a specific customer's devices batch upload status behavior.
+            </summary>
+        <returns>The customer's devices batch upload status operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus this[string trackingId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(trackingId As String) As IBatchJobStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trackingId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="trackingId">The tracking id.</param>
+        <summary>
+            Retrieves a specific customer's devices batch upload status behavior.
+            </summary>
+        <value>The customer's devices batch upload status operations.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

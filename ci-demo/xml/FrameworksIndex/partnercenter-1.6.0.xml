@@ -1,0 +1,2037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="partnercenter-1.6.0">
+  <Namespace Name="Microsoft.Store.PartnerCenter.Analytics">
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection.Licenses" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesAnalyticsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesAnalyticsCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesAnalyticsCollection.Deployment" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesAnalyticsCollection.Usage" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesDeploymentInsightsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesDeploymentInsightsCollection" />
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesUsageInsightsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesUsageInsightsCollection" />
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection.Licenses" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesAnalyticsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesAnalyticsCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesAnalyticsCollection.Deployment" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesAnalyticsCollection.Usage" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesDeploymentInsightsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesDeploymentInsightsCollection" />
+    <Type Name="Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesUsageInsightsCollection" Id="T:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesUsageInsightsCollection" />
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.AuditRecords">
+    <Type Name="Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection" Id="T:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection.Query(System.DateTime,System.Nullable{System.DateTime},Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection.QueryAsync(System.DateTime,System.Nullable{System.DateTime},Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter">
+    <Type Name="Microsoft.Store.PartnerCenter.AuthenticationToken" Id="T:Microsoft.Store.PartnerCenter.AuthenticationToken">
+      <Member Id="M:Microsoft.Store.PartnerCenter.AuthenticationToken.#ctor(System.String,System.DateTimeOffset)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.AuthenticationToken.IsExpired" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.AuthenticationToken.ExpiryBuffer" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.AuthenticationToken.ExpiryTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.AuthenticationToken.Token" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.IAggregatePartner" Id="T:Microsoft.Store.PartnerCenter.IAggregatePartner">
+      <Member Id="M:Microsoft.Store.PartnerCenter.IAggregatePartner.With(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2" Id="T:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2">
+      <Member Id="M:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2.GetAsync(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.IPartner" Id="T:Microsoft.Store.PartnerCenter.IPartner">
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Analytics" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.AuditRecords" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.CountryValidationRules" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Credentials" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Customers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Domains" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Enumerators" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Invoices" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.OfferCategories" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Offers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Profiles" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.RateCards" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Relationships" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.RequestContext" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.ServiceIncidents" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.ServiceRequests" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.UsageSummary" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartner.Validations" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.IPartnerComponent" Id="T:Microsoft.Store.PartnerCenter.IPartnerComponent" />
+    <Type Name="Microsoft.Store.PartnerCenter.IPartnerComponent`1" Id="T:Microsoft.Store.PartnerCenter.IPartnerComponent`1">
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartnerComponent`1.Context" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartnerComponent`1.Partner" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.IPartnerCredentials" Id="T:Microsoft.Store.PartnerCenter.IPartnerCredentials">
+      <Member Id="M:Microsoft.Store.PartnerCenter.IPartnerCredentials.IsExpired" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartnerCredentials.ExpiresAt" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.IPartnerCredentials.PartnerServiceToken" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.PartnerExtensions" Id="T:Microsoft.Store.PartnerCenter.PartnerExtensions">
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerExtensions.IsFatalException(System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.PartnerService" Id="T:Microsoft.Store.PartnerCenter.PartnerService">
+      <Member Id="M:Microsoft.Store.PartnerCenter.PartnerService.CreatePartnerOperations(Microsoft.Store.PartnerCenter.IPartnerCredentials)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.PartnerService.ApiRootUrl" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.PartnerService.ApiSubscriptionKey" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.PartnerService.ApiVersion" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.PartnerService.ApplicationName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.PartnerService.Instance" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.CountryValidationRules">
+    <Type Name="Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRules" Id="T:Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRules">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRules.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRules.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection" Id="T:Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection.ByCountry(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles">
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole" Id="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole">
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole.UserMembers" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection" Id="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember" Id="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember.DeleteAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection" Id="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Create(Microsoft.Store.PartnerCenter.Models.Roles.UserMember)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Roles.UserMember)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Item(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Customers">
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ICustomer" Id="T:Microsoft.Store.PartnerCenter.Customers.ICustomer">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.DeleteAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Analytics" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.BatchUploadStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ConfigurationPolicies" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DeviceBatches" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DevicePolicy" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DirectoryRoles" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ManagedServices" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.OfferCategories" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Offers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Orders" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Profiles" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Qualification" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Relationships" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ServiceCosts" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ServiceRequests" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.SubscribedSkus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Subscriptions" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.UsageBudget" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.UsageSummary" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Users" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ICustomerCollection" Id="T:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Item(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.RelationshipRequest" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.UsageRecords" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Customers.Profiles">
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1" Id="T:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1.Update(`0)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1.UpdateAsync(`0)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection" Id="T:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection.Billing" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection.Company" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1" Id="T:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts">
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection" Id="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection.ByBillingPeriod(Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection" Id="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection" Id="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection.LineItems" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection.Summary" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary" Id="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.CustomerUsers">
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser" Id="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.DeleteAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Patch(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.PatchAsync(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.DirectoryRoles" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Licenses" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.LicenseUpdates" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection" Id="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.Create(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection" Id="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection.Get(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection.GetAsync(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates" Id="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates.Create(Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates.CreateAsync(Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection" Id="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.DevicesDeployment">
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatus.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection.ById(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.DeleteAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.Patch(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy.PatchAsync(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection.Update(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.DeleteAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.Patch(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.PatchAsync(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Create(System.Collections.Generic.IEnumerable{Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.CreateAsync(System.Collections.Generic.IEnumerable{Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch">
+      <Member Id="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch.Devices" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection" Id="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.Item(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Domains">
+    <Type Name="Microsoft.Store.PartnerCenter.Domains.IDomain" Id="T:Microsoft.Store.PartnerCenter.Domains.IDomain">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Domains.IDomain.Exists" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Domains.IDomain.ExistsAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Domains.IDomainCollection" Id="T:Microsoft.Store.PartnerCenter.Domains.IDomainCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Domains.IDomainCollection.ByDomain(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Enumerators">
+    <Type Name="Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1" Id="T:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Next(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.NextAsync(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Previous(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.PreviousAsync(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Current" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.HasValue" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.IsFirstPage" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.IsLastPage" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer" Id="T:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.AuditRecords" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.Customers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.CustomerUsers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.InvoiceLineItems" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.Invoices" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.Offers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.ServiceRequests" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer.Utilization" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Enumerators.IUtilizationCollectionEnumeratorContainer" Id="T:Microsoft.Store.PartnerCenter.Enumerators.IUtilizationCollectionEnumeratorContainer">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Enumerators.IUtilizationCollectionEnumeratorContainer.Azure" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Exceptions">
+    <Type Name="Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory" Id="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.AlreadyExists" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.BadInput" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Forbidden" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.InvalidOperation" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotFound" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotSpecified" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ResponseParsing" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ServerBusy" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ServerError" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Timeout" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.TooManyRequests" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Unauthorized" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.UnsupportedDataFormat" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Exceptions.PartnerException" Id="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(Microsoft.Store.PartnerCenter.Models.ApiFault,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext,Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory,System.Exception)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext,Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory,System.Exception)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.Context" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ErrorCategory" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ServiceErrorPayload" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException" Id="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.#ctor(System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext,System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerResponseParseException.Response" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Extensions">
+    <Type Name="Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials" Id="T:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByApplicationCredentials(System.String,System.String,System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByApplicationCredentials(System.String,System.String,System.String,System.String,System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByApplicationCredentialsAsync(System.String,System.String,System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByApplicationCredentialsAsync(System.String,System.String,System.String,System.String,System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByUserCredentials(System.String,Microsoft.Store.PartnerCenter.AuthenticationToken,Microsoft.Store.PartnerCenter.Extensions.TokenRefresher,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.GenerateByUserCredentialsAsync(System.String,Microsoft.Store.PartnerCenter.AuthenticationToken,Microsoft.Store.PartnerCenter.Extensions.TokenRefresher,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Extensions.PartnerCredentials.Instance" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Extensions.TokenRefresher" Id="T:Microsoft.Store.PartnerCenter.Extensions.TokenRefresher" />
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Factory">
+    <Type Name="Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory`1" Id="T:Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory`1.Create(`0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.GenericOperations">
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1.ByCountry(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations`2" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations`2" />
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1" />
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2.Create(`0)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2.CreateAsync(`0)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1.Delete" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1.DeleteAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations.Exists" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations.ExistsAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1.Patch(`0)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1.PatchAsync(`0)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1.ById(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1" Id="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1.Update(`0)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1.UpdateAsync(`0)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Invoices">
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoice" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoice">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.By(Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider,Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Invoices.IInvoice.Documents" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Item(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Summary" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments.Statement" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.GetAsync(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoiceStatement" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceStatement">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceStatement.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceStatement.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary" Id="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.ManagedServices">
+    <Type Name="Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection" Id="T:Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Address" Id="T:Microsoft.Store.PartnerCenter.Models.Address">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Address.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.AddressLine1" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.AddressLine2" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.City" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.Country" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.FirstName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.LastName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.PhoneNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.PostalCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.Region" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Address.State" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ApiFault" Id="T:Microsoft.Store.PartnerCenter.Models.ApiFault">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ApiFault.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ApiFault.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ApiFault.ErrorCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ApiFault.ErrorData" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ApiFault.ErrorMessage" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Contact" Id="T:Microsoft.Store.PartnerCenter.Models.Contact">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Contact.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contact.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contact.FirstName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contact.LastName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contact.PhoneNumber" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Contract" Id="T:Microsoft.Store.PartnerCenter.Models.Contract">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Contract.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contract.ContractType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Contract.OrderId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ContractType" Id="T:Microsoft.Store.PartnerCenter.Models.ContractType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ContractType.ProductKey" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ContractType.RedemptionCode" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ContractType.Subscription" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Link" Id="T:Microsoft.Store.PartnerCenter.Models.Link">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Link.#ctor(System.Uri)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Link.#ctor(System.Uri,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Link.Headers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Link.Method" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Link.Uri" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ResourceAttributes" Id="T:Microsoft.Store.PartnerCenter.Models.ResourceAttributes">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceAttributes.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceAttributes.#ctor(System.Type)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceAttributes.Etag" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceAttributes.ObjectType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ResourceBase" Id="T:Microsoft.Store.PartnerCenter.Models.ResourceBase">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceBase.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceBase.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceBase.Attributes" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1" Id="T:Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1.#ctor" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1.Links" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ResourceCollection`1" Id="T:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1.#ctor(Microsoft.Store.PartnerCenter.Models.ResourceCollection{`0})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1.#ctor(System.Collections.Generic.ICollection{`0})" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ResourceCollection`2" Id="T:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2.#ctor(Microsoft.Store.PartnerCenter.Models.ResourceCollection{`0,`1})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2.#ctor(System.Collections.Generic.ICollection{`0})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2.Items" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ResourceCollection`2.TotalCount" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1" Id="T:Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1.#ctor(System.Collections.Generic.ICollection{`0})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1.#ctor(System.Collections.Generic.ICollection{`0},System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1.ContinuationToken" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks" Id="T:Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks.Next" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks.Previous" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" Id="T:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks.Self" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.UserCredentials" Id="T:Microsoft.Store.PartnerCenter.Models.UserCredentials">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.UserCredentials.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.UserCredentials.Password" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.UserCredentials.UserName" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Analytics">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.DeploymentPercent" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.LicensesDeployed" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.LicensesSold" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.CustomerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.ProductName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.ServiceCode" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.LicensesActive" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.LicensesQualified" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.UsagePercent" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.WorkloadCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.WorkloadName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase.Channel" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase.ProcessedDateTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase.ServiceName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.LicensesSold" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.ProratedDeploymentPercent" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights" Id="T:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.ProratedLicensesUsagePercent" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.WorkloadName" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Auditing">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ApplicationId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomizedData" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OriginalCorrelationId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.PartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceNewValue" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceOldValue" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.UserPrincipalName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.CompanyName" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.CustomerId" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.ResourceType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus.Failed" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus.Progress" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Auditing.OperationType" Id="T:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.AddCustomer" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.CreateCustomerUser" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.CreateOrder" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.DeleteCustomer" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.DeleteCustomerUser" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.RemovePartnerCustomerRelationship" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.ResetCustomerUserPassword" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.RestoreCustomerUser" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerBillingProfile" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerQualification" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerSpendingBudget" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUser" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUserLicenses" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUserPrincipalName" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateOrder" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateSubscription" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpgradeSubscription" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType" Id="T:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Customer" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.CustomerUser" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.License" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Order" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Subscription" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.ThirdPartyAddOn" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.CountryValidationRules">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules" Id="T:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.CountryCallingCodesList" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.DefaultCulture" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsCityRequired" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.Iso2Code" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsPostalCodeRequired" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsStateRequired" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsTaxIdOptional" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsTaxIdSupported" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsVatIdSupported" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.PhoneNumberRegex" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.PostalCodeRegex" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedCulturesList" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedLanguagesList" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedStatesList" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.TaxIdFormat" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.TaxIdSample" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.VatIdRegex" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Customers">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.Customer" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.Customer">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Customers.Customer.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.AllowDelegatedAccess" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.AssociatedPartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.BillingProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.CommerceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.CompanyProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.CustomDomains" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.RelationshipToPartner" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.Customer.UserCredentials" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.CompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.Culture" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.DefaultAddress" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.FirstName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.Language" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile.LastName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile.CompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile.Domain" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Advisor" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.MicrosoftSupport" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Reseller" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Syndication" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification.Education" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification.None" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField.CompanyName" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField.Domain" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField.IndirectCloudSolutionProvider" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerSearchField.IndirectReseller" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.BatchTrackingId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.CompletedTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.DevicesStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.StartedTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.Status" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.CreatedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.Description" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.DevicesAssignedCount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.LastModifiedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy.PolicySettings" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.AllowedOperations" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.HardwareHash" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.ModelName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.OemManufacturerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.Policies" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.ProductKey" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.SerialNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device.UploadedDate" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.CreatedBy" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.CreationDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.DevicesCount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.DevicesLink" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.Id" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest.BatchId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest.Devices" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest.Devices" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.DeviceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.ErrorCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.ErrorDescription" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.ProductKey" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.SerialNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails.Status" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Finished" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.FinishedWithErrors" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Processing" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Queued" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Unknown" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory.OOBE" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType" Id="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.OobeUserNotLocalAdmin" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.RemoveOemPreinstalls" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipEula" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipExpressSettings" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipOemRegistration" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Invoices">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.InvoiceLineItemType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.MeteredServiceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.MeteredServiceType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.ResourceFriendlyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.UsageDate" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.ChargeType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.ConsumptionDiscount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.ConsumptionPrice" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.CurrencyCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.IncludedQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.InvoiceLineItemType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.ListPrice" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.OverageQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.PostTaxEffectiveRate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.PostTaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.PretaxCharges" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.PretaxEffectiveRate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketLineItem.TaxAmount" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.BillingProvider" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.ChargeEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.ChargeStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.ConsumedQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.CustomerCompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.InvoiceNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.OrderId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.PartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.PartnerMpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.PartnerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.Region" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.ServiceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.SubscriptionDescription" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.SubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem.SubscriptionName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.BillingCycleType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.BillingProvider" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ChargeEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ChargeStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ConsumedQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.CustomerCompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.DomainName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.InvoiceNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.OrderId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.PartnerBillableAccountId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.PartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.PartnerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.Region" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ResourceGuid" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ServiceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.ServiceType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.SubscriptionDescription" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.SubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.SubscriptionName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.Tier2MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem.Unit" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider.Azure" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider.AzureDataMarket" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider.Office" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.BillingType" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.License" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.Usage" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.CustomerBillableAccount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.InvoiceLineItemType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.MeteredRegion" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.MeteredService" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.MeteredServiceType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.Project" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.ServiceInfo" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.DailyUsageLineItem.UsageDate" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.Invoice" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.Amendments" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.CurrencyCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.CurrencySymbol" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.InvoiceDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.InvoiceDetails" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.PaidAmount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.PdfDownloadLink" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Invoice.TotalCharges" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceDetail" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceDetail">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceDetail.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceDetail.BillingProvider" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceDetail.InvoiceLineItemType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem.BillingProvider" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem.InvoiceLineItemType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType.BillingLineItems" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType.UsageLineItems" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceSearchField.InvoiceDate" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Amount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.BillingCycleType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.BillingProvider" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.ChargeEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.ChargeStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.ChargeType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Currency" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.CustomerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.DomainName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.DurableOfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.InvoiceLineItemType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.OfferName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.OrderId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.PartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SubscriptionDescription" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SubscriptionEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SubscriptionName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SubscriptionStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Subtotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.SyndicationPartnerSubscriptionNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Tax" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.Tier2MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.TotalForCustomer" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.TotalOtherDiscount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.LicenseBasedLineItem.UnitPrice" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.Summary" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.Summary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.AccountingDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.BalanceAmount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.CurrencyCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.CurrencySymbol" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.FirstInvoiceCreationDate" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ChargeType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ConsumptionDiscount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ConsumptionPrice" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.Currency" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.DetailLineItemId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.IncludedQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.InvoiceLineItemType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ListPrice" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.OverageQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PostTaxEffectiveRate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PostTaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PretaxCharges" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PretaxEffectiveRate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.Sku" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.TaxAmount" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Licenses">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.License" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.License">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.License.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.License.ProductSku" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.License.ServicePlans" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseAssignment" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseAssignment">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseAssignment.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseAssignment.ExcludedPlans" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseAssignment.SkuId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId.Group1" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId.Group2" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId.None" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate.LicensesToAssign" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate.LicensesToRemove" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate.LicenseWarnings" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning.Code" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning.Message" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.LicenseWarning.ServicePlans" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.LicenseGroupId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.SkuPartNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku.TargetType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.CapabilityStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.DisplayName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.ServiceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan.TargetType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku" Id="T:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ActiveUnits" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.AvailableUnits" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.CapabilityStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ConsumedUnits" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ProductSku" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ServicePlans" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.SuspendedUnits" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.TotalUnits" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.WarningUnits" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.ManagedServices">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService" Id="T:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService.GroupName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedService.Name" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks" Id="T:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks.AdminService" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks.ServiceHealth" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ManagedServices.ManagedServiceLinks.ServiceTicket" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Offers">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType" Id="T:Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType.Annual" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType.Monthly" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Offers.BillingCycleType.Unknown" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Offers.Offer" Id="T:Microsoft.Store.PartnerCenter.Models.Offers.Offer">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Offers.Offer.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Billing" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Country" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Description" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.IsAddOn" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.IsAutoRenewable" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.IsAvailableForPurchase" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Locale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.MaximumQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.MinimumQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.PrerequisiteOffers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Product" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Rank" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.SalesGroupId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.SupportedBillingCycles" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.UnitType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.UpgradeTargetOffers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Offer.Uri" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory" Id="T:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.Country" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.Locale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferCategory.Rank" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Offers.OfferLinks" Id="T:Microsoft.Store.PartnerCenter.Models.Offers.OfferLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Offers.OfferLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.OfferLinks.LearnMore" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Offers.Product" Id="T:Microsoft.Store.PartnerCenter.Models.Offers.Product">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Offers.Product.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Product.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Product.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Offers.Product.Unit" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Orders">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Orders.Order" Id="T:Microsoft.Store.PartnerCenter.Models.Orders.Order">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Orders.Order.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.Order.BillingCycle" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.Order.CreationDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.Order.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.Order.LineItems" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.Order.ReferenceCustomerId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.FriendlyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.LineItemNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.ParentSubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.PartnerIdOnRecord" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItem.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItemLinks" Id="T:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItemLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItemLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Orders.OrderLineItemLinks.Subscription" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Partners">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.Address" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.BillingCurrency" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.BillingDay" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.CompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.PrimaryContact" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.PurchaseOrderNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.TaxId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.Address" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.CompanyApproverAddress" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.CompanyApproverEmail" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.CompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.PrimaryContact" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.VettingStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile.VettingSubStatus" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.MpnProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.MpnProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Partners.MpnProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.MpnProfile.MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.MpnProfile.PartnerName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.CompanyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.Culture" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.DefaultAddress" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.Domain" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.Language" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile.Telephone" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile.Website" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus.Authorized" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus.Pending" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingStatus.Rejected" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.BusinessVerification" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.Decision" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.EmailDomain" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.EmailOwnership" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.EmploymentVerification" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.Entry" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingSubStatus.Other" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion" Id="T:Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion.Current" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion.LastFinalized" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion.None" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Query">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter" Id="T:Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter.#ctor(Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation,Microsoft.Store.PartnerCenter.Models.Query.FieldFilter)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter.LeftFilter" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.CompoundFieldFilter.RightFilter" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" Id="T:Microsoft.Store.PartnerCenter.Models.Query.FieldFilter">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.FieldFilter.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.FieldFilter.Operator" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation" Id="T:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.And" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.Equals" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.GreaterThan" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.GreaterThanOrEquals" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.LessThan" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.LessThanOrEquals" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.NotEquals" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.NotStartsWith" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.Or" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.StartsWith" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.Substring" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.IQuery" Id="T:Microsoft.Store.PartnerCenter.Models.Query.IQuery">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.Filter" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.Index" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.PageSize" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.SeekOperation" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.Sort" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.Token" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.IQuery.Type" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" Id="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildCountQuery(Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,System.Object)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildIndexedQuery(System.Int32,System.Int32,Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildSeekQuery(Microsoft.Store.PartnerCenter.Models.Query.SeekOperation,System.Int32,System.Int32,Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildSimpleQuery(Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.Instance" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.QueryType" Id="T:Microsoft.Store.PartnerCenter.Models.Query.QueryType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.QueryType.Count" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.QueryType.Indexed" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.QueryType.Seek" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.QueryType.Simple" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.SeekOperation" Id="T:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.First" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.Last" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.Next" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.PageIndex" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.Previous" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter" Id="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.#ctor(System.String,Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation,System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.Field" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.Value" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.Sort" Id="T:Microsoft.Store.PartnerCenter.Models.Query.Sort">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.Sort.#ctor(System.String,Microsoft.Store.PartnerCenter.Models.Query.SortDirection)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Query.Sort.ToString" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.Sort.SortDirection" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Query.Sort.SortField" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Query.SortDirection" Id="T:Microsoft.Store.PartnerCenter.Models.Query.SortDirection">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SortDirection.Ascending" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Query.SortDirection.Descending" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.RateCards">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter" Id="T:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.EffectiveDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.IncludedQuantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Rates" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Region" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Subcategory" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Tags" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureMeter.Unit" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm" Id="T:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.Discount" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.EffectiveDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.ExcludedMeterIds" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.Name" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard" Id="T:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.Currency" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.IsTaxIncluded" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.Locale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.Meters" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard.OfferTerms" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.RelationshipRequests">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest" Id="T:Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest.Url" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Relationships">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship" Id="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.Location" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.MpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.RelationshipType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship.State" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField.Name" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" Id="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType.IsIndirectCloudSolutionProviderOf" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType.IsIndirectResellerOf" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Roles">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Roles.DirectoryRole" Id="T:Microsoft.Store.PartnerCenter.Models.Roles.DirectoryRole">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Roles.DirectoryRole.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Roles.DirectoryRole.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Roles.DirectoryRole.Name" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Roles.UserMember" Id="T:Microsoft.Store.PartnerCenter.Models.Roles.UserMember">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Roles.UserMember.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Roles.UserMember.DisplayName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Roles.UserMember.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Roles.UserMember.UserPrincipalName" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.AfterTaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.ChargeType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CurrencyCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CurrencySymbol" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CustomerName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.EndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OfferName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OrderId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.PretaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.ResellerMPNId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.StartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.SubscriptionFriendlyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.SubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.Tax" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.UnitPrice" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.Current" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.MostRecent" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.None" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.AfterTaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.BillingEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.BillingStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.CurrencyCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.CurrencySymbol" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.CustomerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.PretaxTotal" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummary.Tax" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummaryLinks" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummaryLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummaryLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsSummaryLinks.ServiceCostLineItems" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType.All" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType.Incident" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType.MessageCenter" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType.None" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ActionType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.AffectedWorkloadNames" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.EndTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ImpactedArea" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ImpactedCustomers" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Messages" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.MessageType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.RequiredBy" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Resolved" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Severity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.StartTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Status" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Workload" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory.MessageText" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory.PublishedTime" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents.Incidents" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents.MessageCenterMessages" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents.Status" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidents.Workload" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField.Resolved" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus.Critical" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus.Information" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus.Normal" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus.Warning" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.Comment" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.FileExtension" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.FileNameWithoutExtension" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.FileSize" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.FileInfo.Id" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.CountryCode" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.CreatedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Description" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.FileLinks" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.LastClosedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.LastModifiedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.LastUpdatedBy" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.NewNote" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Notes" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Organization" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.PrimaryContact" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.ProductId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.ProductName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Severity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Status" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.SupportTopicId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.SupportTopicName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest.Title" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.ContactId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.FirstName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.LastName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.Organization" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestContact.PhoneNumber" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote.CreatedByName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote.CreatedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestNote.Text" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestOrganization.PhoneNumber" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField.Status" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity.Critical" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity.Minimal" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity.Moderate" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSeverity.Unknown" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus.AttentionNeeded" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus.Closed" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestStatus.Open" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic" Id="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic.Description" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.ServiceRequests.SupportTopic.Name" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Subscriptions">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.BillingCycle" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.OrderId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion.TargetOfferId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionError" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionError">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionError.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionError.Code" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionError.Description" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode.ConversionsNotFound" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode.Other" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult.Error" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult.SubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult.TargetOfferId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus.Failed" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus.Pending" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ProvisioningStatus.Success" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.AutoRenewEnabled" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.BillingCycle" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.BillingType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.CommitmentEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.ContractType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.CreationDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.EffectiveStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.FriendlyName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.Links" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.OfferName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.ParentSubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.PartnerId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.Status" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.SuspensionReasons" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription.UnitType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.Offer" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.ParentSubscription" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus.EndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus.SkuId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionProvisioningStatus.Status" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus.Active" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus.Deleted" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionStatus.Suspended" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact.SupportMpnId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact.SupportTenantId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.IsEligible" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.TargetOffer" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.UpgradeErrors" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.UpgradeType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError.AdditionalDetails" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError.Code" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError.Description" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.ConcurrencyConflicts" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.ConflictingServiceTypes" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.DelegatedAdminPermissionsDisabled" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.Other" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionAddOnsPresent" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionDoesNotHaveAnyUpgradePaths" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionNotProvisioned" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionStatusNotActive" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionTargetOfferNotFound" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.UserContextRequired" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.LicenseErrors" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.SourceSubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.TargetSubscriptionId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.UpgradeErrors" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeResult.UpgradeType" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType.None" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType.UpgradeOnly" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType.UpgradeWithLicenseTransfer" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError" Id="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError.Email" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError.Errors" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.UserLicenseError.UserObjectId" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Usage">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.QuantityUsed" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Subcategory" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.TotalCost" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Unit" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.Budget" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.PercentUsed" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerMonthlyUsageRecord.TotalCost" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary.Budget" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.CustomerUsageSummary.ResourceName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.CustomersOverBudget" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.CustomersTrendingOver" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.CustomersWithUsageBasedSubscription" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.EmailsToNotify" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.PartnerUsageSummary.ResourceName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget.Amount" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord.DateUsed" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionDailyUsageRecord.TotalCost" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.OfferId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.PartnerOnRecord" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.Status" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionMonthlyUsageRecord.TotalCost" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.ResourceName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.CurrencyLocale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.LastModifiedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase.TotalCost" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase" Id="T:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.BillingEndDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.BillingStartDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.CurrencyLocale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.LastModifiedDate" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.ResourceId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.ResourceName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase.TotalCost" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Users">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Users.CustomerUser" Id="T:Microsoft.Store.PartnerCenter.Models.Users.CustomerUser">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Users.CustomerUser.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.CustomerUser.UsageLocation" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Users.PasswordProfile" Id="T:Microsoft.Store.PartnerCenter.Models.Users.PasswordProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Users.PasswordProfile.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.PasswordProfile.ForceChangePassword" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.PasswordProfile.Password" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Users.User" Id="T:Microsoft.Store.PartnerCenter.Models.Users.User">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Users.User.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.DisplayName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.FirstName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.LastDirectorySyncTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.LastName" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.PasswordProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.SoftDeletionTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.State" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.UserDomainType" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Users.User.UserPrincipalName" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Users.UserDomainType" Id="T:Microsoft.Store.PartnerCenter.Models.Users.UserDomainType">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Users.UserDomainType.Federated" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Users.UserDomainType.Managed" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Users.UserDomainType.None" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Users.UserState" Id="T:Microsoft.Store.PartnerCenter.Models.Users.UserState">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Users.UserState.Active" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Users.UserState.Inactive" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Models.Utilizations">
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData" Id="T:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.Location" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.OrderNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.PartNumber" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.ResourceUri" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureInstanceData.Tags" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource" Id="T:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.Category" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.Id" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.Name" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.Region" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureResource.Subcategory" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity" Id="T:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity">
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily" />
+      <Member Id="F:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Hourly" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord" Id="T:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.#ctor" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.InfoFields" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.InstanceData" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.Quantity" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.Resource" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.Unit" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.UsageEndTime" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord.UsageStartTime" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Offers">
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection" Id="T:Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICategoryOffersCollection.GetAsync(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection" Id="T:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection" Id="T:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection.GetAsync(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.IOffer" Id="T:Microsoft.Store.PartnerCenter.Offers.IOffer">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOffer.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOffer.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Offers.IOffer.AddOns" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.IOfferAddOns" Id="T:Microsoft.Store.PartnerCenter.Offers.IOfferAddOns">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferAddOns.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferAddOns.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferAddOns.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferAddOns.GetAsync(System.Int32,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection" Id="T:Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Offers.IOfferCollection" Id="T:Microsoft.Store.PartnerCenter.Offers.IOfferCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.ByCategory(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.Get(System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.GetAsync(System.Int32,System.Int32)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Offers.IOfferCollection.Item(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Orders">
+    <Type Name="Microsoft.Store.PartnerCenter.Orders.IOrder" Id="T:Microsoft.Store.PartnerCenter.Orders.IOrder">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrder.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrder.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrder.Patch(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrder.PatchAsync(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Orders.IOrderCollection" Id="T:Microsoft.Store.PartnerCenter.Orders.IOrderCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.Create(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Orders.IOrderCollection.Item(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Profiles">
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.IBillingProfile" Id="T:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile" Id="T:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.Get(Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.GetAsync(Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.IMpnProfile" Id="T:Microsoft.Store.PartnerCenter.Profiles.IMpnProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IMpnProfile.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IMpnProfile.Get(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IMpnProfile.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IMpnProfile.GetAsync(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile" Id="T:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection" Id="T:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.BillingProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.LegalBusinessProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.MpnProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.OrganizationProfile" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.SupportProfile" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Profiles.ISupportProfile" Id="T:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Qualification">
+    <Type Name="Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification" Id="T:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.Update(Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.RateCards">
+    <Type Name="Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard" Id="T:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard">
+      <Member Id="M:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard.Get(System.String,System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard.GetAsync(System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection" Id="T:Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection.Azure" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.RelationshipRequests">
+    <Type Name="Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest" Id="T:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Relationships">
+    <Type Name="Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection" Id="T:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection" Id="T:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.Get(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.GetAsync(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.Query(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType,Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType,Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.RequestContext">
+    <Type Name="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" Id="T:Microsoft.Store.PartnerCenter.RequestContext.IRequestContext">
+      <Member Id="P:Microsoft.Store.PartnerCenter.RequestContext.IRequestContext.CorrelationId" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.RequestContext.IRequestContext.Locale" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.RequestContext.IRequestContext.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory" Id="T:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory">
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.Guid)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.Guid,System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Instance" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.ServiceIncidents">
+    <Type Name="Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection" Id="T:Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.ServiceRequests">
+    <Type Name="Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection" Id="T:Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection.Create(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest,System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest,System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection.SupportTopics" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest" Id="T:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.Patch(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.PatchAsync(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection" Id="T:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection.Item(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.ServiceRequests.ISupportTopicsCollection" Id="T:Microsoft.Store.PartnerCenter.ServiceRequests.ISupportTopicsCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.ISupportTopicsCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.ServiceRequests.ISupportTopicsCollection.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.SubscribedSkus">
+    <Type Name="Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection" Id="T:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection.Get(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection.GetAsync(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Subscriptions">
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscription" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Patch(Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.PatchAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.AddOns" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Conversions" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.ProvisioningStatus" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.SupportContact" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Upgrades" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.UsageRecords" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.UsageSummary" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Utilization" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.ById(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.ByOrder(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.ByPartner(System.String)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.GetAsync" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.Item(System.String)" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection.UsageRecords" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.Create(Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact.Update(Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.SupportContact)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection" Id="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection.Create(Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Usage">
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection" Id="T:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget" Id="T:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.GetAsync" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.Patch(Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.PatchAsync(Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection" Id="T:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ISubscriptionDailyUsageRecordCollection" Id="T:Microsoft.Store.PartnerCenter.Usage.ISubscriptionDailyUsageRecordCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionDailyUsageRecordCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionDailyUsageRecordCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ISubscriptionMonthlyUsageRecordCollection" Id="T:Microsoft.Store.PartnerCenter.Usage.ISubscriptionMonthlyUsageRecordCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionMonthlyUsageRecordCollection.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionMonthlyUsageRecordCollection.GetAsync" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection" Id="T:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection.Daily" />
+      <Member Id="P:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection.Resources" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary" Id="T:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary.Get" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary.GetAsync" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Utilization">
+    <Type Name="Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection" Id="T:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.Query(System.DateTimeOffset,System.DateTimeOffset,Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity,System.Boolean,System.Nullable{System.Int32})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.QueryAsync(System.DateTimeOffset,System.DateTimeOffset,Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity,System.Boolean,System.Nullable{System.Int32})" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.Seek(System.String,Microsoft.Store.PartnerCenter.Models.Query.SeekOperation)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.SeekAsync(System.String,Microsoft.Store.PartnerCenter.Models.Query.SeekOperation)" />
+    </Type>
+    <Type Name="Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection" Id="T:Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection">
+      <Member Id="P:Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection.Azure" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Store.PartnerCenter.Validations">
+    <Type Name="Microsoft.Store.PartnerCenter.Validations.IValidations" Id="T:Microsoft.Store.PartnerCenter.Validations.IValidations">
+      <Member Id="M:Microsoft.Store.PartnerCenter.Validations.IValidations.IsAddressValid(Microsoft.Store.PartnerCenter.Models.Address)" />
+      <Member Id="M:Microsoft.Store.PartnerCenter.Validations.IValidations.IsAddressValidAsync(Microsoft.Store.PartnerCenter.Models.Address)" />
+    </Type>
+  </Namespace>
+</Framework>

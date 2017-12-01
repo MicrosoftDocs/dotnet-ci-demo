@@ -1,0 +1,77 @@
+﻿<Type Name="IEntityPatchOperations&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IEntityPatchOperations&lt;T&gt; where T : ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntityPatchOperations`1&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBase) T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntityPatchOperations(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">The entity type.</typeparam>
+    <summary>
+            Groups operations for patching a single entity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public T Patch (T entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T Patch(!T entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1.Patch(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Patch (entity As T) As T" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="entity">The entity information.</param>
+        <summary>
+            Patches an entity.
+            </summary>
+        <returns>The updated entity.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;T&gt; PatchAsync (T entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!T&gt; PatchAsync(!T entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1.PatchAsync(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (entity As T) As Task(Of T)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="entity">The entity information.</param>
+        <summary>
+            Asynchronously patches an entity.
+            </summary>
+        <returns>The updated entity.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,155 @@
+﻿<Type Name="PartnerService" FullName="Microsoft.Store.PartnerCenter.PartnerService">
+  <TypeSignature Language="C#" Value="public sealed class PartnerService" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PartnerService extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.PartnerService" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PartnerService" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This class contains the partner SDK properties and acts as the main entry point to create partners.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApiRootUrl">
+      <MemberSignature Language="C#" Value="public string ApiRootUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiRootUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.PartnerService.ApiRootUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApiRootUrl As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the partner service API root URL.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiSubscriptionKey">
+      <MemberSignature Language="C#" Value="public string ApiSubscriptionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiSubscriptionKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.PartnerService.ApiSubscriptionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApiSubscriptionKey As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner service API subscription key.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.PartnerService.ApiVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApiVersion As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner service API version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationName">
+      <MemberSignature Language="C#" Value="public string ApplicationName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.PartnerService.ApplicationName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets an application name used to identify the calling application.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePartnerOperations">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.IAggregatePartner CreatePartnerOperations (Microsoft.Store.PartnerCenter.IPartnerCredentials credentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.IAggregatePartner CreatePartnerOperations(class Microsoft.Store.PartnerCenter.IPartnerCredentials credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerService.CreatePartnerOperations(Microsoft.Store.PartnerCenter.IPartnerCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePartnerOperations (credentials As IPartnerCredentials) As IAggregatePartner" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.IAggregatePartner</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Store.PartnerCenter.IPartnerCredentials" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">The partner credentials. Use the <see cref="T:Microsoft.Store.PartnerCenter.IPartnerCredentials" /> class to obtain these.</param>
+        <summary>
+            Creates a <see cref="T:Microsoft.Store.PartnerCenter.IAggregatePartner" /> instance and configures it using the provided partner credentials. The partner instance can be used to
+            access all the Partner Center APIs.
+            </summary>
+        <returns>
+            A configured partner operations object.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public static Microsoft.Store.PartnerCenter.PartnerService Instance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Store.PartnerCenter.PartnerService Instance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.PartnerService.Instance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Instance As PartnerService" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.PartnerService</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an instance of the partner service.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

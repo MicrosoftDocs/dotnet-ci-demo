@@ -1,0 +1,222 @@
+﻿<Type Name="UpgradeErrorCode" FullName="Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode">
+  <TypeSignature Language="C#" Value="public enum UpgradeErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UpgradeErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UpgradeErrorCode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of errors that prevent subscription upgrading from happening.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConcurrencyConflicts">
+      <MemberSignature Language="C#" Value="ConcurrencyConflicts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode ConcurrencyConflicts = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.ConcurrencyConflicts" />
+      <MemberSignature Language="VB.NET" Value="ConcurrencyConflicts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed due to concurrent subscription restrictions.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingServiceTypes">
+      <MemberSignature Language="C#" Value="ConflictingServiceTypes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode ConflictingServiceTypes = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.ConflictingServiceTypes" />
+      <MemberSignature Language="VB.NET" Value="ConflictingServiceTypes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because of conflicting source service types.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatedAdminPermissionsDisabled">
+      <MemberSignature Language="C#" Value="DelegatedAdminPermissionsDisabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode DelegatedAdminPermissionsDisabled = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.DelegatedAdminPermissionsDisabled" />
+      <MemberSignature Language="VB.NET" Value="DelegatedAdminPermissionsDisabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because administrative permissions have been removed.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode Other = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            General error.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionAddOnsPresent">
+      <MemberSignature Language="C#" Value="SubscriptionAddOnsPresent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode SubscriptionAddOnsPresent = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionAddOnsPresent" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionAddOnsPresent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because the source subscription has previously purchased add-ons.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionDoesNotHaveAnyUpgradePaths">
+      <MemberSignature Language="C#" Value="SubscriptionDoesNotHaveAnyUpgradePaths" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode SubscriptionDoesNotHaveAnyUpgradePaths = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionDoesNotHaveAnyUpgradePaths" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionDoesNotHaveAnyUpgradePaths" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because the source subscription does not have upgrade paths.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionNotProvisioned">
+      <MemberSignature Language="C#" Value="SubscriptionNotProvisioned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode SubscriptionNotProvisioned = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionNotProvisioned" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionNotProvisioned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            The subscription is not provisioned yet.
+            Happens when the order is still being processed. Eventually the subscription will be provisioned and an entitlement is created.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionStatusNotActive">
+      <MemberSignature Language="C#" Value="SubscriptionStatusNotActive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode SubscriptionStatusNotActive = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionStatusNotActive" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionStatusNotActive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because the subscription status is suspended or deleted.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionTargetOfferNotFound">
+      <MemberSignature Language="C#" Value="SubscriptionTargetOfferNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode SubscriptionTargetOfferNotFound = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.SubscriptionTargetOfferNotFound" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionTargetOfferNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because the specified upgrade path is not an available upgrade path.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserContextRequired">
+      <MemberSignature Language="C#" Value="UserContextRequired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode UserContextRequired = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode.UserContextRequired" />
+      <MemberSignature Language="VB.NET" Value="UserContextRequired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Upgrade cannot be performed because the current request is using app context.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

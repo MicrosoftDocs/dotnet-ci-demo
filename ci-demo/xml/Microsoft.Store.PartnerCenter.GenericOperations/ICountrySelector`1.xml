@@ -1,0 +1,48 @@
+﻿<Type Name="ICountrySelector&lt;TOperations&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector&lt;TOperations&gt;">
+  <TypeSignature Language="C#" Value="public interface ICountrySelector&lt;TOperations&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICountrySelector`1&lt;TOperations&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICountrySelector(Of TOperations)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TOperations" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TOperations">The type of the operations to return.</typeparam>
+    <summary>
+            Returns operations interfaces based on the given country.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ByCountry">
+      <MemberSignature Language="C#" Value="public TOperations ByCountry (string country);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TOperations ByCountry(string country) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1.ByCountry(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ByCountry (country As String) As TOperations" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TOperations</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="country" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="country">The country to be used by the returned operations.</param>
+        <summary>
+            Customizes operations based on the given country.
+            </summary>
+        <returns>An operations interface customized for the provided country.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

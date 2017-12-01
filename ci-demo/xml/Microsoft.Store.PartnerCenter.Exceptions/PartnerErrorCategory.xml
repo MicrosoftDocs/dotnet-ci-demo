@@ -1,0 +1,281 @@
+﻿<Type Name="PartnerErrorCategory" FullName="Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory">
+  <TypeSignature Language="C#" Value="public enum PartnerErrorCategory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PartnerErrorCategory extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PartnerErrorCategory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the error categories of the partner SDK.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlreadyExists">
+      <MemberSignature Language="C#" Value="AlreadyExists" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory AlreadyExists = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.AlreadyExists" />
+      <MemberSignature Language="VB.NET" Value="AlreadyExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            The resource already exists.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BadInput">
+      <MemberSignature Language="C#" Value="BadInput" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory BadInput = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.BadInput" />
+      <MemberSignature Language="VB.NET" Value="BadInput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The error was due to bad inputs from the user.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forbidden">
+      <MemberSignature Language="C#" Value="Forbidden" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory Forbidden = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Forbidden" />
+      <MemberSignature Language="VB.NET" Value="Forbidden" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            The operation was not granted to the caller.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidOperation">
+      <MemberSignature Language="C#" Value="InvalidOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory InvalidOperation = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.InvalidOperation" />
+      <MemberSignature Language="VB.NET" Value="InvalidOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            The requested operation is invalid.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotFound">
+      <MemberSignature Language="C#" Value="NotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory NotFound = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotFound" />
+      <MemberSignature Language="VB.NET" Value="NotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            The resource was not found.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSpecified">
+      <MemberSignature Language="C#" Value="NotSpecified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory NotSpecified = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotSpecified" />
+      <MemberSignature Language="VB.NET" Value="NotSpecified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown error type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseParsing">
+      <MemberSignature Language="C#" Value="ResponseParsing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory ResponseParsing = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ResponseParsing" />
+      <MemberSignature Language="VB.NET" Value="ResponseParsing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+            The partner service response could not be parsed according to the preset expectation.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerBusy">
+      <MemberSignature Language="C#" Value="ServerBusy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory ServerBusy = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ServerBusy" />
+      <MemberSignature Language="VB.NET" Value="ServerBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            The partner service is overloaded currently.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerError">
+      <MemberSignature Language="C#" Value="ServerError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory ServerError = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.ServerError" />
+      <MemberSignature Language="VB.NET" Value="ServerError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            The partner service failed to process the request.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="Timeout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory Timeout = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Timeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            The partner service did not respond in a timely manner.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TooManyRequests">
+      <MemberSignature Language="C#" Value="TooManyRequests" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory TooManyRequests = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.TooManyRequests" />
+      <MemberSignature Language="VB.NET" Value="TooManyRequests" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+            There have been too many requests in a given amount of time.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unauthorized">
+      <MemberSignature Language="C#" Value="Unauthorized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory Unauthorized = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.Unauthorized" />
+      <MemberSignature Language="VB.NET" Value="Unauthorized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The user is not authorized to perform the requested action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedDataFormat">
+      <MemberSignature Language="C#" Value="UnsupportedDataFormat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory UnsupportedDataFormat = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.UnsupportedDataFormat" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedDataFormat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            The requested data format is unsupported.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,232 @@
+﻿<Type Name="ICustomerUser" FullName="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser">
+  <TypeSignature Language="C#" Value="public interface ICustomerUser : Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerUser implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerUser&#xA;Implements IEntityDeleteOperations(Of CustomerUser), IEntityGetOperations(Of CustomerUser), IEntityPatchOperations(Of CustomerUser), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates a customer user behavior.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Deletes a user.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.DeleteAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync () As Task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously deletes a user.
+            </summary>
+        <returns>Returns task.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryRoles">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection DirectoryRoles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection DirectoryRoles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.DirectoryRoles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectoryRoles As ICustomerUserRoleCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserRoleCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current user's directory role collection operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Users.CustomerUser Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As CustomerUser" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Users.CustomerUser</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the customer user.
+            </summary>
+        <returns>The customer user.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of CustomerUser)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the customer user.
+            </summary>
+        <returns>The customer order.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Licenses">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection Licenses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection Licenses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Licenses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Licenses As ICustomerUserLicenseCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current user's licenses collection operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicenseUpdates">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates LicenseUpdates { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates LicenseUpdates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.LicenseUpdates" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LicenseUpdates As ICustomerUserLicenseUpdates" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current user's license updates operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Users.CustomerUser Patch (Microsoft.Store.PartnerCenter.Models.Users.CustomerUser entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser Patch(class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.Patch(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Patch (entity As CustomerUser) As CustomerUser" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Users.CustomerUser</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="Microsoft.Store.PartnerCenter.Models.Users.CustomerUser" />
+      </Parameters>
+      <Docs>
+        <param name="entity">Customer user entity.</param>
+        <summary>
+            Updates the customer user.
+            </summary>
+        <returns>The updated user.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.Users.CustomerUser entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.Users.CustomerUser entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUser.PatchAsync(Microsoft.Store.PartnerCenter.Models.Users.CustomerUser)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (entity As CustomerUser) As Task(Of CustomerUser)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Users.CustomerUser&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="Microsoft.Store.PartnerCenter.Models.Users.CustomerUser" />
+      </Parameters>
+      <Docs>
+        <param name="entity">Customer user entity.</param>
+        <summary>
+            Asynchronously updates the customer user.
+            </summary>
+        <returns>The updated user.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

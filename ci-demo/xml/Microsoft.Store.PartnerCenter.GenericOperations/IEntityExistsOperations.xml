@@ -1,0 +1,63 @@
+﻿<Type Name="IEntityExistsOperations" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations">
+  <TypeSignature Language="C#" Value="public interface IEntityExistsOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntityExistsOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntityExistsOperations" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Groups operations for checking if a single entity exists or not.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public bool Exists ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Exists() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations.Exists" />
+      <MemberSignature Language="VB.NET" Value="Public Function Exists () As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Checks if an entity exists or not.
+            </summary>
+        <returns>A value indicating whether the entity exists or not.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; ExistsAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; ExistsAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityExistsOperations.ExistsAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExistsAsync () As Task(Of Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously checks if an entity exists or not.
+            </summary>
+        <returns>A value indicating whether the entity exists or not.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

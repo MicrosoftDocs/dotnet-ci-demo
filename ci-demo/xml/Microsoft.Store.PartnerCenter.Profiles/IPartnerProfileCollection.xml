@@ -1,0 +1,131 @@
+﻿<Type Name="IPartnerProfileCollection" FullName="Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection">
+  <TypeSignature Language="C#" Value="public interface IPartnerProfileCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPartnerProfileCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPartnerProfileCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of a partner's profiles.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BillingProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.IBillingProfile BillingProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.IBillingProfile BillingProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.BillingProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BillingProfile As IBillingProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.IBillingProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations available for the partner billing profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegalBusinessProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile LegalBusinessProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile LegalBusinessProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.LegalBusinessProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegalBusinessProfile As ILegalBusinessProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations available for the legal business profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MpnProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.IMpnProfile MpnProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.IMpnProfile MpnProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.MpnProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MpnProfile As IMpnProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.IMpnProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations available for the Mpn profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrganizationProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile OrganizationProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile OrganizationProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.OrganizationProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrganizationProfile As IOrganizationProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations available for the organization profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportProfile">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.ISupportProfile SupportProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.ISupportProfile SupportProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection.SupportProfile" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportProfile As ISupportProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.ISupportProfile</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations available for the partner support profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

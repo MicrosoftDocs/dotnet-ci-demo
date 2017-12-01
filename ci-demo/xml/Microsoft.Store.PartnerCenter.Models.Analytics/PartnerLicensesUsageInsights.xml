@@ -1,0 +1,80 @@
+﻿<Type Name="PartnerLicensesUsageInsights" FullName="Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights">
+  <TypeSignature Language="C#" Value="public class PartnerLicensesUsageInsights : Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PartnerLicensesUsageInsights extends Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights" />
+  <TypeSignature Language="VB.NET" Value="Public Class PartnerLicensesUsageInsights&#xA;Inherits LicensesInsightsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds the analytics information about the usage of all the customers' licenses of the given partner.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerLicensesUsageInsights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProratedLicensesUsagePercent">
+      <MemberSignature Language="C#" Value="public double ProratedLicensesUsagePercent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ProratedLicensesUsagePercent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.ProratedLicensesUsagePercent" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProratedLicensesUsagePercent As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the usage percentage of the given workload out of qualified licenses of all customers of the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkloadName">
+      <MemberSignature Language="C#" Value="public string WorkloadName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkloadName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights.WorkloadName" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkloadName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Workload name. For example: Exchange.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

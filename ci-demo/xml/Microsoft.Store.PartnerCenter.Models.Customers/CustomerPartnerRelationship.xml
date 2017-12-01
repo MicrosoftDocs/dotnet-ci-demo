@@ -1,0 +1,126 @@
+﻿<Type Name="CustomerPartnerRelationship" FullName="Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship">
+  <TypeSignature Language="C#" Value="public enum CustomerPartnerRelationship" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CustomerPartnerRelationship extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CustomerPartnerRelationship" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Enumerates partner and customer relationships.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Advisor">
+      <MemberSignature Language="C#" Value="Advisor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship Advisor = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Advisor" />
+      <MemberSignature Language="VB.NET" Value="Advisor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            An advisor relationship.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MicrosoftSupport">
+      <MemberSignature Language="C#" Value="MicrosoftSupport" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship MicrosoftSupport = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.MicrosoftSupport" />
+      <MemberSignature Language="VB.NET" Value="MicrosoftSupport" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the partner is a Microsoft Support agent for the customer.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            None. Used for initialization.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reseller">
+      <MemberSignature Language="C#" Value="Reseller" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship Reseller = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Reseller" />
+      <MemberSignature Language="VB.NET" Value="Reseller" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            A reseller relationship.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Syndication">
+      <MemberSignature Language="C#" Value="Syndication" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship Syndication = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship.Syndication" />
+      <MemberSignature Language="VB.NET" Value="Syndication" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerPartnerRelationship</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the partner is a syndication partner of the customer.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

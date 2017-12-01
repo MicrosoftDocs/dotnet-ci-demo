@@ -1,0 +1,68 @@
+﻿<Type Name="ICustomerProfileCollection" FullName="Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerProfileCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerProfileCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerProfileCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Holds the operations related to a customer's profiles.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Billing">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile&gt; Billing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile&gt; Billing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection.Billing" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Billing As ICustomerProfile(Of CustomerBillingProfile)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerBillingProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the customer's billing profile operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Company">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile&gt; Company { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile&gt; Company" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection.Company" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Company As ICustomerReadonlyProfile(Of CustomerCompanyProfile)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerCompanyProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the customer's company profile operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

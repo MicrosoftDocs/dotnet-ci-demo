@@ -1,0 +1,90 @@
+﻿<Type Name="ICustomerProfile&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface ICustomerProfile&lt;T&gt; : Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile&lt;T&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;T&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;T&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt; where T : ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerProfile`1&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBase) T&gt; implements class Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile`1&lt;!T&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;!T&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;!T&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerProfile(Of T)&#xA;Implements ICustomerReadonlyProfile(Of T), IEntityGetOperations(Of T), IEntityUpdateOperations(Of T), IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerReadonlyProfile&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">The type of the customer profile.</typeparam>
+    <summary>
+            Encapsulates a single customer profile behavior.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public T Update (T customerProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T Update(!T customerProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1.Update(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Update (customerProfile As T) As T" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerProfile" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="customerProfile">The customer profile information.</param>
+        <summary>
+            Updates the customer profile.
+            </summary>
+        <returns>The updated customer profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;T&gt; UpdateAsync (T customerProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!T&gt; UpdateAsync(!T customerProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfile`1.UpdateAsync(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UpdateAsync (customerProfile As T) As Task(Of T)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerProfile" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="customerProfile">The customer profile information.</param>
+        <summary>
+            Asynchronously updates the customer profile.
+            </summary>
+        <returns>The updated customer profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

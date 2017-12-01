@@ -1,0 +1,227 @@
+﻿<Type Name="SubscribedSku" FullName="Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku">
+  <TypeSignature Language="C#" Value="public sealed class SubscribedSku : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SubscribedSku extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SubscribedSku&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Model for subscribed products owned by a tenant.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscribedSku ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveUnits">
+      <MemberSignature Language="C#" Value="public int ActiveUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ActiveUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ActiveUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActiveUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of units active for assignment.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableUnits">
+      <MemberSignature Language="C#" Value="public int AvailableUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AvailableUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.AvailableUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property AvailableUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of units available for assignment. This is calculated as Total units - Consumed units.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CapabilityStatus">
+      <MemberSignature Language="C#" Value="public string CapabilityStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CapabilityStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.CapabilityStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property CapabilityStatus As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the SKU status of a product.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsumedUnits">
+      <MemberSignature Language="C#" Value="public int ConsumedUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConsumedUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ConsumedUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConsumedUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of consumed units.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductSku">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku ProductSku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku ProductSku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ProductSku" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProductSku As ProductSku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Licenses.ProductSku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the products.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServicePlans">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan&gt; ServicePlans { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan&gt; ServicePlans" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.ServicePlans" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePlans As List(Of ServicePlan)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.ServicePlan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the collection of service plans of a product.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendedUnits">
+      <MemberSignature Language="C#" Value="public int SuspendedUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SuspendedUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.SuspendedUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuspendedUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of suspended units.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalUnits">
+      <MemberSignature Language="C#" Value="public int TotalUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.TotalUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total units, which is sum of active and warning units.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WarningUnits">
+      <MemberSignature Language="C#" Value="public int WarningUnits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WarningUnits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku.WarningUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property WarningUnits As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of warning units.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,145 @@
+﻿<Type Name="IAzureUtilizationCollection" FullName="Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection">
+  <TypeSignature Language="C#" Value="public interface IAzureUtilizationCollection : Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAzureUtilizationCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAzureUtilizationCollection&#xA;Implements IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Groups behavior related to Azure subscription utilization records.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt; Query (DateTimeOffset startTime, DateTimeOffset endTime, Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity granularity = Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily, bool showDetails = true, Nullable&lt;int&gt; size = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt; Query(valuetype System.DateTimeOffset startTime, valuetype System.DateTimeOffset endTime, valuetype Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity granularity, bool showDetails, valuetype System.Nullable`1&lt;int32&gt; size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.Query(System.DateTimeOffset,System.DateTimeOffset,Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity,System.Boolean,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Query (startTime As DateTimeOffset, endTime As DateTimeOffset, Optional granularity As AzureUtilizationGranularity = Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily, Optional showDetails As Boolean = true, Optional size As Nullable(Of Integer) = null) As ResourceCollection(Of AzureUtilizationRecord)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startTime" Type="System.DateTimeOffset" />
+        <Parameter Name="endTime" Type="System.DateTimeOffset" />
+        <Parameter Name="granularity" Type="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity" />
+        <Parameter Name="showDetails" Type="System.Boolean" />
+        <Parameter Name="size" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="startTime">The starting time of when the utilization was metered in the billing system.</param>
+        <param name="endTime">The ending time of when the utilization was metered in the billing system.</param>
+        <param name="granularity">The resource usage time granularity. Can either be daily or hourly. Default is daily.</param>
+        <param name="showDetails">If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records
+            will be aggregated on the resource level. Default is true.</param>
+        <param name="size">An optional maximum number of records to return. The returned resource collection will specify a next link in case there
+            were more utilization records available.</param>
+        <summary>
+            Retrieves utilization records for the Azure subscription.
+            </summary>
+        <returns>The Azure resource utilization for the subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt; QueryAsync (DateTimeOffset startTime, DateTimeOffset endTime, Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity granularity = Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily, bool showDetails = true, Nullable&lt;int&gt; size = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt; QueryAsync(valuetype System.DateTimeOffset startTime, valuetype System.DateTimeOffset endTime, valuetype Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity granularity, bool showDetails, valuetype System.Nullable`1&lt;int32&gt; size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.QueryAsync(System.DateTimeOffset,System.DateTimeOffset,Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity,System.Boolean,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryAsync (startTime As DateTimeOffset, endTime As DateTimeOffset, Optional granularity As AzureUtilizationGranularity = Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily, Optional showDetails As Boolean = true, Optional size As Nullable(Of Integer) = null) As Task(Of ResourceCollection(Of AzureUtilizationRecord))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startTime" Type="System.DateTimeOffset" />
+        <Parameter Name="endTime" Type="System.DateTimeOffset" />
+        <Parameter Name="granularity" Type="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity" />
+        <Parameter Name="showDetails" Type="System.Boolean" />
+        <Parameter Name="size" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="startTime">The starting time of when the utilization was metered in the billing system.</param>
+        <param name="endTime">The ending time of when the utilization was metered in the billing system.</param>
+        <param name="granularity">The resource usage time granularity. Can either be daily or hourly. Default is daily.</param>
+        <param name="showDetails">If set to true, the utilization records will be split by the resource instance levels. If set to false, the utilization records
+            will be aggregated on the resource level. Default is true.</param>
+        <param name="size">An optional maximum number of records to return. The returned resource collection will specify a next link in case there
+            were more utilization records available.</param>
+        <summary>
+            Asynchronously retrieves utilization records for the Azure subscription.
+            </summary>
+        <returns>A task that returns the Azure resource utilization for the subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Seek">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt; Seek (string continuationToken, Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation = Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.Next);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt; Seek(string continuationToken, valuetype Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.Seek(System.String,Microsoft.Store.PartnerCenter.Models.Query.SeekOperation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="continuationToken" Type="System.String" />
+        <Parameter Name="seekOperation" Type="Microsoft.Store.PartnerCenter.Models.Query.SeekOperation" />
+      </Parameters>
+      <Docs>
+        <param name="continuationToken">The continuation token from the previous results.</param>
+        <param name="seekOperation">The seek operation to perform. Next is only supported.</param>
+        <summary>
+            Seeks pages of of utilization for resources that belong to an Azure subscription owned by a customer of the partner.
+            </summary>
+        <returns>The next page of utilization records.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeekAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt; SeekAsync (string continuationToken, Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation = Microsoft.Store.PartnerCenter.Models.Query.SeekOperation.Next);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt; SeekAsync(string continuationToken, valuetype Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Utilization.IAzureUtilizationCollection.SeekAsync(System.String,Microsoft.Store.PartnerCenter.Models.Query.SeekOperation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationRecord&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="continuationToken" Type="System.String" />
+        <Parameter Name="seekOperation" Type="Microsoft.Store.PartnerCenter.Models.Query.SeekOperation" />
+      </Parameters>
+      <Docs>
+        <param name="continuationToken">The continuation token from the previous results.</param>
+        <param name="seekOperation">The seek operation to perform. Next is only supported.</param>
+        <summary>
+            Asynchronously seeks pages of utilization for resources that belong to an Azure subscription owned by a customer of the partner.
+            </summary>
+        <returns>A task that returns the next page of utilization records.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

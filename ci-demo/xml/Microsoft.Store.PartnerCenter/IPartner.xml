@@ -1,0 +1,398 @@
+﻿<Type Name="IPartner" FullName="Microsoft.Store.PartnerCenter.IPartner">
+  <TypeSignature Language="C#" Value="public interface IPartner" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPartner" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.IPartner" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPartner" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners.
+            Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Analytics">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection Analytics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection Analytics" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Analytics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Analytics As IPartnerAnalyticsCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Analytics.IPartnerAnalyticsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the analytics collection operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuditRecords">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection AuditRecords { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection AuditRecords" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.AuditRecords" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuditRecords As IAuditRecordsCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the audit records operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountryValidationRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection CountryValidationRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection CountryValidationRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.CountryValidationRules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CountryValidationRules As ICountryValidationRulesCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CountryValidationRules.ICountryValidationRulesCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the country validation rules collection operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.IPartnerCredentials Credentials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.IPartnerCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Credentials As IPartnerCredentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.IPartnerCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner credentials.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Customers">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ICustomerCollection Customers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.ICustomerCollection Customers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Customers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Customers As ICustomerCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ICustomerCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner's customers operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Domains">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Domains.IDomainCollection Domains { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Domains.IDomainCollection Domains" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Domains" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Domains As IDomainCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Domains.IDomainCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the domains operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enumerators">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer Enumerators { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer Enumerators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Enumerators" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Enumerators As IResourceCollectionEnumeratorContainer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumeratorContainer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the collection enumerators available for traversing through results.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invoices">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection Invoices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection Invoices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Invoices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Invoices As IInvoiceCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner's invoices operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfferCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector&lt;Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection&gt; OfferCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1&lt;class Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection&gt; OfferCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.OfferCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfferCategories As ICountrySelector(Of IOfferCategoryCollection)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector&lt;Microsoft.Store.PartnerCenter.Offers.IOfferCategoryCollection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the offer categories operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offers">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector&lt;Microsoft.Store.PartnerCenter.Offers.IOfferCollection&gt; Offers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector`1&lt;class Microsoft.Store.PartnerCenter.Offers.IOfferCollection&gt; Offers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Offers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offers As ICountrySelector(Of IOfferCollection)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.GenericOperations.ICountrySelector&lt;Microsoft.Store.PartnerCenter.Offers.IOfferCollection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the offer operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profiles">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection Profiles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection Profiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Profiles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Profiles As IPartnerProfileCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Profiles.IPartnerProfileCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the profiles operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RateCards">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection RateCards { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection RateCards" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.RateCards" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RateCards As IRateCardCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RateCards.IRateCardCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the rate card operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Relationships">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection Relationships { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection Relationships" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Relationships" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Relationships As IRelationshipCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the relationship collection operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestContext">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext RequestContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext RequestContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.RequestContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestContext As IRequestContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner context.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceIncidents">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection ServiceIncidents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection ServiceIncidents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.ServiceIncidents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceIncidents As IServiceIncidentCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.ServiceIncidents.IServiceIncidentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the service health operations that can be performed on a partner's subscribed services.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceRequests">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection ServiceRequests { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection ServiceRequests" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.ServiceRequests" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceRequests As IPartnerServiceRequestCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.ServiceRequests.IPartnerServiceRequestCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the operations that can be performed on a partners' service requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageSummary">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary UsageSummary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary UsageSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.UsageSummary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageSummary As IPartnerUsageSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.IPartnerUsageSummary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the usage summary operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validations">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Validations.IValidations Validations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Validations.IValidations Validations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartner.Validations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Validations As IValidations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Validations.IValidations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the validation operations available to the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,124 @@
+﻿<Type Name="ISupportProfile" FullName="Microsoft.Store.PartnerCenter.Profiles.ISupportProfile">
+  <TypeSignature Language="C#" Value="public interface ISupportProfile : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISupportProfile implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISupportProfile&#xA;Implements IEntityGetOperations(Of SupportProfile), IEntityUpdateOperations(Of SupportProfile), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates behavior of a support profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As SupportProfile" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the support profile. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The support profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of SupportProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the support profile. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The support profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile Update (Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile supportProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile Update(class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile supportProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="supportProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile" />
+      </Parameters>
+      <Docs>
+        <param name="supportProfile">The support profile.</param>
+        <summary>
+            Updates the support profile. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The updated support profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt; UpdateAsync (Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile supportProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt; UpdateAsync(class Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile supportProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ISupportProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="supportProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.SupportProfile" />
+      </Parameters>
+      <Docs>
+        <param name="supportProfile">The support profile.</param>
+        <summary>
+            Asynchronously updates the support profile. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The updated support profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

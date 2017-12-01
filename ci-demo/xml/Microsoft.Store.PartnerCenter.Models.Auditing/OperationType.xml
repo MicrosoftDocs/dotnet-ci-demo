@@ -1,0 +1,368 @@
+﻿<Type Name="OperationType" FullName="Microsoft.Store.PartnerCenter.Models.Auditing.OperationType">
+  <TypeSignature Language="C#" Value="public enum OperationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OperationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OperationType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Enumeration to represent type of 
+            Operation being performed
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddCustomer">
+      <MemberSignature Language="C#" Value="AddCustomer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType AddCustomer = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.AddCustomer" />
+      <MemberSignature Language="VB.NET" Value="AddCustomer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Adding a Customer
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCustomerUser">
+      <MemberSignature Language="C#" Value="CreateCustomerUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType CreateCustomerUser = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.CreateCustomerUser" />
+      <MemberSignature Language="VB.NET" Value="CreateCustomerUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            Creates a customer user.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrder">
+      <MemberSignature Language="C#" Value="CreateOrder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType CreateOrder = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.CreateOrder" />
+      <MemberSignature Language="VB.NET" Value="CreateOrder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Create a new order.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCustomer">
+      <MemberSignature Language="C#" Value="DeleteCustomer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType DeleteCustomer = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.DeleteCustomer" />
+      <MemberSignature Language="VB.NET" Value="DeleteCustomer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Deleting a Customer.
+            Happens only in the sandbox integration accounts.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCustomerUser">
+      <MemberSignature Language="C#" Value="DeleteCustomerUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType DeleteCustomerUser = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.DeleteCustomerUser" />
+      <MemberSignature Language="VB.NET" Value="DeleteCustomerUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+            Deletes a customer user.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovePartnerCustomerRelationship">
+      <MemberSignature Language="C#" Value="RemovePartnerCustomerRelationship" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType RemovePartnerCustomerRelationship = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.RemovePartnerCustomerRelationship" />
+      <MemberSignature Language="VB.NET" Value="RemovePartnerCustomerRelationship" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            Remove Partner Customer relationship.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetCustomerUserPassword">
+      <MemberSignature Language="C#" Value="ResetCustomerUserPassword" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType ResetCustomerUserPassword = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.ResetCustomerUserPassword" />
+      <MemberSignature Language="VB.NET" Value="ResetCustomerUserPassword" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+            Reset customer user password.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreCustomerUser">
+      <MemberSignature Language="C#" Value="RestoreCustomerUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType RestoreCustomerUser = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.RestoreCustomerUser" />
+      <MemberSignature Language="VB.NET" Value="RestoreCustomerUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            Restore customer user.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerBillingProfile">
+      <MemberSignature Language="C#" Value="UpdateCustomerBillingProfile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerBillingProfile = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerBillingProfile" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerBillingProfile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Update a Customer Billing Profile
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerQualification">
+      <MemberSignature Language="C#" Value="UpdateCustomerQualification" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerQualification = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerQualification" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerQualification" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Update Customer Qualification
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerSpendingBudget">
+      <MemberSignature Language="C#" Value="UpdateCustomerSpendingBudget" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerSpendingBudget = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerSpendingBudget" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerSpendingBudget" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Updates a customer spending budget.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerUser">
+      <MemberSignature Language="C#" Value="UpdateCustomerUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerUser = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUser" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+            Updates a customer user.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerUserLicenses">
+      <MemberSignature Language="C#" Value="UpdateCustomerUserLicenses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerUserLicenses = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUserLicenses" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerUserLicenses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+            Updates a customer user licenses.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCustomerUserPrincipalName">
+      <MemberSignature Language="C#" Value="UpdateCustomerUserPrincipalName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateCustomerUserPrincipalName = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateCustomerUserPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="UpdateCustomerUserPrincipalName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+            Update customer user UPN.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateOrder">
+      <MemberSignature Language="C#" Value="UpdateOrder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateOrder = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateOrder" />
+      <MemberSignature Language="VB.NET" Value="UpdateOrder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            Updates an existing order.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSubscription">
+      <MemberSignature Language="C#" Value="UpdateSubscription" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpdateSubscription = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpdateSubscription" />
+      <MemberSignature Language="VB.NET" Value="UpdateSubscription" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Updates an existing subscription.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeSubscription">
+      <MemberSignature Language="C#" Value="UpgradeSubscription" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType UpgradeSubscription = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.OperationType.UpgradeSubscription" />
+      <MemberSignature Language="VB.NET" Value="UpgradeSubscription" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Transition a subscription.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

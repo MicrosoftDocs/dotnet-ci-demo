@@ -1,0 +1,73 @@
+﻿<Type Name="IEntityUpdateOperations&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IEntityUpdateOperations&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntityUpdateOperations`1&lt;T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntityUpdateOperations(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">The entity type.</typeparam>
+    <summary>
+            Groups operations for updating a single entity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public T Update (T entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T Update(!T entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1.Update(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Update (entity As T) As T" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="entity">The entity information.</param>
+        <summary>
+            Updates an entity.
+            </summary>
+        <returns>The updated entity.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;T&gt; UpdateAsync (T entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!T&gt; UpdateAsync(!T entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1.UpdateAsync(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UpdateAsync (entity As T) As Task(Of T)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="entity">The entity information.</param>
+        <summary>
+            Asynchronously updates an entity.
+            </summary>
+        <returns>The updated entity.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

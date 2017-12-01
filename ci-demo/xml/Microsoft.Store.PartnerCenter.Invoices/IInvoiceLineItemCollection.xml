@@ -1,0 +1,133 @@
+﻿<Type Name="IInvoiceLineItemCollection" FullName="Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection">
+  <TypeSignature Language="C#" Value="public interface IInvoiceLineItemCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInvoiceLineItemCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, class Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IInvoiceLineItemCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of InvoiceLineItem, ResourceCollection(Of InvoiceLineItem)), IEntityCollectionRetrievalOperations(Of InvoiceLineItem, ResourceCollection(Of InvoiceLineItem)), IPagedEntityCollectionRetrievalOperations(Of InvoiceLineItem, ResourceCollection(Of InvoiceLineItem)), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on partner's invoice line items.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of InvoiceLineItem)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves invoice line items for a specific billing provider and invoice line item type 
+            </summary>
+        <returns>The collection of invoice line items.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt; Get (int size, int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt; Get(int32 size, int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.Get(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (size As Integer, offset As Integer) As ResourceCollection(Of InvoiceLineItem)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="size">The maximum number of invoice line items to return.</param>
+        <param name="offset">The page offset.</param>
+        <summary>
+            Retrieves a subset of invoice line items for a specific billing provider and invoice line item type 
+            </summary>
+        <returns>The subset of invoice line items.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of InvoiceLineItem))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves invoice line items for a specific billing provider and invoice line item type 
+            </summary>
+        <returns>The collection of invoice line items.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt; GetAsync (int size, int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt; GetAsync(int32 size, int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection.GetAsync(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (size As Integer, offset As Integer) As Task(Of ResourceCollection(Of InvoiceLineItem))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItem&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="size">The maximum number of invoice line items to return.</param>
+        <param name="offset">The page offset.</param>
+        <summary>
+             Asynchronously retrieves a subset of invoice line items for a specific billing provider and invoice line item type 
+            </summary>
+        <returns>The subset of invoice line items.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

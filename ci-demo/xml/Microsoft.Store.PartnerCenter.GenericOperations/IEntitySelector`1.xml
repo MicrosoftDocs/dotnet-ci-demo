@@ -1,0 +1,73 @@
+﻿<Type Name="IEntitySelector&lt;TEntity&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;TEntity&gt;">
+  <TypeSignature Language="C#" Value="public interface IEntitySelector&lt;TEntity&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntitySelector`1&lt;TEntity&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntitySelector(Of TEntity)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TEntity" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TEntity">The type of the entity behavior.</typeparam>
+    <summary>
+            Defines operations for selecting an entity out of a collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public TEntity ById (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TEntity ById(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (id As String) As TEntity" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TEntity</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The entity's ID.</param>
+        <summary>
+            Retrieves the behavior for an entity using the entity's ID.
+            </summary>
+        <returns>The entity's behavior.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TEntity this[string id] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TEntity Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(id As String) As TEntity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TEntity</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The entity's ID.</param>
+        <summary>
+            Gets the behavior for an entity using the entity's ID.
+            </summary>
+        <value>The entity's behavior.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

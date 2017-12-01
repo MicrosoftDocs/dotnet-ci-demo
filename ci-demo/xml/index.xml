@@ -1,0 +1,747 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Store.PartnerCenter" Version="1.6.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright ©  2017")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("SDK for accessing Microsoft Partner Center APIs.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.6.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("PartnerSdk")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Partner Center SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Extensions, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Internal, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.UnitTests, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Fakes, publickey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DynamicProxyGenAssembly2, publickey=0024000004800000940000000602000000240000525341310004000001000100c547cac37abd99c8db225ef2f6c8a3602f3b3606cc9891605d02baa56104f4cfc0734aa39b93bf7852f7d9266654753cc297e7d2edfe0bac1cdcf9f717241550e0a7b191195b7667bb4f64bcb8e2121380fd1d9d46ad2d92d2d15605093924cceaf74c4861eff62abf69b9291ed0a340e113be11e6a7d3113e92484cf7045cc7")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Internal.Test, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.0.0.0.1.Fakes, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.Store.PartnerCenter.Extensions" Version="1.6.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright ©  2017")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.6.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("PartnerSdk.Extensions")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("PartnerSdk.Extensions")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("cbbf7722-46fa-41ec-84f5-02f796d9d793")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.Store.PartnerCenter.Models" Version="1.6.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright ©  2017")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Contains partner center API data models.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.6.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("PartnerSdk.Models")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Store.PartnerCenter.Models")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Extensions, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Internal, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.UnitTests, publickey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Store.PartnerCenter.Fakes, publickey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DynamicProxyGenAssembly2, publickey=0024000004800000940000000602000000240000525341310004000001000100c547cac37abd99c8db225ef2f6c8a3602f3b3606cc9891605d02baa56104f4cfc0734aa39b93bf7852f7d9266654753cc297e7d2edfe0bac1cdcf9f717241550e0a7b191195b7667bb4f64bcb8e2121380fd1d9d46ad2d92d2d15605093924cceaf74c4861eff62abf69b9291ed0a340e113be11e6a7d3113e92484cf7045cc7")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("b474b775-5d0f-4582-879d-b2838c4ba951")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Store.PartnerCenter">
+      <Type Name="AuthenticationToken" Kind="Class" />
+      <Type Name="IAggregatePartner" Kind="Interface" />
+      <Type Name="IPagedEntityCollectionRetrievalOperations`2" DisplayName="IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;" Kind="Interface" />
+      <Type Name="IPartner" Kind="Interface" />
+      <Type Name="IPartnerComponent" Kind="Interface" />
+      <Type Name="IPartnerComponent`1" DisplayName="IPartnerComponent&lt;TContext&gt;" Kind="Interface" />
+      <Type Name="IPartnerCredentials" Kind="Interface" />
+      <Type Name="PartnerExtensions" Kind="Class" />
+      <Type Name="PartnerService" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Analytics">
+      <Type Name="ICustomerAnalyticsCollection" Kind="Interface" />
+      <Type Name="ICustomerLicensesAnalyticsCollection" Kind="Interface" />
+      <Type Name="ICustomerLicensesDeploymentInsightsCollection" Kind="Interface" />
+      <Type Name="ICustomerLicensesUsageInsightsCollection" Kind="Interface" />
+      <Type Name="IPartnerAnalyticsCollection" Kind="Interface" />
+      <Type Name="IPartnerLicensesAnalyticsCollection" Kind="Interface" />
+      <Type Name="IPartnerLicensesDeploymentInsightsCollection" Kind="Interface" />
+      <Type Name="IPartnerLicensesUsageInsightsCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.AuditRecords">
+      <Type Name="IAuditRecordsCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.CountryValidationRules">
+      <Type Name="ICountryValidationRules" Kind="Interface" />
+      <Type Name="ICountryValidationRulesCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles">
+      <Type Name="IDirectoryRole" Kind="Interface" />
+      <Type Name="IDirectoryRoleCollection" Kind="Interface" />
+      <Type Name="IUserMember" Kind="Interface" />
+      <Type Name="IUserMemberCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Customers">
+      <Type Name="ICustomer" Kind="Interface" />
+      <Type Name="ICustomerCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Customers.Profiles">
+      <Type Name="ICustomerProfile`1" DisplayName="ICustomerProfile&lt;T&gt;" Kind="Interface" />
+      <Type Name="ICustomerProfileCollection" Kind="Interface" />
+      <Type Name="ICustomerReadonlyProfile`1" DisplayName="ICustomerReadonlyProfile&lt;T&gt;" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Customers.ServiceCosts">
+      <Type Name="ICustomerServiceCostsCollection" Kind="Interface" />
+      <Type Name="IServiceCostLineItemsCollection" Kind="Interface" />
+      <Type Name="IServiceCostsCollection" Kind="Interface" />
+      <Type Name="IServiceCostSummary" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.CustomerUsers">
+      <Type Name="ICustomerUser" Kind="Interface" />
+      <Type Name="ICustomerUserCollection" Kind="Interface" />
+      <Type Name="ICustomerUserLicenseCollection" Kind="Interface" />
+      <Type Name="ICustomerUserLicenseUpdates" Kind="Interface" />
+      <Type Name="ICustomerUserRoleCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.DevicesDeployment">
+      <Type Name="IBatchJobStatus" Kind="Interface" />
+      <Type Name="IBatchJobStatusCollection" Kind="Interface" />
+      <Type Name="IConfigurationPolicy" Kind="Interface" />
+      <Type Name="IConfigurationPolicyCollection" Kind="Interface" />
+      <Type Name="ICustomerDeviceCollection" Kind="Interface" />
+      <Type Name="IDevice" Kind="Interface" />
+      <Type Name="IDeviceCollection" Kind="Interface" />
+      <Type Name="IDevicesBatch" Kind="Interface" />
+      <Type Name="IDevicesBatchCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Domains">
+      <Type Name="IDomain" Kind="Interface" />
+      <Type Name="IDomainCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Enumerators">
+      <Type Name="IResourceCollectionEnumerator`1" DisplayName="IResourceCollectionEnumerator&lt;T&gt;" Kind="Interface" />
+      <Type Name="IResourceCollectionEnumeratorContainer" Kind="Interface" />
+      <Type Name="IUtilizationCollectionEnumeratorContainer" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Exceptions">
+      <Type Name="PartnerErrorCategory" Kind="Enumeration" />
+      <Type Name="PartnerException" Kind="Class" />
+      <Type Name="PartnerResponseParseException" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Extensions">
+      <Type Name="PartnerCredentials" Kind="Class" />
+      <Type Name="TokenRefresher" Kind="Delegate" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Factory">
+      <Type Name="IResourceCollectionEnumeratorFactory`1" DisplayName="IResourceCollectionEnumeratorFactory&lt;T&gt;" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.GenericOperations">
+      <Type Name="ICountrySelector`1" DisplayName="ICountrySelector&lt;TOperations&gt;" Kind="Interface" />
+      <Type Name="IEntireEntityCollectionRetrievalOperations`2" DisplayName="IEntireEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;" Kind="Interface" />
+      <Type Name="IEntityCollectionRetrievalOperations`2" DisplayName="IEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;" Kind="Interface" />
+      <Type Name="IEntityCreateOperations`1" DisplayName="IEntityCreateOperations&lt;T&gt;" Kind="Interface" />
+      <Type Name="IEntityCreateOperations`2" DisplayName="IEntityCreateOperations&lt;T,T1&gt;" Kind="Interface" />
+      <Type Name="IEntityDeleteOperations`1" DisplayName="IEntityDeleteOperations&lt;T&gt;" Kind="Interface" />
+      <Type Name="IEntityExistsOperations" Kind="Interface" />
+      <Type Name="IEntityGetOperations`1" DisplayName="IEntityGetOperations&lt;T&gt;" Kind="Interface" />
+      <Type Name="IEntityPatchOperations`1" DisplayName="IEntityPatchOperations&lt;T&gt;" Kind="Interface" />
+      <Type Name="IEntitySelector`1" DisplayName="IEntitySelector&lt;TEntity&gt;" Kind="Interface" />
+      <Type Name="IEntityUpdateOperations`1" DisplayName="IEntityUpdateOperations&lt;T&gt;" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Invoices">
+      <Type Name="IInvoice" Kind="Interface" />
+      <Type Name="IInvoiceCollection" Kind="Interface" />
+      <Type Name="IInvoiceDocuments" Kind="Interface" />
+      <Type Name="IInvoiceLineItemCollection" Kind="Interface" />
+      <Type Name="IInvoiceStatement" Kind="Interface" />
+      <Type Name="IInvoiceSummary" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.ManagedServices">
+      <Type Name="IManagedServiceCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models">
+      <Type Name="Address" Kind="Class" />
+      <Type Name="ApiFault" Kind="Class" />
+      <Type Name="Contact" Kind="Class" />
+      <Type Name="Contract" Kind="Class" />
+      <Type Name="ContractType" Kind="Enumeration" />
+      <Type Name="Link" Kind="Class" />
+      <Type Name="ResourceAttributes" Kind="Class" />
+      <Type Name="ResourceBase" Kind="Class" />
+      <Type Name="ResourceBaseWithLinks`1" DisplayName="ResourceBaseWithLinks&lt;TLinks&gt;" Kind="Class" />
+      <Type Name="ResourceCollection`1" DisplayName="ResourceCollection&lt;TResource&gt;" Kind="Class" />
+      <Type Name="ResourceCollection`2" DisplayName="ResourceCollection&lt;TResource,TLinks&gt;" Kind="Class" />
+      <Type Name="SeekBasedResourceCollection`1" DisplayName="SeekBasedResourceCollection&lt;TResource&gt;" Kind="Class" />
+      <Type Name="StandardResourceCollectionLinks" Kind="Class" />
+      <Type Name="StandardResourceLinks" Kind="Class" />
+      <Type Name="UserCredentials" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Analytics">
+      <Type Name="CustomerLicensesDeploymentInsights" Kind="Class" />
+      <Type Name="CustomerLicensesInsightsBase" Kind="Class" />
+      <Type Name="CustomerLicensesUsageInsights" Kind="Class" />
+      <Type Name="LicensesInsightsBase" Kind="Class" />
+      <Type Name="PartnerLicensesDeploymentInsights" Kind="Class" />
+      <Type Name="PartnerLicensesUsageInsights" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Auditing">
+      <Type Name="AuditRecord" Kind="Class" />
+      <Type Name="AuditRecordSearchField" Kind="Enumeration" />
+      <Type Name="OperationStatus" Kind="Enumeration" />
+      <Type Name="OperationType" Kind="Enumeration" />
+      <Type Name="ResourceType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.CountryValidationRules">
+      <Type Name="CountryValidationRules" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Customers">
+      <Type Name="Customer" Kind="Class" />
+      <Type Name="CustomerBillingProfile" Kind="Class" />
+      <Type Name="CustomerCompanyProfile" Kind="Class" />
+      <Type Name="CustomerPartnerRelationship" Kind="Enumeration" />
+      <Type Name="CustomerQualification" Kind="Enumeration" />
+      <Type Name="CustomerSearchField" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.DevicesDeployment">
+      <Type Name="BatchUploadDetails" Kind="Class" />
+      <Type Name="ConfigurationPolicy" Kind="Class" />
+      <Type Name="Device" Kind="Class" />
+      <Type Name="DeviceBatch" Kind="Class" />
+      <Type Name="DeviceBatchCreationRequest" Kind="Class" />
+      <Type Name="DevicePolicyUpdateRequest" Kind="Class" />
+      <Type Name="DeviceUploadDetails" Kind="Class" />
+      <Type Name="DeviceUploadStatusType" Kind="Enumeration" />
+      <Type Name="PolicyCategory" Kind="Enumeration" />
+      <Type Name="PolicySettingsType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Invoices">
+      <Type Name="AzureDataMarketDailyUsageLineItem" Kind="Class" />
+      <Type Name="AzureDataMarketLineItem" Kind="Class" />
+      <Type Name="BaseAzureDataMarketLineItem" Kind="Class" />
+      <Type Name="BaseUsageBasedLineItem" Kind="Class" />
+      <Type Name="BillingProvider" Kind="Enumeration" />
+      <Type Name="BillingType" Kind="Enumeration" />
+      <Type Name="DailyUsageLineItem" Kind="Class" />
+      <Type Name="Invoice" Kind="Class" />
+      <Type Name="InvoiceDetail" Kind="Class" />
+      <Type Name="InvoiceLineItem" Kind="Class" />
+      <Type Name="InvoiceLineItemType" Kind="Enumeration" />
+      <Type Name="InvoiceSearchField" Kind="Enumeration" />
+      <Type Name="LicenseBasedLineItem" Kind="Class" />
+      <Type Name="Summary" Kind="Class" />
+      <Type Name="UsageBasedLineItem" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Licenses">
+      <Type Name="License" Kind="Class" />
+      <Type Name="LicenseAssignment" Kind="Class" />
+      <Type Name="LicenseGroupId" Kind="Enumeration" />
+      <Type Name="LicenseUpdate" Kind="Class" />
+      <Type Name="LicenseWarning" Kind="Class" />
+      <Type Name="ProductSku" Kind="Class" />
+      <Type Name="ServicePlan" Kind="Class" />
+      <Type Name="SubscribedSku" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.ManagedServices">
+      <Type Name="ManagedService" Kind="Class" />
+      <Type Name="ManagedServiceLinks" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Offers">
+      <Type Name="BillingCycleType" Kind="Enumeration" />
+      <Type Name="Offer" Kind="Class" />
+      <Type Name="OfferCategory" Kind="Class" />
+      <Type Name="OfferLinks" Kind="Class" />
+      <Type Name="Product" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Orders">
+      <Type Name="Order" Kind="Class" />
+      <Type Name="OrderLineItem" Kind="Class" />
+      <Type Name="OrderLineItemLinks" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Partners">
+      <Type Name="BillingProfile" Kind="Class" />
+      <Type Name="LegalBusinessProfile" Kind="Class" />
+      <Type Name="MpnProfile" Kind="Class" />
+      <Type Name="OrganizationProfile" Kind="Class" />
+      <Type Name="SupportProfile" Kind="Class" />
+      <Type Name="VettingStatus" Kind="Enumeration" />
+      <Type Name="VettingSubStatus" Kind="Enumeration" />
+      <Type Name="VettingVersion" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Query">
+      <Type Name="CompoundFieldFilter" Kind="Class" />
+      <Type Name="FieldFilter" Kind="Class" />
+      <Type Name="FieldFilterOperation" Kind="Enumeration" />
+      <Type Name="IQuery" Kind="Interface" />
+      <Type Name="QueryFactory" Kind="Class" />
+      <Type Name="QueryType" Kind="Enumeration" />
+      <Type Name="SeekOperation" Kind="Enumeration" />
+      <Type Name="SimpleFieldFilter" Kind="Class" />
+      <Type Name="Sort" Kind="Class" />
+      <Type Name="SortDirection" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.RateCards">
+      <Type Name="AzureMeter" Kind="Class" />
+      <Type Name="AzureOfferTerm" Kind="Class" />
+      <Type Name="AzureRateCard" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.RelationshipRequests">
+      <Type Name="CustomerRelationshipRequest" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Relationships">
+      <Type Name="PartnerRelationship" Kind="Class" />
+      <Type Name="PartnerRelationshipSearchField" Kind="Enumeration" />
+      <Type Name="PartnerRelationshipType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Roles">
+      <Type Name="DirectoryRole" Kind="Class" />
+      <Type Name="UserMember" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceCosts">
+      <Type Name="ServiceCostLineItem" Kind="Class" />
+      <Type Name="ServiceCostsBillingPeriod" Kind="Enumeration" />
+      <Type Name="ServiceCostsSummary" Kind="Class" />
+      <Type Name="ServiceCostsSummaryLinks" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceIncidents">
+      <Type Name="MessageType" Kind="Enumeration" />
+      <Type Name="ServiceIncidentDetail" Kind="Class" />
+      <Type Name="ServiceIncidentHistory" Kind="Class" />
+      <Type Name="ServiceIncidents" Kind="Class" />
+      <Type Name="ServiceIncidentSearchField" Kind="Enumeration" />
+      <Type Name="ServiceIncidentStatus" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.ServiceRequests">
+      <Type Name="FileInfo" Kind="Class" />
+      <Type Name="ServiceRequest" Kind="Class" />
+      <Type Name="ServiceRequestContact" Kind="Class" />
+      <Type Name="ServiceRequestNote" Kind="Class" />
+      <Type Name="ServiceRequestOrganization" Kind="Class" />
+      <Type Name="ServiceRequestSearchField" Kind="Enumeration" />
+      <Type Name="ServiceRequestSeverity" Kind="Enumeration" />
+      <Type Name="ServiceRequestStatus" Kind="Enumeration" />
+      <Type Name="SupportTopic" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Subscriptions">
+      <Type Name="Conversion" Kind="Class" />
+      <Type Name="ConversionError" Kind="Class" />
+      <Type Name="ConversionErrorCode" Kind="Enumeration" />
+      <Type Name="ConversionResult" Kind="Class" />
+      <Type Name="ProvisioningStatus" Kind="Enumeration" />
+      <Type Name="Subscription" Kind="Class" />
+      <Type Name="SubscriptionLinks" Kind="Class" />
+      <Type Name="SubscriptionProvisioningStatus" Kind="Class" />
+      <Type Name="SubscriptionStatus" Kind="Enumeration" />
+      <Type Name="SupportContact" Kind="Class" />
+      <Type Name="Upgrade" Kind="Class" />
+      <Type Name="UpgradeError" Kind="Class" />
+      <Type Name="UpgradeErrorCode" Kind="Enumeration" />
+      <Type Name="UpgradeResult" Kind="Class" />
+      <Type Name="UpgradeType" Kind="Enumeration" />
+      <Type Name="UserLicenseError" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Usage">
+      <Type Name="AzureResourceMonthlyUsageRecord" Kind="Class" />
+      <Type Name="CustomerMonthlyUsageRecord" Kind="Class" />
+      <Type Name="CustomerUsageSummary" Kind="Class" />
+      <Type Name="PartnerUsageSummary" Kind="Class" />
+      <Type Name="SpendingBudget" Kind="Class" />
+      <Type Name="SubscriptionDailyUsageRecord" Kind="Class" />
+      <Type Name="SubscriptionMonthlyUsageRecord" Kind="Class" />
+      <Type Name="SubscriptionUsageSummary" Kind="Class" />
+      <Type Name="UsageRecordBase" Kind="Class" />
+      <Type Name="UsageSummaryBase" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Users">
+      <Type Name="CustomerUser" Kind="Class" />
+      <Type Name="PasswordProfile" Kind="Class" />
+      <Type Name="User" Kind="Class" />
+      <Type Name="UserDomainType" Kind="Enumeration" />
+      <Type Name="UserState" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Models.Utilizations">
+      <Type Name="AzureInstanceData" Kind="Class" />
+      <Type Name="AzureResource" Kind="Class" />
+      <Type Name="AzureUtilizationGranularity" Kind="Enumeration" />
+      <Type Name="AzureUtilizationRecord" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Offers">
+      <Type Name="ICategoryOffersCollection" Kind="Interface" />
+      <Type Name="ICustomerOfferCategoryCollection" Kind="Interface" />
+      <Type Name="ICustomerOfferCollection" Kind="Interface" />
+      <Type Name="IOffer" Kind="Interface" />
+      <Type Name="IOfferAddOns" Kind="Interface" />
+      <Type Name="IOfferCategoryCollection" Kind="Interface" />
+      <Type Name="IOfferCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Orders">
+      <Type Name="IOrder" Kind="Interface" />
+      <Type Name="IOrderCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Profiles">
+      <Type Name="IBillingProfile" Kind="Interface" />
+      <Type Name="ILegalBusinessProfile" Kind="Interface" />
+      <Type Name="IMpnProfile" Kind="Interface" />
+      <Type Name="IOrganizationProfile" Kind="Interface" />
+      <Type Name="IPartnerProfileCollection" Kind="Interface" />
+      <Type Name="ISupportProfile" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Qualification">
+      <Type Name="ICustomerQualification" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.RateCards">
+      <Type Name="IAzureRateCard" Kind="Interface" />
+      <Type Name="IRateCardCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.RelationshipRequests">
+      <Type Name="ICustomerRelationshipRequest" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Relationships">
+      <Type Name="ICustomerRelationshipCollection" Kind="Interface" />
+      <Type Name="IRelationshipCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.RequestContext">
+      <Type Name="IRequestContext" Kind="Interface" />
+      <Type Name="RequestContextFactory" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.ServiceIncidents">
+      <Type Name="IServiceIncidentCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.ServiceRequests">
+      <Type Name="IPartnerServiceRequestCollection" Kind="Interface" />
+      <Type Name="IServiceRequest" Kind="Interface" />
+      <Type Name="IServiceRequestCollection" Kind="Interface" />
+      <Type Name="ISupportTopicsCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.SubscribedSkus">
+      <Type Name="ICustomerSubscribedSkuCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Subscriptions">
+      <Type Name="ISubscription" Kind="Interface" />
+      <Type Name="ISubscriptionAddOnCollection" Kind="Interface" />
+      <Type Name="ISubscriptionCollection" Kind="Interface" />
+      <Type Name="ISubscriptionConversionCollection" Kind="Interface" />
+      <Type Name="ISubscriptionProvisioningStatus" Kind="Interface" />
+      <Type Name="ISubscriptionSupportContact" Kind="Interface" />
+      <Type Name="ISubscriptionUpgradeCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Usage">
+      <Type Name="ICustomerUsageRecordCollection" Kind="Interface" />
+      <Type Name="ICustomerUsageSpendingBudget" Kind="Interface" />
+      <Type Name="ICustomerUsageSummary" Kind="Interface" />
+      <Type Name="IPartnerUsageSummary" Kind="Interface" />
+      <Type Name="IResourceUsageRecordCollection" Kind="Interface" />
+      <Type Name="ISubscriptionDailyUsageRecordCollection" Kind="Interface" />
+      <Type Name="ISubscriptionMonthlyUsageRecordCollection" Kind="Interface" />
+      <Type Name="ISubscriptionUsageRecordCollection" Kind="Interface" />
+      <Type Name="ISubscriptionUsageSummary" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Utilization">
+      <Type Name="IAzureUtilizationCollection" Kind="Interface" />
+      <Type Name="IUtilizationCollection" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="Microsoft.Store.PartnerCenter.Validations">
+      <Type Name="IValidations" Kind="Interface" />
+    </Namespace>
+  </Types>
+  <Title>Untitled</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Store.PartnerCenter.Models.Link" />
+      </Targets>
+      <Member MemberName="Invoke&lt;TResponse&gt;">
+        <MemberSignature Language="C#" Value="public static TResponse Invoke&lt;TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, Newtonsoft.Json.JsonConverter converter = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TResponse Invoke&lt;TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>TResponse</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TResponse" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+          <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+          <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TResponse">The return type of the invocation.</typeparam>
+          <param name="link">The link to invoke.</param>
+          <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+          <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+          <summary>
+            Invokes a link and returns the result.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Store.PartnerCenter.PartnerExtensions" Member="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Store.PartnerCenter.Models.Link" />
+      </Targets>
+      <Member MemberName="Invoke&lt;TRequest,TResponse&gt;">
+        <MemberSignature Language="C#" Value="public static TResponse Invoke&lt;TRequest,TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, TRequest requestBody, Newtonsoft.Json.JsonConverter converter = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TResponse Invoke&lt;TRequest, TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, !!TRequest requestBody, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>TResponse</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TRequest" />
+          <TypeParameter Name="TResponse" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+          <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+          <Parameter Name="requestBody" Type="TRequest" />
+          <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TRequest">The type of the request body.</typeparam>
+          <typeparam name="TResponse">The return type of the invocation.</typeparam>
+          <param name="link">The link to invoke.</param>
+          <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+          <param name="requestBody">The request body to send.</param>
+          <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+          <summary>
+            Invokes a link with a request body and returns the result.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Store.PartnerCenter.PartnerExtensions" Member="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Store.PartnerCenter.Models.Link" />
+      </Targets>
+      <Member MemberName="InvokeAsync&lt;TResponse&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResponse&gt; InvokeAsync&lt;TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, Newtonsoft.Json.JsonConverter converter = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResponse&gt; InvokeAsync&lt;TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;TResponse&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TResponse" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+          <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+          <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TResponse">The return type of the invocation.</typeparam>
+          <param name="link">The link to invoke.</param>
+          <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+          <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+          <summary>
+            Asynchronously invokes a link and returns the result.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Store.PartnerCenter.PartnerExtensions" Member="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Store.PartnerCenter.Models.Link" />
+      </Targets>
+      <Member MemberName="InvokeAsync&lt;TRequest,TResponse&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResponse&gt; InvokeAsync&lt;TRequest,TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, TRequest requestBody, Newtonsoft.Json.JsonConverter converter = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResponse&gt; InvokeAsync&lt;TRequest, TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, !!TRequest requestBody, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;TResponse&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TRequest" />
+          <TypeParameter Name="TResponse" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+          <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+          <Parameter Name="requestBody" Type="TRequest" />
+          <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TRequest">The type of the request body.</typeparam>
+          <typeparam name="TResponse">The return type of the invocation.</typeparam>
+          <param name="link">The link to invoke.</param>
+          <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+          <param name="requestBody">The request body to send.</param>
+          <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+          <summary>
+            Asynchronously invokes a link with a request body and returns the result.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Store.PartnerCenter.PartnerExtensions" Member="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Exception" />
+      </Targets>
+      <Member MemberName="IsFatalException">
+        <MemberSignature Language="C#" Value="public static bool IsFatalException (this Exception ex);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFatalException(class System.Exception ex) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.IsFatalException(System.Exception)" />
+        <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsFatalException (ex As Exception) As Boolean" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="ex" Type="System.Exception" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="ex">The exception to check.</param>
+          <summary>
+            Checks if an exception is fatal.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Store.PartnerCenter.PartnerExtensions" Member="M:Microsoft.Store.PartnerCenter.PartnerExtensions.IsFatalException(System.Exception)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

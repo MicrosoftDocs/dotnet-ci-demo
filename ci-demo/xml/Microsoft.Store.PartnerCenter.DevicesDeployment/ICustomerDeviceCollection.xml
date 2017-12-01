@@ -1,0 +1,50 @@
+﻿<Type Name="ICustomerDeviceCollection" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerDeviceCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerDeviceCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerDeviceCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's devices.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public string Update (Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest devicePolicyUpdateRequest);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Update(class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest devicePolicyUpdateRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection.Update(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="devicePolicyUpdateRequest" Type="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DevicePolicyUpdateRequest" />
+      </Parameters>
+      <Docs>
+        <param name="devicePolicyUpdateRequest">The device policy update request with devices to be updated.</param>
+        <summary>
+            Updates the devices with configuration policies.
+            </summary>
+        <returns>The location of the status to track the update.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

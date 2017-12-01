@@ -1,0 +1,27 @@
+﻿<Type Name="TokenRefresher" FullName="Microsoft.Store.PartnerCenter.Extensions.TokenRefresher">
+  <TypeSignature Language="C#" Value="public delegate System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.AuthenticationToken&gt; TokenRefresher(AuthenticationToken expiredAuthenticationToken);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TokenRefresher extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Extensions.TokenRefresher" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Function TokenRefresher(expiredAuthenticationToken As AuthenticationToken) As Task(Of AuthenticationToken) " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Extensions</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="expiredAuthenticationToken" Type="Microsoft.Store.PartnerCenter.AuthenticationToken" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.AuthenticationToken&gt;</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="expiredAuthenticationToken">The authentication token which has expired.</param>
+    <summary>
+            Defines a delegate used to retrieve updated tokens.
+            </summary>
+    <returns>A delegate used to retrieve updated tokens.</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

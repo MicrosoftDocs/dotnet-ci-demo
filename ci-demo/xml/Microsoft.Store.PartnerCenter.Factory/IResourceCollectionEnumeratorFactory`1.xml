@@ -1,0 +1,52 @@
+﻿<Type Name="IResourceCollectionEnumeratorFactory&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IResourceCollectionEnumeratorFactory&lt;T&gt; where T : ResourceBaseWithLinks&lt;StandardResourceCollectionLinks&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResourceCollectionEnumeratorFactory`1&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1&lt;class Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;) T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IResourceCollectionEnumeratorFactory(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">The collection type.</typeparam>
+    <summary>
+            Creates resource collection enumerators which can enumerate through resource collections.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator&lt;T&gt; Create (T resourceCollection);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1&lt;!T&gt; Create(!T resourceCollection) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Factory.IResourceCollectionEnumeratorFactory`1.Create(`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (resourceCollection As T) As IResourceCollectionEnumerator(Of T)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceCollection" Type="T" />
+      </Parameters>
+      <Docs>
+        <param name="resourceCollection">The initial resource collection to start from.</param>
+        <summary>
+            Creates a resource collection enumerator capable of traversing the input collection.
+            </summary>
+        <returns>A resource collection enumerator capable of traversing the resource objects within the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

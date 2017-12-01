@@ -1,0 +1,145 @@
+﻿<Type Name="AzureDataMarketDailyUsageLineItem" FullName="Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem">
+  <TypeSignature Language="C#" Value="public sealed class AzureDataMarketDailyUsageLineItem : Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AzureDataMarketDailyUsageLineItem extends Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AzureDataMarketDailyUsageLineItem&#xA;Inherits BaseAzureDataMarketLineItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Invoices.BaseAzureDataMarketLineItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines the properties of an Azure data market daily usage line item.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureDataMarketDailyUsageLineItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvoiceLineItemType">
+      <MemberSignature Language="C#" Value="public override Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType InvoiceLineItemType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType InvoiceLineItemType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.InvoiceLineItemType" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InvoiceLineItemType As InvoiceLineItemType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the type of invoice line item.
+            </summary>
+        <value>The type of invoice line item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeteredServiceName">
+      <MemberSignature Language="C#" Value="public string MeteredServiceName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeteredServiceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.MeteredServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeteredServiceName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the metered service name.
+            Example: Storage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeteredServiceType">
+      <MemberSignature Language="C#" Value="public string MeteredServiceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeteredServiceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.MeteredServiceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeteredServiceType As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the metered service type.
+            Example: External.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceFriendlyName">
+      <MemberSignature Language="C#" Value="public string ResourceFriendlyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceFriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.ResourceFriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceFriendlyName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the customer assigned friendly name for the resource instance.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageDate">
+      <MemberSignature Language="C#" Value="public DateTime UsageDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime UsageDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.AzureDataMarketDailyUsageLineItem.UsageDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property UsageDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the usage date the resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

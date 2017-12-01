@@ -1,0 +1,123 @@
+﻿<Type Name="IOrder" FullName="Microsoft.Store.PartnerCenter.Orders.IOrder">
+  <TypeSignature Language="C#" Value="public interface IOrder : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IOrder implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Orders.IOrder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IOrder&#xA;Implements IEntityGetOperations(Of Order), IEntityPatchOperations(Of Order), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates a customer order behavior.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Orders.Order Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Orders.Order Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Orders.IOrder.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As Order" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Orders.Order</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the order information.
+            </summary>
+        <returns>The order information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Orders.Order&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Orders.IOrder.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of Order)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the order information.
+            </summary>
+        <returns>The order information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Orders.Order Patch (Microsoft.Store.PartnerCenter.Models.Orders.Order partialOrder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Orders.Order Patch(class Microsoft.Store.PartnerCenter.Models.Orders.Order partialOrder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Orders.IOrder.Patch(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Patch (partialOrder As Order) As Order" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Orders.Order</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partialOrder" Type="Microsoft.Store.PartnerCenter.Models.Orders.Order" />
+      </Parameters>
+      <Docs>
+        <param name="partialOrder">An order that has the properties to be patched set.</param>
+        <summary>
+            Patches the order.
+            </summary>
+        <returns>The updated order.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.Orders.Order partialOrder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Orders.Order&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.Orders.Order partialOrder) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Orders.IOrder.PatchAsync(Microsoft.Store.PartnerCenter.Models.Orders.Order)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (partialOrder As Order) As Task(Of Order)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Orders.Order&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partialOrder" Type="Microsoft.Store.PartnerCenter.Models.Orders.Order" />
+      </Parameters>
+      <Docs>
+        <param name="partialOrder">An order that has the properties to be patched set.</param>
+        <summary>
+            Asynchronously patches the order.
+            </summary>
+        <returns>The updated order.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

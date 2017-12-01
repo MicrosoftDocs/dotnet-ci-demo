@@ -1,0 +1,81 @@
+﻿<Type Name="ServiceCostsBillingPeriod" FullName="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod">
+  <TypeSignature Language="C#" Value="public enum ServiceCostsBillingPeriod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceCostsBillingPeriod extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceCostsBillingPeriod" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Represents service costs billing periods.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="Current" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod Current = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.Current" />
+      <MemberSignature Language="VB.NET" Value="Current" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The current billing period that is ongoing.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MostRecent">
+      <MemberSignature Language="C#" Value="MostRecent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod MostRecent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.MostRecent" />
+      <MemberSignature Language="VB.NET" Value="MostRecent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The most recently completed billing period.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default billing period, does not mean anything.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

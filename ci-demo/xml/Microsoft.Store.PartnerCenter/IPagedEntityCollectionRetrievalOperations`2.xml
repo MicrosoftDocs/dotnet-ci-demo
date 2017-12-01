@@ -1,0 +1,87 @@
+﻿<Type Name="IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;" FullName="Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;">
+  <TypeSignature Language="C#" Value="public interface IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt; where T : ResourceBase where TResourceCollection : ResourceCollection&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPagedEntityCollectionRetrievalOperations`2&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBase) T, (class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;!T&gt;) TResourceCollection&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPagedEntityCollectionRetrievalOperations(Of T, TResourceCollection)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TResourceCollection">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;T&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">The entity type.</typeparam>
+    <typeparam name="TResourceCollection">The entity collection type.</typeparam>
+    <summary>
+            A generic interface which represents paged entity retrieval operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public TResourceCollection Get (int offset, int size);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TResourceCollection Get(int32 offset, int32 size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2.Get(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (offset As Integer, size As Integer) As TResourceCollection" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResourceCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="size" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="offset">The starting index.</param>
+        <param name="size">The maximum number of entities to return.</param>
+        <summary>
+            Retrieves a subset of entities.
+            </summary>
+        <returns>The requested entities subset.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TResourceCollection&gt; GetAsync (int offset, int size);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!TResourceCollection&gt; GetAsync(int32 offset, int32 size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2.GetAsync(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (offset As Integer, size As Integer) As Task(Of TResourceCollection)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;TResourceCollection&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="size" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="offset">The starting index.</param>
+        <param name="size">The maximum number of entities to return.</param>
+        <summary>
+            Asynchronously retrieves a subset of entities.
+            </summary>
+        <returns>The requested entities subset.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

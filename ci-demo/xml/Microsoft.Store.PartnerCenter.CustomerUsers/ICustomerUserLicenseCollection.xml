@@ -1,0 +1,73 @@
+﻿<Type Name="ICustomerUserLicenseCollection" FullName="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerUserLicenseCollection : Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerUserLicenseCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerUserLicenseCollection&#xA;Implements IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of a customer's user license collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.License&gt; Get (System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.License&gt; Get(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection.Get(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (Optional licenseGroupIds As List(Of LicenseGroupId) = null) As ResourceCollection(Of License)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.License&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseGroupIds" Type="System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="licenseGroupIds">License group id.</param>
+        <summary>
+            Retrieves the assigned licenses to a customer user.
+            </summary>
+        <returns>The assigned licenses to a customer user.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.License&gt;&gt; GetAsync (System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.License&gt;&gt; GetAsync(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseCollection.GetAsync(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (Optional licenseGroupIds As List(Of LicenseGroupId) = null) As Task(Of ResourceCollection(Of License))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.License&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseGroupIds" Type="System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="licenseGroupIds">License group id.</param>
+        <summary>
+            Asynchronously retrieves the assigned licenses to a customer user.
+            </summary>
+        <returns>The assigned licenses to a customer user.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

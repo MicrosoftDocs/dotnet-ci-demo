@@ -1,0 +1,80 @@
+﻿<Type Name="PartnerLicensesDeploymentInsights" FullName="Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights">
+  <TypeSignature Language="C#" Value="public class PartnerLicensesDeploymentInsights : Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PartnerLicensesDeploymentInsights extends Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights" />
+  <TypeSignature Language="VB.NET" Value="Public Class PartnerLicensesDeploymentInsights&#xA;Inherits LicensesInsightsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds the analytics information about the deployment of all customers' licenses of the given partner.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerLicensesDeploymentInsights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicensesSold">
+      <MemberSignature Language="C#" Value="public long LicensesSold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LicensesSold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.LicensesSold" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicensesSold As Long" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of licenses sold as of processed time stamp.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProratedDeploymentPercent">
+      <MemberSignature Language="C#" Value="public double ProratedDeploymentPercent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 ProratedDeploymentPercent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesDeploymentInsights.ProratedDeploymentPercent" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProratedDeploymentPercent As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the percentage of licenses deployed by all the customers of this partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

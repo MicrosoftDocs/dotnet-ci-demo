@@ -1,0 +1,120 @@
+﻿<Type Name="IInvoice" FullName="Microsoft.Store.PartnerCenter.Invoices.IInvoice">
+  <TypeSignature Language="C#" Value="public interface IInvoice : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInvoice implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Invoices.IInvoice" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IInvoice&#xA;Implements IEntityGetOperations(Of Invoice), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents all the operations that can be done on an invoice.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="By">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection By (Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider billingProvider, Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType invoiceLineItemType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection By(valuetype Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider billingProvider, valuetype Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType invoiceLineItemType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.By(Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider,Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoiceLineItemCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="billingProvider" Type="Microsoft.Store.PartnerCenter.Models.Invoices.BillingProvider" />
+        <Parameter Name="invoiceLineItemType" Type="Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType" />
+      </Parameters>
+      <Docs>
+        <param name="billingProvider">The billing provider.</param>
+        <param name="invoiceLineItemType">The invoice line item type.</param>
+        <summary>
+            Creates an invoice line item collection operations given a billing provider and invoice line item type.
+            </summary>
+        <returns>The invoice line item collection operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Documents">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments Documents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments Documents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Invoices.IInvoice.Documents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Documents As IInvoiceDocuments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoiceDocuments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the invoice's documents operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Invoices.Invoice Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As Invoice" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.Invoice</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the invoice. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The invoice.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoice.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of Invoice)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the invoice. This operation is currently only supported for user based credentials.
+            </summary>
+        <returns>The invoice.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

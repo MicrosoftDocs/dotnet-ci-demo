@@ -1,0 +1,176 @@
+﻿<Type Name="IDeviceCollection" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection">
+  <TypeSignature Language="C#" Value="public interface IDeviceCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;,string&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeviceCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;, string&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDeviceCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of Device, ResourceCollection(Of Device)), IEntityCreateOperations(Of IEnumerable(Of Device), String), IEntitySelector(Of IDevice), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;,System.String&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's devices.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice ById (string deviceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice ById(string deviceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (deviceId As String) As IDevice" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deviceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="deviceId">The device id.</param>
+        <summary>
+            Retrieves a specific customer's device behavior.
+            </summary>
+        <returns>The customer device behavior.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public string Create (System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; newDevices);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Create(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; newDevices) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Create(System.Collections.Generic.IEnumerable{Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (newDevices As IEnumerable(Of Device)) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newDevices" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="newDevices">The new devices to be created.</param>
+        <summary>
+            Adds devices to existing devices batch.
+            </summary>
+        <returns>The location which indicates the URL of the API to query for status of the create request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; CreateAsync (System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; newDevices);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; CreateAsync(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; newDevices) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.CreateAsync(System.Collections.Generic.IEnumerable{Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device})" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateAsync (newDevices As IEnumerable(Of Device)) As Task(Of String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newDevices" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="newDevices">The new devices to be created.</param>
+        <summary>
+            Asynchronously adds devices to existing devices batch.
+            </summary>
+        <returns>The location which indicates the URL of the API to query for status of the create request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of Device)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all devices.
+            </summary>
+        <returns>The devices.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of Device))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all devices.
+            </summary>
+        <returns>The devices.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice this[string deviceId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IDeviceCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(deviceId As String) As IDevice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deviceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="deviceId">The device id.</param>
+        <summary>
+            Retrieves a specific customer's device behavior.
+            </summary>
+        <value>The customer device behavior.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

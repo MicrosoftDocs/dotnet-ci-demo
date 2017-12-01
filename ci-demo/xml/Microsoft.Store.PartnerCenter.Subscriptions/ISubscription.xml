@@ -1,0 +1,289 @@
+﻿<Type Name="ISubscription" FullName="Microsoft.Store.PartnerCenter.Subscriptions.ISubscription">
+  <TypeSignature Language="C#" Value="public interface ISubscription : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISubscription implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISubscription&#xA;Implements IEntityGetOperations(Of Subscription), IEntityPatchOperations(Of Subscription), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This interface defines the operations available on a customer's subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddOns">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection AddOns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection AddOns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.AddOns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddOns As ISubscriptionAddOnCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionAddOnCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's add-ons operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversions">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection Conversions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection Conversions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Conversions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversions As ISubscriptionConversionCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As Subscription" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the subscription.
+            </summary>
+        <returns>The subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of Subscription)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the subscription.
+            </summary>
+        <returns>The subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription Patch (Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription subscription);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription Patch(class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription subscription) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Patch(Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscription" Type="Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription" />
+      </Parameters>
+      <Docs>
+        <param name="subscription">A subscription that has the properties to be patched set.</param>
+        <summary>
+            Patches the subscription.
+            </summary>
+        <returns>The updated subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription subscription);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription subscription) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.PatchAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscription" Type="Microsoft.Store.PartnerCenter.Models.Subscriptions.Subscription" />
+      </Parameters>
+      <Docs>
+        <param name="subscription">A subscription that has the properties to be patched set.</param>
+        <summary>
+            Asynchronously patches the subscription.
+            </summary>
+        <returns>The updated subscription.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus ProvisioningStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus ProvisioningStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.ProvisioningStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningStatus As ISubscriptionProvisioningStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionProvisioningStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's provisioning status operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportContact">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact SupportContact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact SupportContact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.SupportContact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportContact As ISubscriptionSupportContact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionSupportContact</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's support contact operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Upgrades">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection Upgrades { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection Upgrades" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Upgrades" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Upgrades As ISubscriptionUpgradeCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionUpgradeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's upgrade operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageRecords">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection UsageRecords { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection UsageRecords" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.UsageRecords" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageRecords As ISubscriptionUsageRecordCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageRecordCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's resource usage records operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageSummary">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary UsageSummary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary UsageSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.UsageSummary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageSummary As ISubscriptionUsageSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.ISubscriptionUsageSummary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's usage summary operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Utilization">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection Utilization { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection Utilization" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Subscriptions.ISubscription.Utilization" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Utilization As IUtilizationCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Utilization.IUtilizationCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current subscription's utilization operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

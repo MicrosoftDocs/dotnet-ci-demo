@@ -1,0 +1,124 @@
+﻿<Type Name="ICustomerQualification" FullName="Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification">
+  <TypeSignature Language="C#" Value="public interface ICustomerQualification : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerQualification implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerQualification&#xA;Implements IEntityGetOperations(Of CustomerQualification), IEntityUpdateOperations(Of CustomerQualification), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Defines the operations available on a customer's qualification.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As CustomerQualification" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the customer qualification.
+            </summary>
+        <returns>Customer Qualification.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of CustomerQualification)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the customer qualification.
+            </summary>
+        <returns>Customer Qualification.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification Update (Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification customerQualification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification Update(valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification customerQualification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.Update(Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerQualification" Type="Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification" />
+      </Parameters>
+      <Docs>
+        <param name="customerQualification">Customer Qualification.</param>
+        <summary>
+            Updates the customer qualification.
+            </summary>
+        <returns>The updated customer qualification.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt; UpdateAsync (Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification customerQualification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt; UpdateAsync(valuetype Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification customerQualification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerQualification" Type="Microsoft.Store.PartnerCenter.Models.Customers.CustomerQualification" />
+      </Parameters>
+      <Docs>
+        <param name="customerQualification">Customer Qualification.</param>
+        <summary>
+            Asynchronously updates the customer qualification.
+            </summary>
+        <returns>The updated customer qualification.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

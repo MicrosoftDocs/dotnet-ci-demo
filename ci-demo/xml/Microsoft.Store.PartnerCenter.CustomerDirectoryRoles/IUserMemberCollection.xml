@@ -1,0 +1,229 @@
+﻿<Type Name="IUserMemberCollection" FullName="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection">
+  <TypeSignature Language="C#" Value="public interface IUserMemberCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember,Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember,Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUserMemberCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember, class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember, class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUserMemberCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of UserMember, SeekBasedResourceCollection(Of UserMember)), IEntityCreateOperations(Of UserMember), IEntityCreateOperations(Of UserMember, UserMember), IEntitySelector(Of IUserMember), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember,Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember,Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of user member collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember ById (string userId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember ById(string userId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (userId As String) As IUserMember" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId">The user id.</param>
+        <summary>
+            Gets a single user member behavior.
+            </summary>
+        <returns>The user member operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Roles.UserMember Create (Microsoft.Store.PartnerCenter.Models.Roles.UserMember newEntity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Roles.UserMember Create(class Microsoft.Store.PartnerCenter.Models.Roles.UserMember newEntity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Create(Microsoft.Store.PartnerCenter.Models.Roles.UserMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (newEntity As UserMember) As UserMember" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Roles.UserMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newEntity" Type="Microsoft.Store.PartnerCenter.Models.Roles.UserMember" />
+      </Parameters>
+      <Docs>
+        <param name="newEntity">UserMember to add.</param>
+        <summary>
+            Adds customer user to a directory role.
+            </summary>
+        <returns>The customer directory role user member.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; CreateAsync (Microsoft.Store.PartnerCenter.Models.Roles.UserMember newEntity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; CreateAsync(class Microsoft.Store.PartnerCenter.Models.Roles.UserMember newEntity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Roles.UserMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateAsync (newEntity As UserMember) As Task(Of UserMember)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newEntity" Type="Microsoft.Store.PartnerCenter.Models.Roles.UserMember" />
+      </Parameters>
+      <Docs>
+        <param name="newEntity">UserMember to add.</param>
+        <summary>
+            Asynchronously adds customer user to a directory role.
+            </summary>
+        <returns>The customer directory role user member.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As SeekBasedResourceCollection(Of UserMember)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets all the user members of a customer directory role.
+            </summary>
+        <returns>The directory role user memberships.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of SeekBasedResourceCollection(Of UserMember))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously gets all the user members of a customer directory role.
+            </summary>
+        <returns>The directory role user members.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember this[string userId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(userId As String) As IUserMember" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId">The user id.</param>
+        <summary>
+            Gets a single user member behavior.
+            </summary>
+        <value>The user member operations.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; Query (Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt; Query(class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Query (query As IQuery) As SeekBasedResourceCollection(Of UserMember)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="query">A query to apply onto user member collection.</param>
+        <summary>
+            Queries the user members of a customer directory role.
+            </summary>
+        <returns>The directory role user members.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt; QueryAsync (Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt; QueryAsync(class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryAsync (query As IQuery) As Task(Of SeekBasedResourceCollection(Of UserMember))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Roles.UserMember&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="query">A query to apply onto user member collection.</param>
+        <summary>
+            Asynchronously queries the user members of a customer directory role.
+            </summary>
+        <returns>The directory role user members.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,101 @@
+﻿<Type Name="CustomerLicensesDeploymentInsights" FullName="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights">
+  <TypeSignature Language="C#" Value="public class CustomerLicensesDeploymentInsights : Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CustomerLicensesDeploymentInsights extends Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomerLicensesDeploymentInsights&#xA;Inherits CustomerLicensesInsightsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds analytics information about deployment of licenses at the customer level.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CustomerLicensesDeploymentInsights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeploymentPercent">
+      <MemberSignature Language="C#" Value="public double DeploymentPercent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DeploymentPercent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.DeploymentPercent" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeploymentPercent As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the deployment percent of the licenses of the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicensesDeployed">
+      <MemberSignature Language="C#" Value="public long LicensesDeployed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LicensesDeployed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.LicensesDeployed" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicensesDeployed As Long" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of License/seats deployed as of processed date.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicensesSold">
+      <MemberSignature Language="C#" Value="public long LicensesSold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LicensesSold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights.LicensesSold" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicensesSold As Long" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of sold seats/licenses as of processed time stamp.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+﻿<Type Name="ResourceCollection&lt;TResource&gt;" FullName="Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;TResource&gt;">
+  <TypeSignature Language="C#" Value="public class ResourceCollection&lt;TResource&gt; : Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;TResource,Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceCollection`1&lt;TResource&gt; extends Microsoft.Store.PartnerCenter.Models.ResourceCollection`2&lt;!TResource, class Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResourceCollection(Of TResource)&#xA;Inherits ResourceCollection(Of TResource, StandardResourceCollectionLinks)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TResource" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;TResource,Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TResource">TResource</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TLinks">Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonObject</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TResource">Type of resources in collection.</typeparam>
+    <summary>
+            Holds a collection of resources with the default collection resource links.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ResourceCollection (Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;TResource&gt; resourceCollection);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;!TResource&gt; resourceCollection) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1.#ctor(Microsoft.Store.PartnerCenter.Models.ResourceCollection{`0})" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (resourceCollection As ResourceCollection(Of TResource))" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="resourceCollection" Type="Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;TResource&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="resourceCollection">The resource collection to copy from.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceCollection (System.Collections.Generic.ICollection&lt;TResource&gt; items);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.ICollection`1&lt;!TResource&gt; items) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1.#ctor(System.Collections.Generic.ICollection{`0})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (items As ICollection(Of TResource))" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="items" Type="System.Collections.Generic.ICollection&lt;TResource&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="items">The items.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Models.ResourceCollection`1" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
