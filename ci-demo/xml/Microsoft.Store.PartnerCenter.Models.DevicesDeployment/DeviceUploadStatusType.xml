@@ -1,0 +1,126 @@
+﻿<Type Name="DeviceUploadStatusType" FullName="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType">
+  <TypeSignature Language="C#" Value="public enum DeviceUploadStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeviceUploadStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeviceUploadStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Devices Batch upload status.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Finished">
+      <MemberSignature Language="C#" Value="Finished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Finished = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Finished" />
+      <MemberSignature Language="VB.NET" Value="Finished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Batch is complete.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FinishedWithErrors">
+      <MemberSignature Language="C#" Value="FinishedWithErrors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType FinishedWithErrors = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.FinishedWithErrors" />
+      <MemberSignature Language="VB.NET" Value="FinishedWithErrors" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Batch is complete with an error.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Processing">
+      <MemberSignature Language="C#" Value="Processing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Processing = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Processing" />
+      <MemberSignature Language="VB.NET" Value="Processing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Batch is processing.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Queued">
+      <MemberSignature Language="C#" Value="Queued" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Queued = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Queued" />
+      <MemberSignature Language="VB.NET" Value="Queued" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Batch is queued.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Should never happen.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

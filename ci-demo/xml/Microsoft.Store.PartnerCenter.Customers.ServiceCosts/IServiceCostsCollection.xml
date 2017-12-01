@@ -1,0 +1,65 @@
+﻿<Type Name="IServiceCostsCollection" FullName="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection">
+  <TypeSignature Language="C#" Value="public interface IServiceCostsCollection : Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceCostsCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServiceCostsCollection&#xA;Implements IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+             Holds the operations related to a customer's service costs.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LineItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection LineItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection LineItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection.LineItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineItems As IServiceCostLineItemsCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostLineItemsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the customer's service cost line items.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary Summary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary Summary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection.Summary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Summary As IServiceCostSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostSummary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the customer's service cost summary.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

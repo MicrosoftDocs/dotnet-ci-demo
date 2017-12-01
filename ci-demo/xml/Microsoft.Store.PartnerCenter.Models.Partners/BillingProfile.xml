@@ -1,0 +1,190 @@
+﻿<Type Name="BillingProfile" FullName="Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile">
+  <TypeSignature Language="C#" Value="public sealed class BillingProfile : Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BillingProfile extends Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1&lt;class Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BillingProfile&#xA;Inherits ResourceBaseWithLinks(Of StandardResourceLinks)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TLinks">Microsoft.Store.PartnerCenter.Models.StandardResourceLinks</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a partner's billing profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BillingProfile ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Address Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Address Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As Address" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the billing address.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingCurrency">
+      <MemberSignature Language="C#" Value="public string BillingCurrency { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingCurrency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.BillingCurrency" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingCurrency As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the billing currency.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingDay">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; BillingDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; BillingDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.BillingDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingDay As Nullable(Of Integer)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the billing day.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the billing company name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryContact">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Contact PrimaryContact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Contact PrimaryContact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.PrimaryContact" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimaryContact As Contact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Contact</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the billing primary contact.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PurchaseOrderNumber">
+      <MemberSignature Language="C#" Value="public string PurchaseOrderNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PurchaseOrderNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.PurchaseOrderNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property PurchaseOrderNumber As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the purchase order number.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaxId">
+      <MemberSignature Language="C#" Value="public string TaxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile.TaxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaxId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tax Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,154 @@
+﻿<Type Name="PolicySettingsType" FullName="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType">
+  <TypeSignature Language="C#" Value="public enum PolicySettingsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PolicySettingsType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PolicySettingsType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents the settings for an OOBE(Out of box experience) policy
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default value for policy settings.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OobeUserNotLocalAdmin">
+      <MemberSignature Language="C#" Value="OobeUserNotLocalAdmin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType OobeUserNotLocalAdmin = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.OobeUserNotLocalAdmin" />
+      <MemberSignature Language="VB.NET" Value="OobeUserNotLocalAdmin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            OOBE(Out of box experience) user will not be a local admin on the configured device. 
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveOemPreinstalls">
+      <MemberSignature Language="C#" Value="RemoveOemPreinstalls" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType RemoveOemPreinstalls = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.RemoveOemPreinstalls" />
+      <MemberSignature Language="VB.NET" Value="RemoveOemPreinstalls" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", Justification="naming convention.", MessageId="Oem")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Remove OEM Pre-installs.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipEula">
+      <MemberSignature Language="C#" Value="SkipEula" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType SkipEula = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipEula" />
+      <MemberSignature Language="VB.NET" Value="SkipEula" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            Skip EULA settings.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipExpressSettings">
+      <MemberSignature Language="C#" Value="SkipExpressSettings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType SkipExpressSettings = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipExpressSettings" />
+      <MemberSignature Language="VB.NET" Value="SkipExpressSettings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Skip express settings.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipOemRegistration">
+      <MemberSignature Language="C#" Value="SkipOemRegistration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType SkipOemRegistration = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType.SkipOemRegistration" />
+      <MemberSignature Language="VB.NET" Value="SkipOemRegistration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicySettingsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Skip OEM registration settings.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

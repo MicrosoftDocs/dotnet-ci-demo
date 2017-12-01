@@ -1,0 +1,122 @@
+﻿<Type Name="AzureOfferTerm" FullName="Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm">
+  <TypeSignature Language="C#" Value="public class AzureOfferTerm" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureOfferTerm extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureOfferTerm" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an offer term tied to an Azure rate card.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureOfferTerm ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Discount">
+      <MemberSignature Language="C#" Value="public double Discount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Discount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.Discount" />
+      <MemberSignature Language="VB.NET" Value="Public Property Discount As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the applied discount, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveDate">
+      <MemberSignature Language="C#" Value="public DateTime EffectiveDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EffectiveDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.EffectiveDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EffectiveDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the effective start date of the offer term (in UTC).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludedMeterIds">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; ExcludedMeterIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; ExcludedMeterIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.ExcludedMeterIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludedMeterIds As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the excluded meter IDs from the offer term, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.RateCards.AzureOfferTerm.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the offer name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

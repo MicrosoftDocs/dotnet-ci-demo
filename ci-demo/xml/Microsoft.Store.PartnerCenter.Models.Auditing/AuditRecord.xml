@@ -1,0 +1,337 @@
+﻿<Type Name="AuditRecord" FullName="Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord">
+  <TypeSignature Language="C#" Value="public class AuditRecord : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditRecord extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord" />
+  <TypeSignature Language="VB.NET" Value="Public Class AuditRecord&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a record of operation performed by a 
+            Partner user or application
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AuditRecord ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationId">
+      <MemberSignature Language="C#" Value="public string ApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ApplicationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the id of the app invoking the operation
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerId">
+      <MemberSignature Language="C#" Value="public string CustomerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the customerId of customer in whose context
+            operation was performed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerName">
+      <MemberSignature Language="C#" Value="public string CustomerName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of customer in whose context
+            operation was performed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomizedData">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomizedData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomizedData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.CustomizedData" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomizedData As IEnumerable(Of KeyValuePair(Of String, String))" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the dictionary which holds additional data
+            that is customized to the operation performed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a unique id for the audit record
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationDate">
+      <MemberSignature Language="C#" Value="public DateTime OperationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OperationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the dateTime when the operation was performed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus OperationStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus OperationStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationStatus As OperationStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the status of the operation that is audited
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationType">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Auditing.OperationType OperationType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Auditing.OperationType OperationType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OperationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationType As OperationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.OperationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the type of the operation being performed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalCorrelationId">
+      <MemberSignature Language="C#" Value="public string OriginalCorrelationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OriginalCorrelationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.OriginalCorrelationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginalCorrelationId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the CorrelationId associated with the initial operation that created this audit record
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartnerId">
+      <MemberSignature Language="C#" Value="public string PartnerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PartnerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.PartnerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PartnerId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a partner's Microsoft Tenant Id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceNewValue">
+      <MemberSignature Language="C#" Value="public string ResourceNewValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceNewValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceNewValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceNewValue As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the new value of the resource
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceOldValue">
+      <MemberSignature Language="C#" Value="public string ResourceOldValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceOldValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceOldValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceOldValue As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the old value of the resource 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType ResourceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType ResourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceType As ResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the  type of the resource acted upon by the operation
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserPrincipalName">
+      <MemberSignature Language="C#" Value="public string UserPrincipalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserPrincipalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord.UserPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserPrincipalName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the  UserId of the operation. This could be in the context of 
+            a 3rd party or 1st party application
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

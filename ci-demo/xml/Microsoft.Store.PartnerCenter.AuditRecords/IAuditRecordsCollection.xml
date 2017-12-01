@@ -1,0 +1,90 @@
+﻿<Type Name="IAuditRecordsCollection" FullName="Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection">
+  <TypeSignature Language="C#" Value="public interface IAuditRecordsCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAuditRecordsCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAuditRecordsCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on partners audit collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt; Query (DateTime startDate, Nullable&lt;DateTime&gt; endDate = null, Microsoft.Store.PartnerCenter.Models.Query.IQuery query = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt; Query(valuetype System.DateTime startDate, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; endDate, class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection.Query(System.DateTime,System.Nullable{System.DateTime},Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Query (startDate As DateTime, Optional endDate As Nullable(Of DateTime) = null, Optional query As IQuery = null) As SeekBasedResourceCollection(Of AuditRecord)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="endDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">The start date of the audit record logs.</param>
+        <param name="endDate">The end date of the audit record logs.</param>
+        <param name="query">The query.</param>
+        <summary>
+            Queries audit records associated to the partner.
+            The following queries are supported:
+            - Specify the number of audit record to return.
+            - Filter the result with a customer name.
+            </summary>
+        <returns>The audit records that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt;&gt; QueryAsync (DateTime startDate, Nullable&lt;DateTime&gt; endDate = null, Microsoft.Store.PartnerCenter.Models.Query.IQuery query = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt;&gt; QueryAsync(valuetype System.DateTime startDate, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; endDate, class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.AuditRecords.IAuditRecordsCollection.QueryAsync(System.DateTime,System.Nullable{System.DateTime},Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryAsync (startDate As DateTime, Optional endDate As Nullable(Of DateTime) = null, Optional query As IQuery = null) As Task(Of SeekBasedResourceCollection(Of AuditRecord))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecord&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="endDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">The start date of the audit record logs.</param>
+        <param name="endDate">The end date of the audit record logs.</param>
+        <param name="query">The query.</param>
+        <summary>
+            Asynchronously queries audit records associated to the partner.
+            The following queries are supported:
+            - Specify the number of audit record to return.
+            - Filter the result with a customer name.
+            </summary>
+        <returns>The audit records that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

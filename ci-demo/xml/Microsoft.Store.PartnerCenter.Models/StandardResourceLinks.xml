@@ -1,0 +1,64 @@
+﻿<Type Name="StandardResourceLinks" FullName="Microsoft.Store.PartnerCenter.Models.StandardResourceLinks">
+  <TypeSignature Language="C#" Value="public class StandardResourceLinks" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StandardResourceLinks extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" />
+  <TypeSignature Language="VB.NET" Value="Public Class StandardResourceLinks" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the standard links associated with a resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StandardResourceLinks ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Self">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Link Self { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Link Self" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.StandardResourceLinks.Self" />
+      <MemberSignature Language="VB.NET" Value="Public Property Self As Link" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Link</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the self URI.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

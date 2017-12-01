@@ -1,0 +1,86 @@
+﻿<Type Name="BillingType" FullName="Microsoft.Store.PartnerCenter.Models.Invoices.BillingType">
+  <TypeSignature Language="C#" Value="public enum BillingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BillingType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BillingType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The way billing is processed for a subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="License">
+      <MemberSignature Language="C#" Value="License" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Invoices.BillingType License = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.License" />
+      <MemberSignature Language="VB.NET" Value="License" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.BillingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            License based billing.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Invoices.BillingType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.BillingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Indicates nothing - not set, used as an initializer.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Usage">
+      <MemberSignature Language="C#" Value="Usage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Invoices.BillingType Usage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Invoices.BillingType.Usage" />
+      <MemberSignature Language="VB.NET" Value="Usage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.BillingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Usage based billing.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

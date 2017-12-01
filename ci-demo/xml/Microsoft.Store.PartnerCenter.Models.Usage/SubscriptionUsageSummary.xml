@@ -1,0 +1,80 @@
+﻿<Type Name="SubscriptionUsageSummary" FullName="Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary">
+  <TypeSignature Language="C#" Value="public sealed class SubscriptionUsageSummary : Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SubscriptionUsageSummary extends Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SubscriptionUsageSummary&#xA;Inherits UsageSummaryBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Usage.UsageSummaryBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines the usage summary for a specific subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscriptionUsageSummary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceId">
+      <MemberSignature Language="C#" Value="public string ResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.ResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Id of the subscription which this usage summary applies to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceName">
+      <MemberSignature Language="C#" Value="public string ResourceName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.SubscriptionUsageSummary.ResourceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the subscription which this usage summary applies to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

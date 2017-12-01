@@ -1,0 +1,28 @@
+﻿<Type Name="ICustomerLicensesDeploymentInsightsCollection" FullName="Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesDeploymentInsightsCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerLicensesDeploymentInsightsCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights&gt;&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerLicensesDeploymentInsightsCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights&gt;&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Analytics.ICustomerLicensesDeploymentInsightsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerLicensesDeploymentInsightsCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of CustomerLicensesDeploymentInsights, ResourceCollection(Of CustomerLicensesDeploymentInsights)), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesDeploymentInsights&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates the operations on the customer's licenses' deployment insights collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

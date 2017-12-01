@@ -1,0 +1,65 @@
+﻿<Type Name="IPartnerComponent&lt;TContext&gt;" FullName="Microsoft.Store.PartnerCenter.IPartnerComponent&lt;TContext&gt;">
+  <TypeSignature Language="C#" Value="public interface IPartnerComponent&lt;TContext&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPartnerComponent`1&lt;TContext&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.IPartnerComponent`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPartnerComponent(Of TContext)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TContext" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TContext">The type of the component's context object.</typeparam>
+    <summary>
+            Represents a partner SDK component.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public TContext Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartnerComponent`1.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As TContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the component context object.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Partner">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.IPartner Partner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.IPartner Partner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.IPartnerComponent`1.Partner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Partner As IPartner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.IPartner</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a reference to the partner operations instance that generated this component.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

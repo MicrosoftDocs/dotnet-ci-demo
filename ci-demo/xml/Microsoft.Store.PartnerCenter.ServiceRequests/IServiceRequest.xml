@@ -1,0 +1,121 @@
+﻿<Type Name="IServiceRequest" FullName="Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest">
+  <TypeSignature Language="C#" Value="public interface IServiceRequest : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceRequest implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServiceRequest&#xA;Implements IEntityGetOperations(Of ServiceRequest), IEntityPatchOperations(Of ServiceRequest), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Groups operations that can be performed on a single service request.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ServiceRequest" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the service request.
+            </summary>
+        <returns>The service request information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ServiceRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the service request.
+            </summary>
+        <returns>The service request information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest Patch (Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest serviceRequest);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest Patch(class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest serviceRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.Patch(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceRequest" Type="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest" />
+      </Parameters>
+      <Docs>
+        <param name="serviceRequest">The service request that has the properties to be patched set.</param>
+        <summary>
+            Patches a service request.
+            </summary>
+        <returns>The updated service request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest serviceRequest);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest serviceRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequest.PatchAsync(Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceRequest" Type="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequest" />
+      </Parameters>
+      <Docs>
+        <param name="serviceRequest">The service request that has the properties to be patched set.</param>
+        <summary>
+            Asynchronously patches a service request.
+            </summary>
+        <returns>The updated service request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

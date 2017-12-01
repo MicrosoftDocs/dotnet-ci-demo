@@ -1,0 +1,86 @@
+﻿<Type Name="AuditRecordSearchField" FullName="Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField">
+  <TypeSignature Language="C#" Value="public enum AuditRecordSearchField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AuditRecordSearchField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AuditRecordSearchField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Lists the supported audit search fields.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="CompanyName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField CompanyName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="CompanyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Customer company name.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerId">
+      <MemberSignature Language="C#" Value="CustomerId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField CustomerId = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.CustomerId" />
+      <MemberSignature Language="VB.NET" Value="CustomerId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Customer Id (Guid).
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="ResourceType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField ResourceType = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="ResourceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.AuditRecordSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Resource Type as defined in available Resource Types (Example: Order, Subscription).
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

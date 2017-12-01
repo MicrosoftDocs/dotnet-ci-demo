@@ -1,0 +1,124 @@
+﻿<Type Name="IOrganizationProfile" FullName="Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile">
+  <TypeSignature Language="C#" Value="public interface IOrganizationProfile : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IOrganizationProfile implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IOrganizationProfile&#xA;Implements IEntityGetOperations(Of OrganizationProfile), IEntityUpdateOperations(Of OrganizationProfile), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates the behavior of an organization profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As OrganizationProfile" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the partner's organization profile.
+            </summary>
+        <returns>The organization profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of OrganizationProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the partner's organization profile.
+            </summary>
+        <returns>The organization profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile Update (Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile organizationProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile Update(class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile organizationProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="organizationProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile" />
+      </Parameters>
+      <Docs>
+        <param name="organizationProfile">The organization profile.</param>
+        <summary>
+            Updates the partner's organization profile.
+            </summary>
+        <returns>The updated organization profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt; UpdateAsync (Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile organizationProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt; UpdateAsync(class Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile organizationProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IOrganizationProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="organizationProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.OrganizationProfile" />
+      </Parameters>
+      <Docs>
+        <param name="organizationProfile">The organization profile.</param>
+        <summary>
+            Asynchronously updates the partner's organization profile.
+            </summary>
+        <returns>The updated organization profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

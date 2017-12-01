@@ -1,0 +1,74 @@
+﻿<Type Name="ICustomerRelationshipCollection" FullName="Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerRelationshipCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerRelationshipCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerRelationshipCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of PartnerRelationship, ResourceCollection(Of PartnerRelationship)), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            For two-tier partner scenarios, holds the operations for retrieving partner relationships of a customer with respect to
+            the logged in partner.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of PartnerRelationship)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all the partner relationships associated to the customer based on the logged in partner.
+            </summary>
+        <returns>The partner relationships.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of PartnerRelationship))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all the partner relationships associated to the customer based on the logged in partner.
+            </summary>
+        <returns>The partner relationships.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

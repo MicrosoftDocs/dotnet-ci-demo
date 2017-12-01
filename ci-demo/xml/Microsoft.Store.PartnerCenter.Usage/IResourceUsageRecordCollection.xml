@@ -1,0 +1,70 @@
+﻿<Type Name="IResourceUsageRecordCollection" FullName="Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection">
+  <TypeSignature Language="C#" Value="public interface IResourceUsageRecordCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResourceUsageRecordCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IResourceUsageRecordCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of AzureResourceMonthlyUsageRecord, ResourceCollection(Of AzureResourceMonthlyUsageRecord)), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Defines the behavior for a subscription's resource usage records.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of AzureResourceMonthlyUsageRecord)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the subscription's resource usage records.
+            </summary>
+        <returns>The subscription's resource usage records.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.IResourceUsageRecordCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of AzureResourceMonthlyUsageRecord))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the subscription's resource usage records.
+            </summary>
+        <returns>The subscription's resource usage records.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

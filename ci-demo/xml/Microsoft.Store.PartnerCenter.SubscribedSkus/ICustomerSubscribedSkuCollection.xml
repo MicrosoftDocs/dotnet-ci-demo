@@ -1,0 +1,76 @@
+﻿<Type Name="ICustomerSubscribedSkuCollection" FullName="Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerSubscribedSkuCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerSubscribedSkuCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerSubscribedSkuCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of the customer's subscribed products.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt; Get (System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt; Get(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection.Get(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (Optional licenseGroupIds As List(Of LicenseGroupId) = null) As ResourceCollection(Of SubscribedSku)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseGroupIds" Type="System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="licenseGroupIds"> License group id.</param>
+        <summary>
+            Retrieves all the customer subscribed products.
+            </summary>
+        <returns>All the customer subscribed products.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt;&gt; GetAsync (System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt;&gt; GetAsync(class System.Collections.Generic.List`1&lt;valuetype Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt; licenseGroupIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection.GetAsync(System.Collections.Generic.List{Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (Optional licenseGroupIds As List(Of LicenseGroupId) = null) As Task(Of ResourceCollection(Of SubscribedSku))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Licenses.SubscribedSku&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseGroupIds" Type="System.Collections.Generic.List&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseGroupId&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="licenseGroupIds"> License group id.</param>
+        <summary>
+            Asynchronously retrieves all the customer subscribed products.
+            </summary>
+        <returns>All the customer subscribed products.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

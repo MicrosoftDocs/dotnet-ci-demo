@@ -1,0 +1,111 @@
+﻿<Type Name="SimpleFieldFilter" FullName="Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter">
+  <TypeSignature Language="C#" Value="public sealed class SimpleFieldFilter : Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SimpleFieldFilter extends Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SimpleFieldFilter&#xA;Inherits FieldFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Query.FieldFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A simple filter applied to a field. An example is (Year lessThan 1999).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SimpleFieldFilter (string field, Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation operation, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string field, valuetype Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation operation, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.#ctor(System.String,Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (field As String, operation As FieldFilterOperation, value As String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="field" Type="System.String" />
+        <Parameter Name="operation" Type="Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="field">The filter field name</param>
+        <param name="operation">The operator value.</param>
+        <param name="value">The value to execute the operator on.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Field">
+      <MemberSignature Language="C#" Value="public string Field { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Field" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.Field" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Field As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the filter field name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Prints the simple filter details.
+            </summary>
+        <returns>The simple filter details.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the filter value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

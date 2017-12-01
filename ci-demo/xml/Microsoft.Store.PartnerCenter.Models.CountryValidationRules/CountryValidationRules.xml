@@ -1,0 +1,395 @@
+﻿<Type Name="CountryValidationRules" FullName="Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules">
+  <TypeSignature Language="C#" Value="public sealed class CountryValidationRules : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CountryValidationRules extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CountryValidationRules&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds validation information for a single country.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CountryValidationRules ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountryCallingCodesList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; CountryCallingCodesList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; CountryCallingCodesList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.CountryCallingCodesList" />
+      <MemberSignature Language="VB.NET" Value="Public Property CountryCallingCodesList As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the country calling codes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultCulture">
+      <MemberSignature Language="C#" Value="public string DefaultCulture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultCulture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.DefaultCulture" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultCulture As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the default culture.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCityRequired">
+      <MemberSignature Language="C#" Value="public bool IsCityRequired { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCityRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsCityRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCityRequired As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether a city is required or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Iso2Code">
+      <MemberSignature Language="C#" Value="public string Iso2Code { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Iso2Code" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.Iso2Code" />
+      <MemberSignature Language="VB.NET" Value="Public Property Iso2Code As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the ISO2 code.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPostalCodeRequired">
+      <MemberSignature Language="C#" Value="public bool IsPostalCodeRequired { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPostalCodeRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsPostalCodeRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPostalCodeRequired As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether a postal code is required or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsStateRequired">
+      <MemberSignature Language="C#" Value="public bool IsStateRequired { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsStateRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsStateRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsStateRequired As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the state is required or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTaxIdOptional">
+      <MemberSignature Language="C#" Value="public bool IsTaxIdOptional { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTaxIdOptional" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsTaxIdOptional" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTaxIdOptional As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether a tax Id is optional or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTaxIdSupported">
+      <MemberSignature Language="C#" Value="public bool IsTaxIdSupported { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTaxIdSupported" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsTaxIdSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTaxIdSupported As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether a tax Id is supported or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVatIdSupported">
+      <MemberSignature Language="C#" Value="public bool IsVatIdSupported { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVatIdSupported" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.IsVatIdSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVatIdSupported As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether a VAT Id is required or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumberRegex">
+      <MemberSignature Language="C#" Value="public string PhoneNumberRegex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneNumberRegex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.PhoneNumberRegex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneNumberRegex As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the phone number regular expression.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCodeRegex">
+      <MemberSignature Language="C#" Value="public string PostalCodeRegex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCodeRegex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.PostalCodeRegex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCodeRegex As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the postal code regular expression.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedCulturesList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedCulturesList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedCulturesList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedCulturesList" />
+      <MemberSignature Language="VB.NET" Value="Public Property SupportedCulturesList As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a list of supported cultures.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedLanguagesList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedLanguagesList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedLanguagesList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedLanguagesList" />
+      <MemberSignature Language="VB.NET" Value="Public Property SupportedLanguagesList As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a list of supported languages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedStatesList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedStatesList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedStatesList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.SupportedStatesList" />
+      <MemberSignature Language="VB.NET" Value="Public Property SupportedStatesList As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a list of states in the country.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaxIdFormat">
+      <MemberSignature Language="C#" Value="public string TaxIdFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaxIdFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.TaxIdFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaxIdFormat As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tax Id format.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaxIdSample">
+      <MemberSignature Language="C#" Value="public string TaxIdSample { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaxIdSample" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.TaxIdSample" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaxIdSample As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tax Id sample.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VatIdRegex">
+      <MemberSignature Language="C#" Value="public string VatIdRegex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VatIdRegex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.CountryValidationRules.CountryValidationRules.VatIdRegex" />
+      <MemberSignature Language="VB.NET" Value="Public Property VatIdRegex As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tax Id regular expression.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

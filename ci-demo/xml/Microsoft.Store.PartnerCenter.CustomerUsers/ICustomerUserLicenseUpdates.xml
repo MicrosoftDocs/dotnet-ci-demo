@@ -1,0 +1,87 @@
+﻿<Type Name="ICustomerUserLicenseUpdates" FullName="Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates">
+  <TypeSignature Language="C#" Value="public interface ICustomerUserLicenseUpdates : Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate,Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerUserLicenseUpdates implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate, class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerUserLicenseUpdates&#xA;Implements IEntityCreateOperations(Of LicenseUpdate), IEntityCreateOperations(Of LicenseUpdate, LicenseUpdate), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate,Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of a customer user's license update collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate Create (Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate Create(class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates.Create(Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (entity As LicenseUpdate) As LicenseUpdate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="entity">License update object.</param>
+        <summary>
+            Assign licenses to a user.
+            This method serves three scenarios:
+            1. Add license to a customer user.
+            2. Remove license from a customer user.
+            3. Update existing license for a customer user.
+            </summary>
+        <returns>Returned license update object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt; CreateAsync (Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate entity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt; CreateAsync(class Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate entity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserLicenseUpdates.CreateAsync(Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateAsync (entity As LicenseUpdate) As Task(Of LicenseUpdate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entity" Type="Microsoft.Store.PartnerCenter.Models.Licenses.LicenseUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="entity">License update object.</param>
+        <summary>
+            Asynchronously assign licenses to a user.
+            This method serves three scenarios:
+            1. Add license to a customer user.
+            2. Remove license from a customer user.
+            3. Update existing license for a customer user.
+            </summary>
+        <returns>Returned license update object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

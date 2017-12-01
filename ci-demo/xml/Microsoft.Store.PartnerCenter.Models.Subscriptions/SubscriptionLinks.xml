@@ -1,0 +1,90 @@
+﻿<Type Name="SubscriptionLinks" FullName="Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks">
+  <TypeSignature Language="C#" Value="public sealed class SubscriptionLinks : Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SubscriptionLinks extends Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SubscriptionLinks&#xA;Inherits StandardResourceLinks" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.StandardResourceLinks</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Bundles links associated with a subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscriptionLinks ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offer">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Link Offer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Link Offer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.Offer" />
+      <MemberSignature Language="VB.NET" Value="Public Property Offer As Link" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Link</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the offer link associated with the subscription.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentSubscription">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Link ParentSubscription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Link ParentSubscription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.SubscriptionLinks.ParentSubscription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentSubscription As Link" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Link</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the parent subscription link.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

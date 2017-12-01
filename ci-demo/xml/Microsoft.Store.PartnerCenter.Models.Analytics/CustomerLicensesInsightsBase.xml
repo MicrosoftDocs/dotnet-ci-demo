@@ -1,0 +1,122 @@
+﻿<Type Name="CustomerLicensesInsightsBase" FullName="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase">
+  <TypeSignature Language="C#" Value="public abstract class CustomerLicensesInsightsBase : Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CustomerLicensesInsightsBase extends Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CustomerLicensesInsightsBase&#xA;Inherits LicensesInsightsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Analytics.LicensesInsightsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            SDK business object model for common properties of customer licenses analytics.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CustomerLicensesInsightsBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerId">
+      <MemberSignature Language="C#" Value="public string CustomerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.CustomerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Customer Id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerName">
+      <MemberSignature Language="C#" Value="public string CustomerName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.CustomerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Customer Name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductName">
+      <MemberSignature Language="C#" Value="public string ProductName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProductName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.ProductName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProductName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the product/plan name of the given service. (Example: OFFICE 365 BUSINESS ESSENTIALS).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceCode">
+      <MemberSignature Language="C#" Value="public string ServiceCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase.ServiceCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceCode As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Service Code of the License. Example (Office 365 : O365).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

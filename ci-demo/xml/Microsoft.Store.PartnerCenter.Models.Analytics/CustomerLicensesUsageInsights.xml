@@ -1,0 +1,143 @@
+﻿<Type Name="CustomerLicensesUsageInsights" FullName="Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights">
+  <TypeSignature Language="C#" Value="public class CustomerLicensesUsageInsights : Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CustomerLicensesUsageInsights extends Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomerLicensesUsageInsights&#xA;Inherits CustomerLicensesInsightsBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesInsightsBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            SDK business object model for Insights of license usage at customer level.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CustomerLicensesUsageInsights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicensesActive">
+      <MemberSignature Language="C#" Value="public long LicensesActive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LicensesActive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.LicensesActive" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicensesActive As Long" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total active seats as of processed time stamp.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicensesQualified">
+      <MemberSignature Language="C#" Value="public long LicensesQualified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LicensesQualified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.LicensesQualified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicensesQualified As Long" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total qualified entitlements as of processed time stamp.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsagePercent">
+      <MemberSignature Language="C#" Value="public double UsagePercent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 UsagePercent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.UsagePercent" />
+      <MemberSignature Language="VB.NET" Value="Public Property UsagePercent As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the usage percent of the given workload.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkloadCode">
+      <MemberSignature Language="C#" Value="public string WorkloadCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkloadCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.WorkloadCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkloadCode As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Workload Code. (Example : Exchange - EXO).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkloadName">
+      <MemberSignature Language="C#" Value="public string WorkloadName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkloadName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Analytics.CustomerLicensesUsageInsights.WorkloadName" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkloadName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Workload name (Example: Exchange).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

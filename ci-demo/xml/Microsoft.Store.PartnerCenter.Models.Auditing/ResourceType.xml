@@ -1,0 +1,147 @@
+﻿<Type Name="ResourceType" FullName="Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType">
+  <TypeSignature Language="C#" Value="public enum ResourceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResourceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResourceType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Enumeration to represent type of 
+            Resource being performed
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Customer">
+      <MemberSignature Language="C#" Value="Customer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType Customer = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Customer" />
+      <MemberSignature Language="VB.NET" Value="Customer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Customer Resource
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerUser">
+      <MemberSignature Language="C#" Value="CustomerUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType CustomerUser = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.CustomerUser" />
+      <MemberSignature Language="VB.NET" Value="CustomerUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Customer User
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="License">
+      <MemberSignature Language="C#" Value="License" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType License = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.License" />
+      <MemberSignature Language="VB.NET" Value="License" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            License Resource
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="Order" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType Order = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Order" />
+      <MemberSignature Language="VB.NET" Value="Order" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Order Resource
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscription">
+      <MemberSignature Language="C#" Value="Subscription" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType Subscription = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.Subscription" />
+      <MemberSignature Language="VB.NET" Value="Subscription" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Subscription Resource
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ThirdPartyAddOn">
+      <MemberSignature Language="C#" Value="ThirdPartyAddOn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType ThirdPartyAddOn = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType.ThirdPartyAddOn" />
+      <MemberSignature Language="VB.NET" Value="ThirdPartyAddOn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Auditing.ResourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Third party add on Resource
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

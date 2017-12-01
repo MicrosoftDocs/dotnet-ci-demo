@@ -1,0 +1,61 @@
+﻿<Type Name="ConversionErrorCode" FullName="Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode">
+  <TypeSignature Language="C#" Value="public enum ConversionErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversionErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversionErrorCode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of errors that prevent trial subscription conversion from happening.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConversionsNotFound">
+      <MemberSignature Language="C#" Value="ConversionsNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode ConversionsNotFound = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode.ConversionsNotFound" />
+      <MemberSignature Language="VB.NET" Value="ConversionsNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Cannot find any conversions for the trial subscription to convert to.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode Other = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            General error.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

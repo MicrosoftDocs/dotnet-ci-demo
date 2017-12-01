@@ -1,0 +1,28 @@
+﻿<Type Name="IPartnerLicensesUsageInsightsCollection" FullName="Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesUsageInsightsCollection">
+  <TypeSignature Language="C#" Value="public interface IPartnerLicensesUsageInsightsCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights&gt;&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPartnerLicensesUsageInsightsCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights&gt;&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Analytics.IPartnerLicensesUsageInsightsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPartnerLicensesUsageInsightsCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of PartnerLicensesUsageInsights, ResourceCollection(Of PartnerLicensesUsageInsights)), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Analytics.PartnerLicensesUsageInsights&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates the operations on the partner's licenses' usage insights collection.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

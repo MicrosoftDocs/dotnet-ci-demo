@@ -1,0 +1,73 @@
+﻿<Type Name="ICustomerRelationshipRequest" FullName="Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest">
+  <TypeSignature Language="C#" Value="public interface ICustomerRelationshipRequest : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerRelationshipRequest implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerRelationshipRequest&#xA;Implements IEntityGetOperations(Of CustomerRelationshipRequest), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Holds operations that apply to customer relationship requests.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As CustomerRelationshipRequest" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the customer relationship request which can be used by a customer to establish a relationship with the current partner.
+            </summary>
+        <returns>A customer relationship request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of CustomerRelationshipRequest)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.RelationshipRequests.CustomerRelationshipRequest&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the customer relationship request which can be used by a customer to establish a relationship with the current partner.
+            </summary>
+        <returns>A customer relationship request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

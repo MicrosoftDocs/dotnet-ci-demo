@@ -1,0 +1,66 @@
+﻿<Type Name="PolicyCategory" FullName="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory">
+  <TypeSignature Language="C#" Value="public enum PolicyCategory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PolicyCategory extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PolicyCategory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents the policy type that can be assigned to a device. 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default settings for the policy. 
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OOBE">
+      <MemberSignature Language="C#" Value="OOBE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory OOBE = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory.OOBE" />
+      <MemberSignature Language="VB.NET" Value="OOBE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.PolicyCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            OOBE - Out of box experience policy setting. 
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

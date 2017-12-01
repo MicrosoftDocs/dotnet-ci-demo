@@ -1,0 +1,124 @@
+﻿<Type Name="IBillingProfile" FullName="Microsoft.Store.PartnerCenter.Profiles.IBillingProfile">
+  <TypeSignature Language="C#" Value="public interface IBillingProfile : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBillingProfile implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBillingProfile&#xA;Implements IEntityGetOperations(Of BillingProfile), IEntityUpdateOperations(Of BillingProfile), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates behavior of a billing profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As BillingProfile" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves a partner's billing profile.
+            </summary>
+        <returns>The billing profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of BillingProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves a partner's billing profile.
+            </summary>
+        <returns>The billing profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile Update (Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile billingProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile Update(class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile billingProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="billingProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile" />
+      </Parameters>
+      <Docs>
+        <param name="billingProfile">The billing profile information.</param>
+        <summary>
+            Updates the partner's billing profile.
+            </summary>
+        <returns>The updated billing profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt; UpdateAsync (Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile billingProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt; UpdateAsync(class Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile billingProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.IBillingProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="billingProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.BillingProfile" />
+      </Parameters>
+      <Docs>
+        <param name="billingProfile">The billing profile information.</param>
+        <summary>
+            Asynchronously updates the partner's billing profile.
+            </summary>
+        <returns>The updated billing profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

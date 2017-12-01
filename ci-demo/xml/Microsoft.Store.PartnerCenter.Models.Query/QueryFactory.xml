@@ -1,0 +1,166 @@
+﻿<Type Name="QueryFactory" FullName="Microsoft.Store.PartnerCenter.Models.Query.QueryFactory">
+  <TypeSignature Language="C#" Value="public sealed class QueryFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit QueryFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class QueryFactory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Creates new instances of <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.IQuery" /> objects.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BuildCountQuery">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildCountQuery (Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter = null, object token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildCountQuery(class Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter, object token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildCountQuery(Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BuildCountQuery (Optional filter As FieldFilter = null, Optional token As Object = null) As IQuery" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Query.IQuery</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+        <Parameter Name="token" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="filter">An optional filter.</param>
+        <param name="token">Optional query token.</param>
+        <summary>
+            Builds a count query.
+            </summary>
+        <returns>A count query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildIndexedQuery">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildIndexedQuery (int pageSize, int index = 0, Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter = null, Microsoft.Store.PartnerCenter.Models.Query.Sort sortOption = null, object token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildIndexedQuery(int32 pageSize, int32 index, class Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter, class Microsoft.Store.PartnerCenter.Models.Query.Sort sortOption, object token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildIndexedQuery(System.Int32,System.Int32,Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BuildIndexedQuery (pageSize As Integer, Optional index As Integer = 0, Optional filter As FieldFilter = null, Optional sortOption As Sort = null, Optional token As Object = null) As IQuery" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Query.IQuery</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="filter" Type="Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+        <Parameter Name="sortOption" Type="Microsoft.Store.PartnerCenter.Models.Query.Sort" />
+        <Parameter Name="token" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">The number of results to return.</param>
+        <param name="index">The results starting index.</param>
+        <param name="filter">An optional filter.</param>
+        <param name="sortOption">Optional sorting options.</param>
+        <param name="token">Optional query token.</param>
+        <summary>
+            Builds an indexed query.
+            </summary>
+        <returns>A paged query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildSeekQuery">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildSeekQuery (Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation, int pageSize = 0, int index = 0, Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter = null, Microsoft.Store.PartnerCenter.Models.Query.Sort sortingOption = null, object token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildSeekQuery(valuetype Microsoft.Store.PartnerCenter.Models.Query.SeekOperation seekOperation, int32 pageSize, int32 index, class Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter, class Microsoft.Store.PartnerCenter.Models.Query.Sort sortingOption, object token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildSeekQuery(Microsoft.Store.PartnerCenter.Models.Query.SeekOperation,System.Int32,System.Int32,Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Query.IQuery</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="seekOperation" Type="Microsoft.Store.PartnerCenter.Models.Query.SeekOperation" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="filter" Type="Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+        <Parameter Name="sortingOption" Type="Microsoft.Store.PartnerCenter.Models.Query.Sort" />
+        <Parameter Name="token" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="seekOperation">The seek operation to perform.</param>
+        <param name="pageSize">The desired result page size.</param>
+        <param name="index">The index of the page to retrieve. This is only used if the seek operation specified a page index.</param>
+        <param name="filter">An optional filter to apply.</param>
+        <param name="sortingOption">An optional sorting options.</param>
+        <param name="token">An optional query token.</param>
+        <summary>
+            Builds a seek query.
+            </summary>
+        <returns>The seek query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildSimpleQuery">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildSimpleQuery (Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter = null, Microsoft.Store.PartnerCenter.Models.Query.Sort sortOption = null, object token = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.Models.Query.IQuery BuildSimpleQuery(class Microsoft.Store.PartnerCenter.Models.Query.FieldFilter filter, class Microsoft.Store.PartnerCenter.Models.Query.Sort sortOption, object token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.BuildSimpleQuery(Microsoft.Store.PartnerCenter.Models.Query.FieldFilter,Microsoft.Store.PartnerCenter.Models.Query.Sort,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BuildSimpleQuery (Optional filter As FieldFilter = null, Optional sortOption As Sort = null, Optional token As Object = null) As IQuery" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Query.IQuery</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="Microsoft.Store.PartnerCenter.Models.Query.FieldFilter" />
+        <Parameter Name="sortOption" Type="Microsoft.Store.PartnerCenter.Models.Query.Sort" />
+        <Parameter Name="token" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="filter">An optional filter.</param>
+        <param name="sortOption">Optional sorting options.</param>
+        <param name="token">Optional query token.</param>
+        <summary>
+            Builds a simple query.
+            </summary>
+        <returns>A simple query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public static Microsoft.Store.PartnerCenter.Models.Query.QueryFactory Instance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Store.PartnerCenter.Models.Query.QueryFactory Instance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory.Instance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Instance As QueryFactory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Query.QueryFactory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an instance of the query factory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

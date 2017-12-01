@@ -1,0 +1,44 @@
+﻿<Type Name="IDirectoryRole" FullName="Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole">
+  <TypeSignature Language="C#" Value="public interface IDirectoryRole : Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDirectoryRole implements class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDirectoryRole&#xA;Implements IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of directory role.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UserMembers">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection UserMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection UserMembers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRole.UserMembers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserMembers As IUserMemberCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IUserMemberCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current directory role's user member collection operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

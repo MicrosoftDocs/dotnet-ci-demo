@@ -1,0 +1,125 @@
+﻿<Type Name="ILegalBusinessProfile" FullName="Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile">
+  <TypeSignature Language="C#" Value="public interface ILegalBusinessProfile : Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILegalBusinessProfile implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILegalBusinessProfile&#xA;Implements IEntityUpdateOperations(Of LegalBusinessProfile), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityUpdateOperations&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Encapsulates behavior of a partner's legal business profile.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile Get (Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion vettingVersion = Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion.Current);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile Get(valuetype Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion vettingVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.Get(Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vettingVersion" Type="Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion" />
+      </Parameters>
+      <Docs>
+        <param name="vettingVersion">(Optional) The vetting version. The default value is set to Current.</param>
+        <summary>
+            Retrieves the legal business profile.
+            </summary>
+        <returns>The legal business profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt; GetAsync (Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion vettingVersion = Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion.Current);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt; GetAsync(valuetype Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion vettingVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.GetAsync(Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vettingVersion" Type="Microsoft.Store.PartnerCenter.Models.Partners.VettingVersion" />
+      </Parameters>
+      <Docs>
+        <param name="vettingVersion">(Optional) The vetting version. The default value is set to Current.</param>
+        <summary>
+            Asynchronously retrieves the legal business profile.
+            </summary>
+        <returns>The legal business profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile Update (Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile legalBusinessProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile Update(class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile legalBusinessProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.Update(Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="legalBusinessProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile" />
+      </Parameters>
+      <Docs>
+        <param name="legalBusinessProfile">The legal business profile information.</param>
+        <summary>
+            Updates the legal business profile.
+            </summary>
+        <returns>The updated legal business profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt; UpdateAsync (Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile legalBusinessProfile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt; UpdateAsync(class Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile legalBusinessProfile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Profiles.ILegalBusinessProfile.UpdateAsync(Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="legalBusinessProfile" Type="Microsoft.Store.PartnerCenter.Models.Partners.LegalBusinessProfile" />
+      </Parameters>
+      <Docs>
+        <param name="legalBusinessProfile">The legal business profile information.</param>
+        <summary>
+            Asynchronously updates the legal business profile.
+            </summary>
+        <returns>The updated legal business profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

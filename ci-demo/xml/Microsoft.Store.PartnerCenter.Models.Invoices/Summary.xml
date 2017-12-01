@@ -1,0 +1,146 @@
+﻿<Type Name="Summary" FullName="Microsoft.Store.PartnerCenter.Models.Invoices.Summary">
+  <TypeSignature Language="C#" Value="public sealed class Summary : Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Summary extends Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1&lt;class Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Invoices.Summary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Summary&#xA;Inherits ResourceBaseWithLinks(Of StandardResourceLinks)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceLinks&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TLinks">Microsoft.Store.PartnerCenter.Models.StandardResourceLinks</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a summary of the partner's monthly bills.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Summary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccountingDate">
+      <MemberSignature Language="C#" Value="public DateTime AccountingDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AccountingDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.AccountingDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccountingDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the date the balance amount was last updated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BalanceAmount">
+      <MemberSignature Language="C#" Value="public decimal BalanceAmount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal BalanceAmount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.BalanceAmount" />
+      <MemberSignature Language="VB.NET" Value="Public Property BalanceAmount As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the balance amount. This is the total amount of unpaid bills.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrencyCode">
+      <MemberSignature Language="C#" Value="public string CurrencyCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrencyCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.CurrencyCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrencyCode As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the currency code for the balance amount.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrencySymbol">
+      <MemberSignature Language="C#" Value="public string CurrencySymbol { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrencySymbol" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.CurrencySymbol" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrencySymbol As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the currency symbol used for all invoice item amounts and totals.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstInvoiceCreationDate">
+      <MemberSignature Language="C#" Value="public DateTime FirstInvoiceCreationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime FirstInvoiceCreationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.Summary.FirstInvoiceCreationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstInvoiceCreationDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the date on which the first invoice was created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

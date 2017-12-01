@@ -1,0 +1,39 @@
+﻿<Type Name="IEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;">
+  <TypeSignature Language="C#" Value="public interface IEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt; : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;, Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt; where T : ResourceBase where TResourceCollection : ResourceCollection&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntityCollectionRetrievalOperations`2&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBase) T, (class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;!T&gt;) TResourceCollection&gt; implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;!T, !TResourceCollection&gt;, class Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations`2&lt;!T, !TResourceCollection&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCollectionRetrievalOperations`2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntityCollectionRetrievalOperations(Of T, TResourceCollection)&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of T, TResourceCollection), IPagedEntityCollectionRetrievalOperations(Of T, TResourceCollection)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+    <TypeParameter Name="TResourceCollection">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;T&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPagedEntityCollectionRetrievalOperations&lt;T,TResourceCollection&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">The entity type.</typeparam>
+    <typeparam name="TResourceCollection">The entity collection type.</typeparam>
+    <summary>
+            Groups all operations related to retrieving a collection of entities.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

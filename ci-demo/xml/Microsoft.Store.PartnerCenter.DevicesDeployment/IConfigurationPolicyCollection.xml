@@ -1,0 +1,132 @@
+﻿<Type Name="IConfigurationPolicyCollection" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection">
+  <TypeSignature Language="C#" Value="public interface IConfigurationPolicyCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy,Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConfigurationPolicyCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy, class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConfigurationPolicyCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of ConfigurationPolicy, ResourceCollection(Of ConfigurationPolicy)), IEntityCreateOperations(Of ConfigurationPolicy), IEntityCreateOperations(Of ConfigurationPolicy, ConfigurationPolicy), IEntitySelector(Of IConfigurationPolicy), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy,Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's configuration policies.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy ById (string policyId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy ById(string policyId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (policyId As String) As IConfigurationPolicy" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="policyId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="policyId">The policy id.</param>
+        <summary>
+            Retrieves configuration policy behavior.
+            </summary>
+        <returns>The configuration policy behavior.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of ConfigurationPolicy)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all configuration policies.
+            </summary>
+        <returns>The collection of configuration policies.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of ConfigurationPolicy))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.ConfigurationPolicy&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all configuration policies.
+            </summary>
+        <returns>The collection of configuration policies.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy this[string policyId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(policyId As String) As IConfigurationPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicy</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="policyId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="policyId">The policy id.</param>
+        <summary>
+            Retrieves configuration policy behavior.
+            </summary>
+        <value>The configuration policy behavior.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

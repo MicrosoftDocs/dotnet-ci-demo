@@ -1,0 +1,356 @@
+﻿<Type Name="UsageBasedLineItem" FullName="Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem">
+  <TypeSignature Language="C#" Value="public sealed class UsageBasedLineItem : Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UsageBasedLineItem extends Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UsageBasedLineItem&#xA;Inherits BaseUsageBasedLineItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Invoices.BaseUsageBasedLineItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Billing line items for usage based subscriptions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageBasedLineItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChargeType">
+      <MemberSignature Language="C#" Value="public string ChargeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChargeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ChargeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChargeType As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the charge type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsumptionDiscount">
+      <MemberSignature Language="C#" Value="public decimal ConsumptionDiscount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal ConsumptionDiscount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ConsumptionDiscount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConsumptionDiscount As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the discount on consumption.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsumptionPrice">
+      <MemberSignature Language="C#" Value="public decimal ConsumptionPrice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal ConsumptionPrice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ConsumptionPrice" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConsumptionPrice As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the price of quantity consumed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Currency">
+      <MemberSignature Language="C#" Value="public string Currency { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Currency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.Currency" />
+      <MemberSignature Language="VB.NET" Value="Public Property Currency As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the currency associated with the prices.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailLineItemId">
+      <MemberSignature Language="C#" Value="public int DetailLineItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DetailLineItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.DetailLineItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DetailLineItemId As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the  detail line item Id.
+            Uniquely identifies the line items for cases where calculation is different for units consumed.
+            Example: Total consumed = 1338, 1024 is charged with one rate, 314 is charge with a different rate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludedQuantity">
+      <MemberSignature Language="C#" Value="public decimal IncludedQuantity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal IncludedQuantity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.IncludedQuantity" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludedQuantity As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the units included in the order.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvoiceLineItemType">
+      <MemberSignature Language="C#" Value="public override Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType InvoiceLineItemType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType InvoiceLineItemType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.InvoiceLineItemType" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InvoiceLineItemType As InvoiceLineItemType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceLineItemType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the type of invoice line item
+            </summary>
+        <value>The type of invoice line item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListPrice">
+      <MemberSignature Language="C#" Value="public decimal ListPrice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal ListPrice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.ListPrice" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListPrice As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the price of each unit.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverageQuantity">
+      <MemberSignature Language="C#" Value="public decimal OverageQuantity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal OverageQuantity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.OverageQuantity" />
+      <MemberSignature Language="VB.NET" Value="Public Property OverageQuantity As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the quantity consumed above allowed usage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostTaxEffectiveRate">
+      <MemberSignature Language="C#" Value="public decimal PostTaxEffectiveRate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal PostTaxEffectiveRate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PostTaxEffectiveRate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostTaxEffectiveRate As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the effective price after taxes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostTaxTotal">
+      <MemberSignature Language="C#" Value="public decimal PostTaxTotal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal PostTaxTotal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PostTaxTotal" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostTaxTotal As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total charges after tax.
+            Pretax Charges + Tax Amount
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PretaxCharges">
+      <MemberSignature Language="C#" Value="public decimal PretaxCharges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal PretaxCharges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PretaxCharges" />
+      <MemberSignature Language="VB.NET" Value="Public Property PretaxCharges As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the price charged before taxes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PretaxEffectiveRate">
+      <MemberSignature Language="C#" Value="public decimal PretaxEffectiveRate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal PretaxEffectiveRate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.PretaxEffectiveRate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PretaxEffectiveRate As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the effective price before taxes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public string Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Sku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the service SKU.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaxAmount">
+      <MemberSignature Language="C#" Value="public decimal TaxAmount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TaxAmount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Invoices.UsageBasedLineItem.TaxAmount" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaxAmount As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the amount of tax charged.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

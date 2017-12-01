@@ -1,0 +1,213 @@
+﻿<Type Name="IInvoiceCollection" FullName="Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection">
+  <TypeSignature Language="C#" Value="public interface IInvoiceCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.Invoices.IInvoice&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInvoiceCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.Invoices.IInvoice&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IInvoiceCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of Invoice, ResourceCollection(Of Invoice)), IEntitySelector(Of IInvoice), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.Invoices.IInvoice&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's invoices.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoice ById (string invoiceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Invoices.IInvoice ById(string invoiceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (invoiceId As String) As IInvoice" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invoiceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="invoiceId">The invoice id.</param>
+        <summary>
+            Gets a single invoice operations.
+            </summary>
+        <returns>The invoice operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of Invoice)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all the invoices.
+            </summary>
+        <returns>The invoices.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of Invoice))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all the invoices.
+            </summary>
+        <returns>The invoices.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoice this[string invoiceId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Invoices.IInvoice Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(invoiceId As String) As IInvoice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invoiceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="invoiceId">The invoice id.</param>
+        <summary>
+            Gets a single invoice operations.
+            </summary>
+        <value>The invoice operations.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; Query (Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt; Query(class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Query (query As IQuery) As ResourceCollection(Of Invoice)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="query">The invoice query.
+            The <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> can be used to build queries.
+            Invoice queries support simple and indexed queries. You can retrieve subsets of invoices by providing an indexed query and specifying the index to start from
+            and the page size to retrieve.
+            You can also filter invoices using their dates. <see cref="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceSearchField" /> lists
+            the supported search fields. You can use the <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation" /> enumeration to specify filtering operations.
+            Supported filtering operations are: greater than, greater than or equals, less than, less than or equals, equals, and not equals. You can also compose compound filters
+            that use the AND and OR field filter operations to retrieve a specific invoice subset.
+            </param>
+        <summary>
+            Queries invoices associated to the partner.
+            </summary>
+        <returns>The invoices that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt; QueryAsync (Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt; QueryAsync(class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryAsync (query As IQuery) As Task(Of ResourceCollection(Of Invoice))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Invoices.Invoice&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="query">The invoice query.
+            The <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> can be used to build queries.
+            Invoice queries support simple and indexed queries. You can retrieve subsets of invoices by providing an indexed query and specifying the index to start from
+            and the page size to retrieve.
+            You can also filter invoices using their dates. <see cref="T:Microsoft.Store.PartnerCenter.Models.Invoices.InvoiceSearchField" /> lists
+            the supported search fields. You can use the <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation" /> enumeration to specify filtering operations.
+            Supported filtering operations are: greater than, greater than or equals, less than, less than or equals, equals, and not equals. You can also compose compound filters
+            that use the AND and OR field filter operations to retrieve a specific invoice subset.
+            </param>
+        <summary>
+            Asynchronously queries invoices associated to the partner.
+            </summary>
+        <returns>The invoices that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary Summary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary Summary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Invoices.IInvoiceCollection.Summary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Summary As IInvoiceSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Invoices.IInvoiceSummary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an invoice summary operations.
+            </summary>
+        <value>The invoice summary operations.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

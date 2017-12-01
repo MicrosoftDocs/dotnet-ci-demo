@@ -1,0 +1,185 @@
+﻿<Type Name="AzureResourceMonthlyUsageRecord" FullName="Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord">
+  <TypeSignature Language="C#" Value="public sealed class AzureResourceMonthlyUsageRecord : Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AzureResourceMonthlyUsageRecord extends Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AzureResourceMonthlyUsageRecord&#xA;Inherits UsageRecordBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.Usage.UsageRecordBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines the monthly usage record for an Azure subscription resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureResourceMonthlyUsageRecord ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public string Category { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Category" />
+      <MemberSignature Language="VB.NET" Value="Public Property Category As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the azure resource category.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuantityUsed">
+      <MemberSignature Language="C#" Value="public decimal QuantityUsed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal QuantityUsed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.QuantityUsed" />
+      <MemberSignature Language="VB.NET" Value="Public Property QuantityUsed As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the quantity of the Azure resource used.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceId">
+      <MemberSignature Language="C#" Value="public string ResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.ResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the azure resource unique identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceName">
+      <MemberSignature Language="C#" Value="public string ResourceName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.ResourceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the azure resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subcategory">
+      <MemberSignature Language="C#" Value="public string Subcategory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subcategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Subcategory" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subcategory As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the azure resource sub-category.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCost">
+      <MemberSignature Language="C#" Value="public decimal TotalCost { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalCost" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.TotalCost" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalCost As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the estimated total cost of usage for the azure resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unit">
+      <MemberSignature Language="C#" Value="public string Unit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Unit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Usage.AzureResourceMonthlyUsageRecord.Unit" />
+      <MemberSignature Language="VB.NET" Value="Public Property Unit As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the unit of measure for the Azure resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

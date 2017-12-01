@@ -1,0 +1,539 @@
+﻿<Type Name="ICustomer" FullName="Microsoft.Store.PartnerCenter.Customers.ICustomer">
+  <TypeSignature Language="C#" Value="public interface ICustomer : Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomer implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.ICustomer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomer&#xA;Implements IEntityDeleteOperations(Of Customer), IEntityGetOperations(Of Customer), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Groups operations that can be performed on a single partner customer.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Analytics">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection Analytics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection Analytics" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Analytics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Analytics As ICustomerAnalyticsCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Analytics.ICustomerAnalyticsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the analytics collection behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BatchUploadStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection BatchUploadStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection BatchUploadStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.BatchUploadStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BatchUploadStatus As IBatchJobStatusCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IBatchJobStatusCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the devices batch upload status behavior of the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigurationPolicies">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection ConfigurationPolicies { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection ConfigurationPolicies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ConfigurationPolicies" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfigurationPolicies As IConfigurationPolicyCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IConfigurationPolicyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the configuration policies behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Deletes the customer from a testing in production account. This won't work for real accounts.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.DeleteAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync () As Task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously deletes the customer from a testing in production account. This won't work for real accounts.
+            </summary>
+        <returns>A task which completes when the customer is deleted.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceBatches">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection DeviceBatches { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection DeviceBatches" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DeviceBatches" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceBatches As IDevicesBatchCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the devices batch behavior of the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevicePolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection DevicePolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection DevicePolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DevicePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DevicePolicy As ICustomerDeviceCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.ICustomerDeviceCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the device policy behavior of the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryRoles">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection DirectoryRoles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection DirectoryRoles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.DirectoryRoles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectoryRoles As IDirectoryRoleCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerDirectoryRoles.IDirectoryRoleCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the directory role behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Customers.Customer Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Customers.Customer Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As Customer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Customers.Customer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the customer information.
+            </summary>
+        <returns>The customer information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomer.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of Customer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the customer information.
+            </summary>
+        <returns>The customer information.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedServices">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection ManagedServices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection ManagedServices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ManagedServices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedServices As IManagedServiceCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.ManagedServices.IManagedServiceCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the managed services behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfferCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection OfferCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection OfferCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.OfferCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfferCategories As ICustomerOfferCategoryCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCategoryCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the Offer Categories behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offers">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection Offers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection Offers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Offers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offers As ICustomerOfferCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Offers.ICustomerOfferCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the Offers behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orders">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Orders.IOrderCollection Orders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Orders.IOrderCollection Orders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Orders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Orders As IOrderCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Orders.IOrderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the orders behavior for the customer.
+            </summary>
+        <value>The customer orders.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profiles">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection Profiles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection Profiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Profiles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Profiles As ICustomerProfileCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.Profiles.ICustomerProfileCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the profiles behavior for the customer.
+            </summary>
+        <value>The customer profiles.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Qualification">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification Qualification { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification Qualification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Qualification" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Qualification As ICustomerQualification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Qualification.ICustomerQualification</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the qualification behavior of the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Relationships">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection Relationships { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection Relationships" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Relationships" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Relationships As ICustomerRelationshipCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Relationships.ICustomerRelationshipCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the relationship collection behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceCosts">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection ServiceCosts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection ServiceCosts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ServiceCosts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceCosts As ICustomerServiceCostsCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the service costs behavior for the customer.
+            </summary>
+        <value>The customer's service costs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceRequests">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection ServiceRequests { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection ServiceRequests" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.ServiceRequests" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceRequests As IServiceRequestCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.ServiceRequests.IServiceRequestCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the service requests behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribedSkus">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection SubscribedSkus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection SubscribedSkus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.SubscribedSkus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubscribedSkus As ICustomerSubscribedSkuCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.SubscribedSkus.ICustomerSubscribedSkuCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the subscribed SKUs collection behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscriptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection Subscriptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection Subscriptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Subscriptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subscriptions As ISubscriptionCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the subscriptions behavior for the customer.
+            </summary>
+        <value>The customer subscriptions.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageBudget">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget UsageBudget { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget UsageBudget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.UsageBudget" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageBudget As ICustomerUsageSpendingBudget" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the usage spending budget behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageSummary">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary UsageSummary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary UsageSummary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.UsageSummary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageSummary As ICustomerUsageSummary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSummary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the usage summary behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Users">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection Users { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection Users" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomer.Users" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Users As ICustomerUserCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.CustomerUsers.ICustomerUserCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the users behavior for the customer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,143 @@
+﻿<Type Name="Upgrade" FullName="Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade">
+  <TypeSignature Language="C#" Value="public sealed class Upgrade : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Upgrade extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Upgrade&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a form of upgrade for a subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Upgrade ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEligible">
+      <MemberSignature Language="C#" Value="public bool IsEligible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEligible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.IsEligible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEligible As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether the upgrade can be performed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quantity">
+      <MemberSignature Language="C#" Value="public int Quantity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Quantity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.Quantity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Quantity As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the quantity to be purchased.  Defaults to the source subscription quantity.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetOffer">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Offers.Offer TargetOffer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Offers.Offer TargetOffer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.TargetOffer" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetOffer As Offer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Offers.Offer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the offer to upgrade to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeErrors">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError&gt; UpgradeErrors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError&gt; UpgradeErrors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.UpgradeErrors" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradeErrors As IEnumerable(Of UpgradeError)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeError&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the reasons the upgrade cannot be performed, if applicable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType UpgradeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType UpgradeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.Subscriptions.Upgrade.UpgradeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradeType As UpgradeType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.UpgradeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the type of upgrade.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

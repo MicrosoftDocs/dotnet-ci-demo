@@ -1,0 +1,145 @@
+﻿<Type Name="DeviceBatch" FullName="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch">
+  <TypeSignature Language="C#" Value="public sealed class DeviceBatch : Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeviceBatch extends Microsoft.Store.PartnerCenter.Models.StandardResourceLinks" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeviceBatch&#xA;Inherits StandardResourceLinks" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.StandardResourceLinks</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a devices batch associated with a customer.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeviceBatch ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedBy">
+      <MemberSignature Language="C#" Value="public string CreatedBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CreatedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.CreatedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedBy As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the tenant who created the batch.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationDate">
+      <MemberSignature Language="C#" Value="public DateTime CreationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.CreationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the date the batch was created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevicesCount">
+      <MemberSignature Language="C#" Value="public int DevicesCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DevicesCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.DevicesCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property DevicesCount As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the count of devices in the batch.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevicesLink">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Link DevicesLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.Link DevicesLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.DevicesLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property DevicesLink As Link" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Link</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the link to the devices under the batch.
+            </summary>
+        <value>
+            Link to devices.
+            </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the devices batch unique identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

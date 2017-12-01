@@ -1,0 +1,193 @@
+﻿<Type Name="PartnerExtensions" FullName="Microsoft.Store.PartnerCenter.PartnerExtensions">
+  <TypeSignature Language="C#" Value="public static class PartnerExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PartnerExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.PartnerExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PartnerExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds useful extension methods used across the partner SDK.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Invoke&lt;TResponse&gt;">
+      <MemberSignature Language="C#" Value="public static TResponse Invoke&lt;TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, Newtonsoft.Json.JsonConverter converter = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TResponse Invoke&lt;TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResponse</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResponse" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+        <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+        <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResponse">The return type of the invocation.</typeparam>
+        <param name="link">The link to invoke.</param>
+        <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+        <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+        <summary>
+            Invokes a link and returns the result.
+            </summary>
+        <returns>The link invocation result.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invoke&lt;TRequest,TResponse&gt;">
+      <MemberSignature Language="C#" Value="public static TResponse Invoke&lt;TRequest,TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, TRequest requestBody, Newtonsoft.Json.JsonConverter converter = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TResponse Invoke&lt;TRequest, TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, !!TRequest requestBody, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.Invoke``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResponse</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TRequest" />
+        <TypeParameter Name="TResponse" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+        <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+        <Parameter Name="requestBody" Type="TRequest" />
+        <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TRequest">The type of the request body.</typeparam>
+        <typeparam name="TResponse">The return type of the invocation.</typeparam>
+        <param name="link">The link to invoke.</param>
+        <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+        <param name="requestBody">The request body to send.</param>
+        <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+        <summary>
+            Invokes a link with a request body and returns the result.
+            </summary>
+        <returns>The link invocation result.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync&lt;TResponse&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResponse&gt; InvokeAsync&lt;TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, Newtonsoft.Json.JsonConverter converter = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResponse&gt; InvokeAsync&lt;TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``1(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,Newtonsoft.Json.JsonConverter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Store.PartnerCenter.PartnerExtensions/&lt;InvokeAsync&gt;d__4`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;TResponse&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TResponse" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+        <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+        <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TResponse">The return type of the invocation.</typeparam>
+        <param name="link">The link to invoke.</param>
+        <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+        <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+        <summary>
+            Asynchronously invokes a link and returns the result.
+            </summary>
+        <returns>The link invocation result.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync&lt;TRequest,TResponse&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResponse&gt; InvokeAsync&lt;TRequest,TResponse&gt; (this Microsoft.Store.PartnerCenter.Models.Link link, Microsoft.Store.PartnerCenter.IPartner partnerOperations, TRequest requestBody, Newtonsoft.Json.JsonConverter converter = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResponse&gt; InvokeAsync&lt;TRequest, TResponse&gt;(class Microsoft.Store.PartnerCenter.Models.Link link, class Microsoft.Store.PartnerCenter.IPartner partnerOperations, !!TRequest requestBody, class Newtonsoft.Json.JsonConverter converter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.InvokeAsync``2(Microsoft.Store.PartnerCenter.Models.Link,Microsoft.Store.PartnerCenter.IPartner,``0,Newtonsoft.Json.JsonConverter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Store.PartnerCenter.PartnerExtensions/&lt;InvokeAsync&gt;d__2`2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;TResponse&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TRequest" />
+        <TypeParameter Name="TResponse" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="link" Type="Microsoft.Store.PartnerCenter.Models.Link" RefType="this" />
+        <Parameter Name="partnerOperations" Type="Microsoft.Store.PartnerCenter.IPartner" />
+        <Parameter Name="requestBody" Type="TRequest" />
+        <Parameter Name="converter" Type="Newtonsoft.Json.JsonConverter" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TRequest">The type of the request body.</typeparam>
+        <typeparam name="TResponse">The return type of the invocation.</typeparam>
+        <param name="link">The link to invoke.</param>
+        <param name="partnerOperations">A partner operations object from which credentials and context are extracted.</param>
+        <param name="requestBody">The request body to send.</param>
+        <param name="converter">An optional JSON converter to be used in encoding and decoding requests and responses.</param>
+        <summary>
+            Asynchronously invokes a link with a request body and returns the result.
+            </summary>
+        <returns>The link invocation result.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFatalException">
+      <MemberSignature Language="C#" Value="public static bool IsFatalException (this Exception ex);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFatalException(class System.Exception ex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.PartnerExtensions.IsFatalException(System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsFatalException (ex As Exception) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ex" Type="System.Exception" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="ex">The exception to check.</param>
+        <summary>
+            Checks if an exception is fatal.
+            </summary>
+        <returns>True if Exception is fatal and process should die.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

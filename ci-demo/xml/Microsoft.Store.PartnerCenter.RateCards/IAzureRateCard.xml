@@ -1,0 +1,84 @@
+﻿<Type Name="IAzureRateCard" FullName="Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard">
+  <TypeSignature Language="C#" Value="public interface IAzureRateCard : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAzureRateCard implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAzureRateCard&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Holds operations that apply to Azure rate card.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard Get (string currency = null, string region = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard Get(string currency, string region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard.Get(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get (Optional currency As String = null, Optional region As String = null) As AzureRateCard" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="currency" Type="System.String" />
+        <Parameter Name="region" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="currency">An optional three letter ISO code for the currency in which the resource rates will be provided.
+            The default is the currency associated with the market in the partner's profile.</param>
+        <param name="region">An optional two-letter ISO country/region code that indicates the market where the offer is purchased.
+            The default is the country/region code set in the partner profile.</param>
+        <summary>
+            Gets the Azure rate card which provides real-time prices for Azure offers.
+            </summary>
+        <returns>The Azure rate card for the partner.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard&gt; GetAsync (string currency = null, string region = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard&gt; GetAsync(string currency, string region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RateCards.IAzureRateCard.GetAsync(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync (Optional currency As String = null, Optional region As String = null) As Task(Of AzureRateCard)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.RateCards.AzureRateCard&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="currency" Type="System.String" />
+        <Parameter Name="region" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="currency">An optional three letter ISO code for the currency in which the resource rates will be provided.
+            The default is the currency associated with the market in the partner's profile.</param>
+        <param name="region">An optional two-letter ISO country/region code that indicates the market where the offer is purchased.
+            The default is the country/region code set in the partner profile.</param>
+        <summary>
+            Asynchronously gets the Azure rate card which provides real-time prices for Azure offers.
+            </summary>
+        <returns>The Azure rate card for the partner.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

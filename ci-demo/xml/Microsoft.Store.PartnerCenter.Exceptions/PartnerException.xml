@@ -1,0 +1,272 @@
+﻿<Type Name="PartnerException" FullName="Microsoft.Store.PartnerCenter.Exceptions.PartnerException">
+  <TypeSignature Language="C#" Value="public class PartnerException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PartnerException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" />
+  <TypeSignature Language="VB.NET" Value="Public Class PartnerException&#xA;Inherits Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions
+            such as null argument exceptions will also be thrown in case of malformed input.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">The exception message.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected PartnerException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
+      </Parameters>
+      <Docs>
+        <param name="info">Serialization information.</param>
+        <param name="context">Streaming context.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">The exception message.</param>
+        <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerException (Microsoft.Store.PartnerCenter.Models.ApiFault apiFault, Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context, Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory errorCategory = Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotSpecified, Exception innerException = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Store.PartnerCenter.Models.ApiFault apiFault, class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context, valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory errorCategory, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(Microsoft.Store.PartnerCenter.Models.ApiFault,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext,Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory,System.Exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="apiFault" Type="Microsoft.Store.PartnerCenter.Models.ApiFault" />
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+        <Parameter Name="errorCategory" Type="Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="apiFault">The API fault object returned by the partner service.</param>
+        <param name="context">The partner context.</param>
+        <param name="errorCategory">An optional error category.</param>
+        <param name="innerException">An optional inner exception.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartnerException (string message, Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context, Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory errorCategory = Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotSpecified, Exception innerException = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context, valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory errorCategory, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.#ctor(System.String,Microsoft.Store.PartnerCenter.RequestContext.IRequestContext,Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, context As IRequestContext, Optional errorCategory As PartnerErrorCategory = Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory.NotSpecified, Optional innerException As Exception = null)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+        <Parameter Name="errorCategory" Type="Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">The exception message.</param>
+        <param name="context">The partner context.</param>
+        <param name="errorCategory">An optional error category.</param>
+        <param name="innerException">An optional inner exception.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Store.PartnerCenter.Exceptions.PartnerException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Context { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.Context" />
+      <MemberSignature Language="VB.NET" Value="Public Property Context As IRequestContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the partner context associated with the exception.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCategory">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory ErrorCategory { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory ErrorCategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ErrorCategory" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCategory As PartnerErrorCategory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Exceptions.PartnerErrorCategory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the error classification that resulted in this exception.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectData">
+      <MemberSignature Language="C#" Value="public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void GetObjectData(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub GetObjectData (info As SerializationInfo, context As StreamingContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
+      </Parameters>
+      <Docs>
+        <param name="info">Serialization information.</param>
+        <param name="context">Streaming context.</param>
+        <summary>
+            Required override to add in the serialized parameters.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceErrorPayload">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ApiFault ServiceErrorPayload { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Models.ApiFault ServiceErrorPayload" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ServiceErrorPayload" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceErrorPayload As ApiFault" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ApiFault</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the service error payload.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Exceptions.PartnerException.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Displays the partner exception details.
+            </summary>
+        <returns>A string representing the partner exception including the base and extended properties.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,124 @@
+﻿<Type Name="ICustomerUsageSpendingBudget" FullName="Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget">
+  <TypeSignature Language="C#" Value="public interface ICustomerUsageSpendingBudget : Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerUsageSpendingBudget implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerUsageSpendingBudget&#xA;Implements IEntityGetOperations(Of SpendingBudget), IEntityPatchOperations(Of SpendingBudget), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityGetOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Defines the operations available on a customer's usage spending budget.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As SpendingBudget" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the customer's usage spending budget.
+            </summary>
+        <returns>The customer's usage spending budget.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of SpendingBudget)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves the customer's usage spending budget.
+            </summary>
+        <returns>The customer's usage spending budget.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget Patch (Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget spendingBudget);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget Patch(class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget spendingBudget) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.Patch(Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="spendingBudget" Type="Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget" />
+      </Parameters>
+      <Docs>
+        <param name="spendingBudget">The new customer's usage spending budget.</param>
+        <summary>
+            Patches the customer's usage spending budget.
+            </summary>
+        <returns>The updated customer's usage spending budget.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget spendingBudget);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget spendingBudget) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Usage.ICustomerUsageSpendingBudget.PatchAsync(Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="spendingBudget" Type="Microsoft.Store.PartnerCenter.Models.Usage.SpendingBudget" />
+      </Parameters>
+      <Docs>
+        <param name="spendingBudget">The new customer's usage spending budget.</param>
+        <summary>
+            Asynchronously patches the customer's usage spending budget.
+            </summary>
+        <returns>The updated customer's usage spending budget.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

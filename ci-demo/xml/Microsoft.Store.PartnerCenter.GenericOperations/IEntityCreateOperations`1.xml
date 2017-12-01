@@ -1,0 +1,26 @@
+﻿<Type Name="IEntityCreateOperations&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IEntityCreateOperations&lt;T&gt; : Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;T,T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEntityCreateOperations`1&lt;T&gt; implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;!T, !T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEntityCreateOperations(Of T)&#xA;Implements IEntityCreateOperations(Of T, T)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;T,T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">The entity type.</typeparam>
+    <summary>
+            Groups operations for creating a single entity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

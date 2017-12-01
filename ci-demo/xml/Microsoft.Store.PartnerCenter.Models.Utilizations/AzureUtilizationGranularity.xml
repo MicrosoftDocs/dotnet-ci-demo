@@ -1,0 +1,61 @@
+﻿<Type Name="AzureUtilizationGranularity" FullName="Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity">
+  <TypeSignature Language="C#" Value="public enum AzureUtilizationGranularity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AzureUtilizationGranularity extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AzureUtilizationGranularity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Lists the time granularity options for retrieving A subscription's azure utilization.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Daily">
+      <MemberSignature Language="C#" Value="Daily" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity Daily = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Daily" />
+      <MemberSignature Language="VB.NET" Value="Daily" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Daily utilization.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hourly">
+      <MemberSignature Language="C#" Value="Hourly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity Hourly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity.Hourly" />
+      <MemberSignature Language="VB.NET" Value="Hourly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Utilizations.AzureUtilizationGranularity</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Hourly utilization.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

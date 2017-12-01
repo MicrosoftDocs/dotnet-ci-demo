@@ -1,0 +1,46 @@
+﻿<Type Name="ServiceRequestSearchField" FullName="Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField">
+  <TypeSignature Language="C#" Value="public enum ServiceRequestSearchField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceRequestSearchField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceRequestSearchField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Lists the supported service request search fields.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="Status" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField Status = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField.Status" />
+      <MemberSignature Language="VB.NET" Value="Status" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceRequests.ServiceRequestSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Service request status.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

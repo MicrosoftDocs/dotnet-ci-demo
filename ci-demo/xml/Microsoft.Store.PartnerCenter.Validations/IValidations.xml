@@ -1,0 +1,74 @@
+﻿<Type Name="IValidations" FullName="Microsoft.Store.PartnerCenter.Validations.IValidations">
+  <TypeSignature Language="C#" Value="public interface IValidations : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IValidations implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Validations.IValidations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IValidations&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of a validation operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsAddressValid">
+      <MemberSignature Language="C#" Value="public bool IsAddressValid (Microsoft.Store.PartnerCenter.Models.Address address);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsAddressValid(class Microsoft.Store.PartnerCenter.Models.Address address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Validations.IValidations.IsAddressValid(Microsoft.Store.PartnerCenter.Models.Address)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="Microsoft.Store.PartnerCenter.Models.Address" />
+      </Parameters>
+      <Docs>
+        <param name="address">The address to be validated.</param>
+        <summary>
+            Checks if the address is valid or not.
+            </summary>
+        <returns>True if the address is valid, false otherwise.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAddressValidAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; IsAddressValidAsync (Microsoft.Store.PartnerCenter.Models.Address address);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; IsAddressValidAsync(class Microsoft.Store.PartnerCenter.Models.Address address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Validations.IValidations.IsAddressValidAsync(Microsoft.Store.PartnerCenter.Models.Address)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="Microsoft.Store.PartnerCenter.Models.Address" />
+      </Parameters>
+      <Docs>
+        <param name="address">The address to be validated.</param>
+        <summary>
+            Asynchronously checks if the address is valid or not.
+            </summary>
+        <returns>True if the address is valid, false otherwise.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

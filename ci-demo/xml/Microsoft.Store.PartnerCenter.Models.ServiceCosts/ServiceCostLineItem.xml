@@ -1,0 +1,444 @@
+﻿<Type Name="ServiceCostLineItem" FullName="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem">
+  <TypeSignature Language="C#" Value="public class ServiceCostLineItem : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceCostLineItem extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceCostLineItem&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a charge incurred by the partner per customer for a given subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceCostLineItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AfterTaxTotal">
+      <MemberSignature Language="C#" Value="public decimal AfterTaxTotal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal AfterTaxTotal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.AfterTaxTotal" />
+      <MemberSignature Language="VB.NET" Value="Public Property AfterTaxTotal As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total for this item inclusive of taxes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChargeType">
+      <MemberSignature Language="C#" Value="public string ChargeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChargeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.ChargeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChargeType As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the the charge type associated.
+            </summary>
+        <value>
+            Charges:
+             PURCHASE_FEE: Initial charge for a subscription.
+             CYCLE_FEE: Periodic charges for a subscription.
+            ConvertResources:
+             CANCEL_USAGEFEE: Access usage fee upon cancellation for unpaid usage during the current billing period.
+             CYCLE_USAGEFEE: Access usage fee for the current billing period.
+            PRORATIONS:
+             PURCHASE_PRORATE: Prorated fees upon purchase.
+             CANCEL_PRORATE: Prorated refund for unused portion of service upon cancellation.
+             ACTIVATION_PRORATE: Prorated fees from activation until end of billing period.
+             RENEW_PRORATE: Prorated fees upon subscription renewal.
+            InstanceProrates:
+             CANCEL_INSTANCEPRORATE: Prorated charges refunded to the customer when associated seats are changed.
+             CYCLE_INSTANCEPRORATE: Prorated charges assessed from the customer when associated seats are changed.
+            Credits: 
+             CREDIT: Credit applied to a payment instrument.
+            Offsets:
+             OFFSET_LINEITEM: Partial or whole refund to a line item.
+             ONE_TIME_REFUND: One Time Refund processed for the customer.
+             TAX_REFUND: Refund due to validation of tax exemption certificate.
+            Discounts:
+             ACTIVATION_DISCOUNT: Discount applied when subscription activated.
+             CYCLE_DISCOUNT: Discount applied on periodic charges.
+             RENEW_DISCOUNT: Discount applied when subscription renewed.
+             CANCEL_DISCOUNT: Charges applied when discounts cancelled.
+            Usage Based:
+             ASSESS USAGE FEE FOR CURRENT CYCLE.
+            </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrencyCode">
+      <MemberSignature Language="C#" Value="public string CurrencyCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrencyCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CurrencyCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrencyCode As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the currency code for the costs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrencySymbol">
+      <MemberSignature Language="C#" Value="public string CurrencySymbol { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrencySymbol" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CurrencySymbol" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrencySymbol As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the currency symbol for the costs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerId">
+      <MemberSignature Language="C#" Value="public string CustomerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CustomerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Customer Tenant ID.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomerName">
+      <MemberSignature Language="C#" Value="public string CustomerName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.CustomerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomerName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the customer name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the end date for the charge.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfferId">
+      <MemberSignature Language="C#" Value="public string OfferId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfferId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OfferId" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfferId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the offer identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfferName">
+      <MemberSignature Language="C#" Value="public string OfferName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfferName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OfferName" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfferName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the offer name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderId">
+      <MemberSignature Language="C#" Value="public string OrderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OrderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.OrderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrderId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the order identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PretaxTotal">
+      <MemberSignature Language="C#" Value="public decimal PretaxTotal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal PretaxTotal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.PretaxTotal" />
+      <MemberSignature Language="VB.NET" Value="Public Property PretaxTotal As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the total charge for this item before taxes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quantity">
+      <MemberSignature Language="C#" Value="public decimal Quantity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal Quantity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.Quantity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Quantity As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the quantity used or purchased.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResellerMPNId">
+      <MemberSignature Language="C#" Value="public string ResellerMPNId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResellerMPNId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.ResellerMPNId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResellerMPNId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the ResellerMPNId. In 2-tier partner scenarios, this refers to the MPN identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the start date for the charge.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionFriendlyName">
+      <MemberSignature Language="C#" Value="public string SubscriptionFriendlyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionFriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.SubscriptionFriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionFriendlyName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the friendly name for the subscription.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the subscription identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tax">
+      <MemberSignature Language="C#" Value="public decimal Tax { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal Tax" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.Tax" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tax As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tax incurred.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnitPrice">
+      <MemberSignature Language="C#" Value="public decimal UnitPrice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal UnitPrice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostLineItem.UnitPrice" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnitPrice As Decimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the price per unit.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

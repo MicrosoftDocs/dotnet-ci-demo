@@ -1,0 +1,51 @@
+﻿<Type Name="ICustomerServiceCostsCollection" FullName="Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerServiceCostsCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerServiceCostsCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerServiceCostsCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Holds customer service costs behavior.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ByBillingPeriod">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection ByBillingPeriod (Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod billingPeriod);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection ByBillingPeriod(valuetype Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod billingPeriod) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ServiceCosts.ICustomerServiceCostsCollection.ByBillingPeriod(Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ByBillingPeriod (billingPeriod As ServiceCostsBillingPeriod) As IServiceCostsCollection" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ServiceCosts.IServiceCostsCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="billingPeriod" Type="Microsoft.Store.PartnerCenter.Models.ServiceCosts.ServiceCostsBillingPeriod" />
+      </Parameters>
+      <Docs>
+        <param name="billingPeriod">The billing period.</param>
+        <summary>
+            Obtains the service cost operations by billing period.
+            </summary>
+        <returns>The service cost operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

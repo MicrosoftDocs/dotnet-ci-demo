@@ -1,0 +1,66 @@
+﻿<Type Name="PartnerRelationshipType" FullName="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType">
+  <TypeSignature Language="C#" Value="public enum PartnerRelationshipType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PartnerRelationshipType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PartnerRelationshipType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The types of relationships between partners for two tier partner scenario.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsIndirectCloudSolutionProviderOf">
+      <MemberSignature Language="C#" Value="IsIndirectCloudSolutionProviderOf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType IsIndirectCloudSolutionProviderOf = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType.IsIndirectCloudSolutionProviderOf" />
+      <MemberSignature Language="VB.NET" Value="IsIndirectCloudSolutionProviderOf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            An indirect cloud solution provider relationship between partners.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsIndirectResellerOf">
+      <MemberSignature Language="C#" Value="IsIndirectResellerOf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType IsIndirectResellerOf = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType.IsIndirectResellerOf" />
+      <MemberSignature Language="VB.NET" Value="IsIndirectResellerOf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            An indirect reseller relationship between partners.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

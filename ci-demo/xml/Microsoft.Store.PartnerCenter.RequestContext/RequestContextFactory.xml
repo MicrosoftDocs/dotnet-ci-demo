@@ -1,0 +1,198 @@
+﻿<Type Name="RequestContextFactory" FullName="Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory">
+  <TypeSignature Language="C#" Value="public sealed class RequestContextFactory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RequestContextFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RequestContextFactory" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Creates instances of <see cref="T:Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create () As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Creates a request context object which will use a randomly generated correlation Id and a unique request Id for each partner API call.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create (Guid correlationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create(valuetype System.Guid correlationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (correlationId As Guid) As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="correlationId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="correlationId">The correlation Id.</param>
+        <summary>
+            Creates a request context object with the provided correlation Id and a unique request Id for each partner API call.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create (string locale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create(string locale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (locale As String) As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="locale" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="locale">The locale.</param>
+        <summary>
+            Creates a request context object which will use a randomly generated correlation Id, a unique request Id and provided locale for each partner API call.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create (Guid correlationId, Guid requestId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create(valuetype System.Guid correlationId, valuetype System.Guid requestId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (correlationId As Guid, requestId As Guid) As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="correlationId" Type="System.Guid" />
+        <Parameter Name="requestId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="correlationId">The correlation Id.</param>
+        <param name="requestId">The request Id.</param>
+        <summary>
+            Creates a request context object with the provided correlation and request Ids.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create (Guid correlationId, string locale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create(valuetype System.Guid correlationId, string locale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (correlationId As Guid, locale As String) As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="correlationId" Type="System.Guid" />
+        <Parameter Name="locale" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="correlationId">The correlation Id.</param>
+        <param name="locale">The locale</param>
+        <summary>
+            Creates a request context object with the provided correlation Id, a unique request Id and provided locale for each partner API call.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create (Guid correlationId, Guid requestId, string locale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext Create(valuetype System.Guid correlationId, valuetype System.Guid requestId, string locale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Create(System.Guid,System.Guid,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (correlationId As Guid, requestId As Guid, locale As String) As IRequestContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.IRequestContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="correlationId" Type="System.Guid" />
+        <Parameter Name="requestId" Type="System.Guid" />
+        <Parameter Name="locale" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="correlationId">The correlation Id.</param>
+        <param name="requestId">The request Id.</param>
+        <param name="locale">The locale.</param>
+        <summary>
+            Creates a request context object with the provided correlation, request Ids and locale.
+            </summary>
+        <returns>A request context object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public static Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory Instance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory Instance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory.Instance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Instance As RequestContextFactory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RequestContext.RequestContextFactory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an instance of the request context factory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

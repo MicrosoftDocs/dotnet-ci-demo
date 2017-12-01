@@ -1,0 +1,353 @@
+﻿<Type Name="ServiceIncidentDetail" FullName="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail">
+  <TypeSignature Language="C#" Value="public sealed class ServiceIncidentDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ServiceIncidentDetail extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceIncidentDetail" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an office service health incident message.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceIncidentDetail ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionType">
+      <MemberSignature Language="C#" Value="public string ActionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ActionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionType As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the type of action to be followed up with - set only for message center type messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AffectedWorkloadNames">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; AffectedWorkloadNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; AffectedWorkloadNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.AffectedWorkloadNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffectedWorkloadNames As IEnumerable(Of String)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the affected workload names.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public string Category { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Category" />
+      <MemberSignature Language="VB.NET" Value="Public Property Category As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the category of message center - set only for message center type messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Incident End time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Incident ID.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImpactedArea">
+      <MemberSignature Language="C#" Value="public string ImpactedArea { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImpactedArea" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ImpactedArea" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImpactedArea As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the impacted area.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImpactedCustomers">
+      <MemberSignature Language="C#" Value="public int ImpactedCustomers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ImpactedCustomers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.ImpactedCustomers" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImpactedCustomers As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the affected tenant count.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Messages">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory&gt; Messages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory&gt; Messages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Messages" />
+      <MemberSignature Language="VB.NET" Value="Public Property Messages As IEnumerable(Of ServiceIncidentHistory)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentHistory&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Service Health messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageType">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType MessageType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType MessageType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.MessageType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageType As MessageType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceIncidents.MessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the message type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredBy">
+      <MemberSignature Language="C#" Value="public DateTime RequiredBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime RequiredBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.RequiredBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredBy As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the date by which partner is expected to complete an action - set only for message center type messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resolved">
+      <MemberSignature Language="C#" Value="public bool Resolved { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Resolved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Resolved" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resolved As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether an incident is resolved or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Severity">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus Severity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus Severity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Severity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Severity As ServiceIncidentStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the severity of the message - set only for message center type messages.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Incident start time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As ServiceIncidentStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the status.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Workload">
+      <MemberSignature Language="C#" Value="public string Workload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Workload" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentDetail.Workload" />
+      <MemberSignature Language="VB.NET" Value="Public Property Workload As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the workload name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

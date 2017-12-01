@@ -1,0 +1,134 @@
+﻿<Type Name="IRelationshipCollection" FullName="Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection">
+  <TypeSignature Language="C#" Value="public interface IRelationshipCollection : Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRelationshipCollection implements class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRelationshipCollection&#xA;Implements IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This interface represents the operations that can be done on a partner's relationships.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Get (Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Get(valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.Get(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partnerRelationshipType" Type="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" />
+      </Parameters>
+      <Docs>
+        <param name="partnerRelationshipType">The type of partner relationship.</param>
+        <summary>
+            Retrieves all the partner relationships.
+            </summary>
+        <returns>The partner relationships.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; GetAsync (Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; GetAsync(valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.GetAsync(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partnerRelationshipType" Type="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" />
+      </Parameters>
+      <Docs>
+        <param name="partnerRelationshipType">The type of partner relationship.</param>
+        <summary>
+            Asynchronously retrieves all the partner relationships.
+            </summary>
+        <returns>The partner relationships.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Query (Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType, Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt; Query(valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType, class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.Query(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType,Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partnerRelationshipType" Type="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" />
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="partnerRelationshipType">The type of partner relationship.</param>
+        <param name="query">A query to apply onto partner relationships. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> to see how
+            to build queries.</param>
+        <summary>
+            Queries partner relationships associated to the partner.
+            - Only <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleQuery" /> with a <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter" /> is supported.
+            - This query supports a <see cref="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.Substring" /> search of the partner. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField" /> for
+            the list of supported search fields.
+            </summary>
+        <returns>The partner relationships that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; QueryAsync (Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType, Microsoft.Store.PartnerCenter.Models.Query.IQuery query);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt; QueryAsync(valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType partnerRelationshipType, class Microsoft.Store.PartnerCenter.Models.Query.IQuery query) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Relationships.IRelationshipCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType,Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationship&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partnerRelationshipType" Type="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipType" />
+        <Parameter Name="query" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="partnerRelationshipType">The type of partner relationship.</param>
+        <param name="query">A query to apply onto partner relationships. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> to see how
+            to build queries.</param>
+        <summary>
+            Asynchronously queries partner relationships associated to the partner.
+            - Only <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleQuery" /> with a <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.SimpleFieldFilter" /> is supported.
+            - This query supports a <see cref="F:Microsoft.Store.PartnerCenter.Models.Query.FieldFilterOperation.Substring" /> search of the partner. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField" /> for
+            the list of supported search fields.
+            </summary>
+        <returns>The partner relationships that match the given query.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

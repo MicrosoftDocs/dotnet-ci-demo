@@ -1,0 +1,121 @@
+﻿<Type Name="ISubscriptionConversionCollection" FullName="Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection">
+  <TypeSignature Language="C#" Value="public interface ISubscriptionConversionCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion,Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISubscriptionConversionCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion, class Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`2&lt;string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISubscriptionConversionCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of Conversion, ResourceCollection(Of Conversion)), IEntityCreateOperations(Of Conversion, ConversionResult), IPartnerComponent(Of Tuple(Of String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion,Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This interface defines the conversion operations available on a customer's trial subscription.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult Create (Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion conversion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult Create(class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion conversion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.Create(Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversion" Type="Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion" />
+      </Parameters>
+      <Docs>
+        <param name="conversion">The new subscription conversion information.</param>
+        <summary>
+            Submits a trial subscription conversion.
+            </summary>
+        <returns>The subscription conversion results.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt; CreateAsync (Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion conversion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt; CreateAsync(class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion conversion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.CreateAsync(Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.ConversionResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversion" Type="Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion" />
+      </Parameters>
+      <Docs>
+        <param name="conversion">The new subscription conversion information.</param>
+        <summary>
+            Asynchronously submits a trial subscription conversion.
+            </summary>
+        <returns>The subscription conversion results.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of Conversion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all conversions for the trial subscription.
+            </summary>
+        <returns>The subscription conversions.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Subscriptions.ISubscriptionConversionCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of Conversion))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Subscriptions.Conversion&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all conversions for the trial subscription.
+            </summary>
+        <returns>The subscription conversions.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

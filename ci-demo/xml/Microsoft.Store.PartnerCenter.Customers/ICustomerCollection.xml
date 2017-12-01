@@ -1,0 +1,236 @@
+﻿<Type Name="ICustomerCollection" FullName="Microsoft.Store.PartnerCenter.Customers.ICustomerCollection">
+  <TypeSignature Language="C#" Value="public interface ICustomerCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer,Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer,Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.Customers.ICustomer&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomerCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer, class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer, class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.Customers.ICustomer&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICustomerCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of Customer, SeekBasedResourceCollection(Of Customer)), IEntityCreateOperations(Of Customer), IEntityCreateOperations(Of Customer, Customer), IEntitySelector(Of ICustomer), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer,Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer,Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.Customers.ICustomer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the behavior of the partner customers.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ICustomer ById (string customerId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Customers.ICustomer ById(string customerId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (customerId As String) As ICustomer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ICustomer</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="customerId">The customer id.</param>
+        <summary>
+            Gets the customer operations for a specific customer.
+            </summary>
+        <returns>The customer operations.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As SeekBasedResourceCollection(Of Customer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all the partner's customers.
+            </summary>
+        <returns>The partner's customers.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of SeekBasedResourceCollection(Of Customer))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all the partner's customers.
+            </summary>
+        <returns>The partner's customers..</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Customers.ICustomer this[string customerId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Customers.ICustomer Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(customerId As String) As ICustomer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Customers.ICustomer</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="customerId">The customer id.</param>
+        <summary>
+            Gets the customer operations for a specific customer.
+            </summary>
+        <value>The customer operations.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; Query (Microsoft.Store.PartnerCenter.Models.Query.IQuery customersQuery);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt; Query(class Microsoft.Store.PartnerCenter.Models.Query.IQuery customersQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.Query(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Query (customersQuery As IQuery) As SeekBasedResourceCollection(Of Customer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customersQuery" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="customersQuery">A query to apply onto customers. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> to see how
+            to build queries.</param>
+        <summary>
+            Queries customers associated to the partner.
+            - Count queries are not supported by this operation.
+            - You can set the page size or filter or do both at the same time.
+            - Sort is not supported.
+            - You can navigate to other pages by specifying a seek query with the seek operation and the continuation
+              token sent by the previous operation.
+            </summary>
+        <returns>The requested customers.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt; QueryAsync (Microsoft.Store.PartnerCenter.Models.Query.IQuery customersQuery);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt; QueryAsync(class Microsoft.Store.PartnerCenter.Models.Query.IQuery customersQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.QueryAsync(Microsoft.Store.PartnerCenter.Models.Query.IQuery)" />
+      <MemberSignature Language="VB.NET" Value="Public Function QueryAsync (customersQuery As IQuery) As Task(Of SeekBasedResourceCollection(Of Customer))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.SeekBasedResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.Customers.Customer&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="customersQuery" Type="Microsoft.Store.PartnerCenter.Models.Query.IQuery" />
+      </Parameters>
+      <Docs>
+        <param name="customersQuery">A query to apply onto customers. Check <see cref="T:Microsoft.Store.PartnerCenter.Models.Query.QueryFactory" /> to see how
+            to build queries.</param>
+        <summary>
+            Asynchronously queries customers associated to the partner.
+            - Count queries are not supported by this operation.
+            - You can set the page size or filter or do both at the same time.
+            - Sort is not supported.
+            - You can navigate to other pages by specifying a seek query with the seek operation and the continuation
+              token sent by the previous operation.
+            </summary>
+        <returns>The requested customers.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelationshipRequest">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest RelationshipRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest RelationshipRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.RelationshipRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelationshipRequest As ICustomerRelationshipRequest" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.RelationshipRequests.ICustomerRelationshipRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the relationship request behavior used to relate customers into the partner.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageRecords">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection UsageRecords { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection UsageRecords" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Customers.ICustomerCollection.UsageRecords" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsageRecords As ICustomerUsageRecordCollection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Usage.ICustomerUsageRecordCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Obtains the customer usage records behavior for the partner.
+            </summary>
+        <value>The requested customers usage record.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

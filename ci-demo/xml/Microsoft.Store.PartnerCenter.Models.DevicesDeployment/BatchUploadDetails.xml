@@ -1,0 +1,143 @@
+﻿<Type Name="BatchUploadDetails" FullName="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails">
+  <TypeSignature Language="C#" Value="public sealed class BatchUploadDetails : Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BatchUploadDetails extends Microsoft.Store.PartnerCenter.Models.ResourceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BatchUploadDetails&#xA;Inherits ResourceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the result of devices batch upload. 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BatchUploadDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BatchTrackingId">
+      <MemberSignature Language="C#" Value="public string BatchTrackingId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BatchTrackingId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.BatchTrackingId" />
+      <MemberSignature Language="VB.NET" Value="Public Property BatchTrackingId As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the tracking ID of the batch of devices uploaded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompletedTime">
+      <MemberSignature Language="C#" Value="public DateTime CompletedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CompletedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.CompletedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompletedTime As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the batch upload completed time. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DevicesStatus">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails&gt; DevicesStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails&gt; DevicesStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.DevicesStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property DevicesStatus As IEnumerable(Of DeviceUploadDetails)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadDetails&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the device upload status. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartedTime">
+      <MemberSignature Language="C#" Value="public DateTime StartedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.StartedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartedTime As DateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the batch started time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Models.DevicesDeployment.BatchUploadDetails.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As DeviceUploadStatusType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceUploadStatusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the status.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

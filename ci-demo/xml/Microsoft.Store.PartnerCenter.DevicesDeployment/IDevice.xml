@@ -1,0 +1,122 @@
+﻿<Type Name="IDevice" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice">
+  <TypeSignature Language="C#" Value="public interface IDevice : Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;Tuple&lt;string,string,string&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDevice implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;class System.Tuple`3&lt;string, string, string&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDevice&#xA;Implements IEntityDeleteOperations(Of Device), IEntityPatchOperations(Of Device), IPartnerComponent(Of Tuple(Of String, String, String))" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityDeleteOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityPatchOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.Tuple&lt;System.String,System.String,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's device.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Deletes a device.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.DeleteAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync () As Task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously deletes a device.
+            </summary>
+        <returns>The task that is returned once the operation is completed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device Patch (Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device updateDevice);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device Patch(class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device updateDevice) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.Patch(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Patch (updateDevice As Device) As Device" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="updateDevice" Type="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device" />
+      </Parameters>
+      <Docs>
+        <param name="updateDevice">Device to be updated.</param>
+        <summary>
+            Updates a device associated to the customer with a configuration policy.
+            </summary>
+        <returns>Device that is to be updated.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; PatchAsync (Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device updateDevice);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt; PatchAsync(class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device updateDevice) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevice.PatchAsync(Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (updateDevice As Device) As Task(Of Device)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="updateDevice" Type="Microsoft.Store.PartnerCenter.Models.DevicesDeployment.Device" />
+      </Parameters>
+      <Docs>
+        <param name="updateDevice">Device to be updated. </param>
+        <summary>
+            Asynchronously updates a device with a configuration policy.
+            </summary>
+        <returns>The updated device.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

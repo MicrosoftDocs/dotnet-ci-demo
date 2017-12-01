@@ -1,0 +1,46 @@
+﻿<Type Name="PartnerRelationshipSearchField" FullName="Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField">
+  <TypeSignature Language="C#" Value="public enum PartnerRelationshipSearchField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PartnerRelationshipSearchField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PartnerRelationshipSearchField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Lists the supported partner relationship search fields.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="Name" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField Name = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField.Name" />
+      <MemberSignature Language="VB.NET" Value="Name" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.Relationships.PartnerRelationshipSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Partner company name.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

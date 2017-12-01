@@ -1,0 +1,210 @@
+﻿<Type Name="IResourceCollectionEnumerator&lt;T&gt;" FullName="Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IResourceCollectionEnumerator&lt;T&gt; where T : ResourceBaseWithLinks&lt;StandardResourceCollectionLinks&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResourceCollectionEnumerator`1&lt;(class Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks`1&lt;class Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;) T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IResourceCollectionEnumerator(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Microsoft.Store.PartnerCenter.Models.ResourceBaseWithLinks&lt;Microsoft.Store.PartnerCenter.Models.StandardResourceCollectionLinks&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">The enumeration result type.</typeparam>
+    <summary>
+            Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page
+            is the first or last page or not.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="public T Current { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Current" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Current" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Current As T" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current resource collection.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasValue">
+      <MemberSignature Language="C#" Value="public bool HasValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.HasValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValue As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets whether the current result collection has a value or not. This indicates if the collection has been fully enumerated or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFirstPage">
+      <MemberSignature Language="C#" Value="public bool IsFirstPage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFirstPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.IsFirstPage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFirstPage As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets whether the current result collection is the first page of results or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLastPage">
+      <MemberSignature Language="C#" Value="public bool IsLastPage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLastPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.IsLastPage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLastPage As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets whether the current result collection is the last page of results or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="public void Next (Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Next(class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Next(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Next (Optional context As IRequestContext = null)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">An optional request context. If not provided, the context associated with the partner operations will be used.</param>
+        <summary>
+            Retrieves the next result set.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task NextAsync (Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task NextAsync(class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.NextAsync(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Function NextAsync (Optional context As IRequestContext = null) As Task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">An optional request context. If not provided, the context associated with the partner operations will be used.</param>
+        <summary>
+            Asynchronously retrieves the next result set.
+            </summary>
+        <returns>A task which completes when fetching the next set of results is done.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="public void Previous (Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Previous(class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.Previous(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Previous (Optional context As IRequestContext = null)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">An optional request context. If not provided, the context associated with the partner operations will be used.</param>
+        <summary>
+            Retrieves the previous result set.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviousAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task PreviousAsync (Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PreviousAsync(class Microsoft.Store.PartnerCenter.RequestContext.IRequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.Enumerators.IResourceCollectionEnumerator`1.PreviousAsync(Microsoft.Store.PartnerCenter.RequestContext.IRequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PreviousAsync (Optional context As IRequestContext = null) As Task" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Store.PartnerCenter.RequestContext.IRequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">An optional request context. If not provided, the context associated with the partner operations will be used.</param>
+        <summary>
+            Asynchronously retrieves the previous result set.
+            </summary>
+        <returns>A task which completes when fetching the previous set of results is done.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,46 @@
+﻿<Type Name="ServiceIncidentSearchField" FullName="Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField">
+  <TypeSignature Language="C#" Value="public enum ServiceIncidentSearchField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceIncidentSearchField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceIncidentSearchField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Microsoft.Store.PartnerCenter.Models.JsonConverters.EnumJsonConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Lists the supported service incident search fields.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Resolved">
+      <MemberSignature Language="C#" Value="Resolved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField Resolved = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField.Resolved" />
+      <MemberSignature Language="VB.NET" Value="Resolved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter.Models</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ServiceIncidents.ServiceIncidentSearchField</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Search by service health incidents resolved status.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

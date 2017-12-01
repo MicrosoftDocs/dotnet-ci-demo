@@ -1,0 +1,129 @@
+﻿<Type Name="IDevicesBatchCollection" FullName="Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection">
+  <TypeSignature Language="C#" Value="public interface IDevicesBatchCollection : Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest,string&gt;, Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch&gt;, Microsoft.Store.PartnerCenter.IPartnerComponent, Microsoft.Store.PartnerCenter.IPartnerComponent&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDevicesBatchCollection implements class Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch, class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations`2&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest, string&gt;, class Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector`1&lt;class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch&gt;, class Microsoft.Store.PartnerCenter.IPartnerComponent, class Microsoft.Store.PartnerCenter.IPartnerComponent`1&lt;string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDevicesBatchCollection&#xA;Implements IEntireEntityCollectionRetrievalOperations(Of DeviceBatch, ResourceCollection(Of DeviceBatch)), IEntityCreateOperations(Of DeviceBatchCreationRequest, String), IEntitySelector(Of IDevicesBatch), IPartnerComponent, IPartnerComponent(Of String)" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntireEntityCollectionRetrievalOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch,Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntityCreateOperations&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatchCreationRequest,System.String&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.GenericOperations.IEntitySelector&lt;Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Store.PartnerCenter.IPartnerComponent&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents the operations that can be done on the partner's devices batches.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ById">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch ById (string devicebatchId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch ById(string devicebatchId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.ById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ById (devicebatchId As String) As IDevicesBatch" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="devicebatchId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="devicebatchId">The devices batch id.</param>
+        <summary>
+            Retrieves a specific customer devices batch behavior.
+            </summary>
+        <returns>The devices batch behavior.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt; Get ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt; Get() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Function Get () As ResourceCollection(Of DeviceBatch)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves all devices batches.
+            </summary>
+        <returns>The devices batches.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt; GetAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Store.PartnerCenter.Models.ResourceCollection`1&lt;class Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt; GetAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.GetAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsync () As Task(Of ResourceCollection(Of DeviceBatch))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Store.PartnerCenter.Models.ResourceCollection&lt;Microsoft.Store.PartnerCenter.Models.DevicesDeployment.DeviceBatch&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Asynchronously retrieves all devices batches.
+            </summary>
+        <returns>The devices batches.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch this[string devicebatchId] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch Item(string)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatchCollection.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(devicebatchId As String) As IDevicesBatch" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Store.PartnerCenter</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Store.PartnerCenter.DevicesDeployment.IDevicesBatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="devicebatchId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="devicebatchId">The devices batch id.</param>
+        <summary>
+            Retrieves a specific customer devices batch behavior.
+            </summary>
+        <value>The devices batch behavior.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
